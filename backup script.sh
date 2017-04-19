@@ -2,7 +2,8 @@
 
 #Custom made script to download my config files and move them to the correct places
 #Created 17 April 2017
-#Last updated 18 April 2017
+#Last updated 19 April 2017
+#Reason: Fix issue with moving diretories
 
 #Move to home directory
 cd $HOME
@@ -25,8 +26,8 @@ cd ./backup
 
 #Start moving dotfiles into home folder
 
-mv -r .cinnamon $HOME
-mv -r .config $HOME
+mv .cinnamon $HOME
+mv .config $HOME
 mv .vimrc $HOME
 
 mv PEBack.png $HOME/Pictures
