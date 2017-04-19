@@ -2,7 +2,7 @@
 
 #Custom made script to download my config files and move them to the correct places
 #Created 17 April 2017
-#Last updated 17 April 2017
+#Last updated 18 April 2017
 
 #Move to home directory
 cd $HOME
