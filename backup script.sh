@@ -32,5 +32,5 @@ mv .vimrc $HOME
 
 mv PEBack.png $HOME/Pictures
 
-echo "Backup is complete"
+echo "Restore is complete"
 
