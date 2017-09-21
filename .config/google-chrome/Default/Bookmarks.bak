@@ -1,0 +1,128 @@
+{
+   "checksum": "f2abd0dadfeb0cdf5bd6c7640dfe1d32",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13128801833391266",
+            "id": "6",
+            "meta_info": {
+               "last_visited_desktop": "13148092056425451"
+            },
+            "name": "SCC Email",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://outlook.office365.com/owa/?realm=stchas.edu&path=/mail/AAMkADIwMTk0NGE3LWRhNmQtNGZkOS1hYzk3LTYxNjQ5MjE1YWU0MAAuAAAAAAB2nBsOD3jsRL2eSaY9ucQMAQCpb3J9piVQRrPIbNUpP%2BOqAAAAUAyXAAA%3D"
+         }, {
+            "date_added": "13115922516775594",
+            "id": "7",
+            "meta_info": {
+               "last_visited_desktop": "13149886519481632"
+            },
+            "name": "Cisco Systems Login",
+            "sync_transaction_version": "2",
+            "type": "url",
+            "url": "http://10.1.2.20/"
+         }, {
+            "date_added": "13115925787363187",
+            "id": "8",
+            "meta_info": {
+               "last_visited_desktop": "13149893538037634"
+            },
+            "name": "SCC Sign In",
+            "sync_transaction_version": "2",
+            "type": "url",
+            "url": "https://sccfs.stchas.edu/adfs/ls?wa=wsignin1.0&wtrealm=urn%3amyscc.stchas.edu%3a443&wctx=https%3a%2f%2fmyscc.stchas.edu%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&wreply=https%3a%2f%2fmyscc.stchas.edu%2f_trust%2fdefault.aspx"
+         }, {
+            "date_added": "13116017119125737",
+            "id": "9",
+            "meta_info": {
+               "last_visited_desktop": "13144127227173106"
+            },
+            "name": "Helpful SCC Bookmarks",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "file:///Y:/HelpDesk/Helpful%20SCC%20Bookmarks.html"
+         }, {
+            "date_added": "13119366515365209",
+            "id": "10",
+            "meta_info": {
+               "last_visited_desktop": "13148489364789496"
+            },
+            "name": "ChasM's - chasms.com - Screenshots of Internet Applications",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.chasms.com/"
+         }, {
+            "date_added": "13132689909987542",
+            "id": "11",
+            "meta_info": {
+               "last_visited_desktop": "13141752980748052"
+            },
+            "name": "TeamViewer Management Console",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://login.teamviewer.com/nav/home/buddies/computer/617392957/99138928"
+         }, {
+            "date_added": "13127851454857131",
+            "id": "12",
+            "meta_info": {
+               "last_visited_desktop": "13144127237500031"
+            },
+            "name": "Twitch",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.twitch.tv/mikefromit"
+         }, {
+            "date_added": "13115836110553658",
+            "id": "13",
+            "name": "Reset - SCC Tools",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://tool.stchas.edu/Password/Reset"
+         }, {
+            "date_added": "13144169609408774",
+            "id": "14",
+            "meta_info": {
+               "last_visited_desktop": "13147414362075119"
+            },
+            "name": "StackSkills",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://stackskills.com/courses/enrolled"
+         }, {
+            "date_added": "13144820868890021",
+            "id": "15",
+            "meta_info": {
+               "last_visited_desktop": "13145718762341784"
+            },
+            "name": "Spiceworks Community - IT Best Practices, How-tos, Product Reviews, written by and for IT Pros",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://community.spiceworks.com/start"
+         } ],
+         "date_added": "13149744910408725",
+         "date_modified": "13149902706256989",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13149744910408729",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "2",
+      "synced": {
+         "children": [  ],
+         "date_added": "13149744910408730",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
