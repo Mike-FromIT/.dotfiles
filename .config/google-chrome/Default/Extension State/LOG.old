@@ -1,3 +1,6 @@
-2017/09/21-17:14:30.577 10940 Reusing MANIFEST /home/michael/.config/google-chrome/Default/Extension State/MANIFEST-000001
-2017/09/21-17:14:30.577 10940 Recovering log #3
-2017/09/21-17:14:30.623 10940 Reusing old log /home/michael/.config/google-chrome/Default/Extension State/000003.log 
+2017/09/22-18:15:14.687 2023 Reusing MANIFEST /home/michael/.config/google-chrome/Default/Extension State/MANIFEST-000001
+2017/09/22-18:15:14.687 2023 Recovering log #6
+2017/09/22-18:15:14.691 2023 Reusing old log /home/michael/.config/google-chrome/Default/Extension State/000006.log 
+2017/09/24-21:02:33.671 2956 Level-0 table #10: started
+2017/09/24-21:02:33.700 2956 Level-0 table #10: 3013403 bytes OK
+2017/09/24-21:02:33.707 2956 Delete type=0 #6

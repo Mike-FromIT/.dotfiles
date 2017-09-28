@@ -16,20 +16,20 @@
             "date_added": "13115922516775594",
             "id": "7",
             "meta_info": {
-               "last_visited_desktop": "13149886519481632"
+               "last_visited_desktop": "13150479109370148"
             },
             "name": "Cisco Systems Login",
-            "sync_transaction_version": "2",
+            "sync_transaction_version": "9",
             "type": "url",
             "url": "http://10.1.2.20/"
          }, {
             "date_added": "13115925787363187",
             "id": "8",
             "meta_info": {
-               "last_visited_desktop": "13149893538037634"
+               "last_visited_desktop": "13150832030505586"
             },
             "name": "SCC Sign In",
-            "sync_transaction_version": "2",
+            "sync_transaction_version": "15",
             "type": "url",
             "url": "https://sccfs.stchas.edu/adfs/ls?wa=wsignin1.0&wtrealm=urn%3amyscc.stchas.edu%3a443&wctx=https%3a%2f%2fmyscc.stchas.edu%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&wreply=https%3a%2f%2fmyscc.stchas.edu%2f_trust%2fdefault.aspx"
          }, {
@@ -46,10 +46,10 @@
             "date_added": "13119366515365209",
             "id": "10",
             "meta_info": {
-               "last_visited_desktop": "13148489364789496"
+               "last_visited_desktop": "13150304736077038"
             },
             "name": "ChasM's - chasms.com - Screenshots of Internet Applications",
-            "sync_transaction_version": "1",
+            "sync_transaction_version": "3",
             "type": "url",
             "url": "http://www.chasms.com/"
          }, {
@@ -101,7 +101,7 @@
             "url": "https://community.spiceworks.com/start"
          } ],
          "date_added": "13149744910408725",
-         "date_modified": "13149902706256989",
+         "date_modified": "13150833673581354",
          "id": "1",
          "name": "Bookmarks bar",
          "type": "folder"
@@ -114,7 +114,7 @@
          "name": "Other bookmarks",
          "type": "folder"
       },
-      "sync_transaction_version": "2",
+      "sync_transaction_version": "15",
       "synced": {
          "children": [  ],
          "date_added": "13149744910408730",
