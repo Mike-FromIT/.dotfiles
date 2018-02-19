@@ -1,0 +1,12 @@
+2017/11/10-10:32:21.473 11590 Reusing MANIFEST /home/michael/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/11/10-10:32:21.473 11590 Recovering log #4
+2017/11/10-10:32:21.618 11590 Reusing old log /home/michael/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000004.log 
+2017/11/10-10:48:47.704 12139 Level-0 table #8: started
+2017/11/10-10:48:47.730 12139 Level-0 table #8: 1939847 bytes OK
+2017/11/10-10:48:47.736 12139 Delete type=0 #4
+2017/11/10-14:35:57.742 12139 Level-0 table #10: started
+2017/11/10-14:35:57.770 12139 Level-0 table #10: 2052293 bytes OK
+2017/11/10-14:35:57.777 12139 Delete type=0 #7
+2017/11/11-03:42:21.828 12139 Level-0 table #12: started
+2017/11/11-03:42:21.855 12139 Level-0 table #12: 2119114 bytes OK
+2017/11/11-03:42:21.862 12139 Delete type=0 #9

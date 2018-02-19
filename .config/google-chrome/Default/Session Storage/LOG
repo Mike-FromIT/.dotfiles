@@ -1,55 +1,68 @@
-2017/09/25-15:10:59.755 1325 Reusing MANIFEST /home/michael/.config/google-chrome/Default/Session Storage/MANIFEST-000001
-2017/09/25-15:10:59.755 1325 Recovering log #60
-2017/09/25-15:10:59.756 1325 Reusing old log /home/michael/.config/google-chrome/Default/Session Storage/000060.log 
-2017/09/25-15:19:20.412 3829 Level-0 table #65: started
-2017/09/25-15:19:20.415 3829 Level-0 table #65: 19199 bytes OK
-2017/09/25-15:19:20.421 3829 Delete type=0 #60
-2017/09/25-15:37:59.310 3829 Compacting 2@0 + 1@1 files
-2017/09/25-15:37:59.325 3829 Generated table #66@0: 1473 keys, 35075 bytes
-2017/09/25-15:37:59.325 3829 Compacted 2@0 + 1@1 files => 35075 bytes
-2017/09/25-15:37:59.330 3829 compacted to: files[ 0 1 1 0 0 0 0 ]
-2017/09/25-15:37:59.330 3829 Delete type=2 #61
-2017/09/25-15:37:59.331 3829 Delete type=2 #62
-2017/09/25-15:37:59.331 3829 Delete type=2 #65
-2017/09/25-15:40:44.143 3829 Level-0 table #68: started
-2017/09/25-15:40:44.158 3829 Level-0 table #68: 19339 bytes OK
-2017/09/25-15:40:44.164 3829 Delete type=0 #64
-2017/09/26-15:25:18.242 3829 Compacting 1@0 + 1@1 files
-2017/09/26-15:25:18.247 3829 Generated table #69@0: 1515 keys, 35426 bytes
-2017/09/26-15:25:18.247 3829 Compacted 1@0 + 1@1 files => 35426 bytes
-2017/09/26-15:25:18.252 3829 compacted to: files[ 0 1 1 0 0 0 0 ]
-2017/09/26-15:25:18.252 3829 Delete type=2 #66
-2017/09/26-15:25:18.253 3829 Delete type=2 #68
-2017/09/26-15:26:28.034 3829 Level-0 table #71: started
-2017/09/26-15:26:28.049 3829 Level-0 table #71: 19705 bytes OK
-2017/09/26-15:26:28.055 3829 Delete type=0 #67
-2017/09/26-19:39:36.699 3829 Compacting 1@0 + 1@1 files
-2017/09/26-19:39:36.704 3829 Generated table #72@0: 1621 keys, 40342 bytes
-2017/09/26-19:39:36.704 3829 Compacted 1@0 + 1@1 files => 40342 bytes
-2017/09/26-19:39:36.709 3829 compacted to: files[ 0 1 1 0 0 0 0 ]
-2017/09/26-19:39:36.710 3829 Delete type=2 #69
-2017/09/26-19:39:36.710 3829 Delete type=2 #71
-2017/09/27-20:12:11.034 3829 Level-0 table #74: started
-2017/09/27-20:12:11.050 3829 Level-0 table #74: 20908 bytes OK
-2017/09/27-20:12:11.056 3829 Delete type=0 #70
-2017/09/27-20:17:24.056 3829 Level-0 table #76: started
-2017/09/27-20:17:24.071 3829 Level-0 table #76: 19166 bytes OK
-2017/09/27-20:17:24.077 3829 Delete type=0 #73
-2017/09/27-20:27:24.518 3829 Level-0 table #78: started
-2017/09/27-20:27:24.533 3829 Level-0 table #78: 18954 bytes OK
-2017/09/27-20:27:24.539 3829 Delete type=0 #75
-2017/09/28-13:39:46.825 3829 Level-0 table #80: started
-2017/09/28-13:39:46.841 3829 Level-0 table #80: 20289 bytes OK
-2017/09/28-13:39:46.847 3829 Delete type=0 #77
-2017/09/28-13:39:46.848 3829 Compacting 4@0 + 1@1 files
-2017/09/28-13:39:46.853 3829 Generated table #81@0: 1909 keys, 51071 bytes
-2017/09/28-13:39:46.853 3829 Compacted 4@0 + 1@1 files => 51071 bytes
-2017/09/28-13:39:46.858 3829 compacted to: files[ 0 1 1 0 0 0 0 ]
-2017/09/28-13:39:46.858 3829 Delete type=2 #72
-2017/09/28-13:39:46.858 3829 Delete type=2 #74
-2017/09/28-13:39:46.859 3829 Delete type=2 #76
-2017/09/28-13:39:46.859 3829 Delete type=2 #78
-2017/09/28-13:39:46.859 3829 Delete type=2 #80
-2017/09/28-17:16:37.765 3829 Level-0 table #83: started
-2017/09/28-17:16:37.769 3829 Level-0 table #83: 20133 bytes OK
-2017/09/28-17:16:37.774 3829 Delete type=0 #79
+2018/02/18-14:00:47.343 1251 Reusing MANIFEST /home/michael/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2018/02/18-14:00:47.343 1251 Recovering log #1364
+2018/02/18-14:00:47.346 1251 Reusing old log /home/michael/.config/google-chrome/Default/Session Storage/001364.log 
+2018/02/18-14:10:42.997 1539 Level-0 table #1369: started
+2018/02/18-14:10:43.012 1539 Level-0 table #1369: 17130 bytes OK
+2018/02/18-14:10:43.019 1539 Delete type=0 #1364
+2018/02/18-16:08:41.670 1539 Compacting 1@0 + 1@1 files
+2018/02/18-16:08:41.701 1539 Generated table #1370@0: 10393 keys, 445095 bytes
+2018/02/18-16:08:41.701 1539 Compacted 1@0 + 1@1 files => 445095 bytes
+2018/02/18-16:08:41.707 1539 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/02/18-16:08:41.707 1539 Delete type=2 #1366
+2018/02/18-16:08:41.707 1539 Delete type=2 #1369
+2018/02/18-16:11:41.669 1539 Level-0 table #1372: started
+2018/02/18-16:11:41.673 1539 Level-0 table #1372: 17708 bytes OK
+2018/02/18-16:11:41.679 1539 Delete type=0 #1368
+2018/02/18-16:54:57.754 1539 Compacting 1@0 + 1@1 files
+2018/02/18-16:54:57.782 1539 Generated table #1373@0: 10419 keys, 445714 bytes
+2018/02/18-16:54:57.782 1539 Compacted 1@0 + 1@1 files => 445714 bytes
+2018/02/18-16:54:57.788 1539 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/02/18-16:54:57.788 1539 Delete type=2 #1370
+2018/02/18-16:54:57.788 1539 Delete type=2 #1372
+2018/02/18-17:00:42.773 1539 Level-0 table #1375: started
+2018/02/18-17:00:42.777 1539 Level-0 table #1375: 18598 bytes OK
+2018/02/18-17:00:42.783 1539 Delete type=0 #1371
+2018/02/18-17:09:07.417 1539 Compacting 1@0 + 1@1 files
+2018/02/18-17:09:07.446 1539 Generated table #1376@0: 10471 keys, 446132 bytes
+2018/02/18-17:09:07.446 1539 Compacted 1@0 + 1@1 files => 446132 bytes
+2018/02/18-17:09:07.451 1539 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/02/18-17:09:07.451 1539 Delete type=2 #1373
+2018/02/18-17:09:07.451 1539 Delete type=2 #1375
+2018/02/18-17:15:00.935 1539 Level-0 table #1378: started
+2018/02/18-17:15:00.939 1539 Level-0 table #1378: 17119 bytes OK
+2018/02/18-17:15:00.944 1539 Delete type=0 #1374
+2018/02/18-17:38:59.070 1539 Level-0 table #1380: started
+2018/02/18-17:38:59.085 1539 Level-0 table #1380: 19823 bytes OK
+2018/02/18-17:38:59.092 1539 Delete type=0 #1377
+2018/02/18-18:12:32.295 1539 Level-0 table #1382: started
+2018/02/18-18:12:32.310 1539 Level-0 table #1382: 19705 bytes OK
+2018/02/18-18:12:32.316 1539 Delete type=0 #1379
+2018/02/18-18:17:11.212 1539 Compacting 3@0 + 1@1 files
+2018/02/18-18:17:11.238 1539 Generated table #1383@0: 10562 keys, 454570 bytes
+2018/02/18-18:17:11.238 1539 Compacted 3@0 + 1@1 files => 454570 bytes
+2018/02/18-18:17:11.244 1539 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/02/18-18:17:11.245 1539 Delete type=2 #1376
+2018/02/18-18:17:11.245 1539 Delete type=2 #1378
+2018/02/18-18:17:11.245 1539 Delete type=2 #1380
+2018/02/18-18:17:11.245 1539 Delete type=2 #1382
+2018/02/18-18:24:17.565 1539 Level-0 table #1385: started
+2018/02/18-18:24:17.580 1539 Level-0 table #1385: 18332 bytes OK
+2018/02/18-18:24:17.586 1539 Delete type=0 #1381
+2018/02/18-18:44:19.074 1539 Level-0 table #1387: started
+2018/02/18-18:44:19.088 1539 Level-0 table #1387: 20915 bytes OK
+2018/02/18-18:44:19.096 1539 Delete type=0 #1384
+2018/02/18-20:00:53.437 1539 Level-0 table #1389: started
+2018/02/18-20:00:53.441 1539 Level-0 table #1389: 20904 bytes OK
+2018/02/18-20:00:53.447 1539 Delete type=0 #1386
+2018/02/19-11:32:44.167 1539 Level-0 table #1391: started
+2018/02/19-11:32:44.181 1539 Level-0 table #1391: 24543 bytes OK
+2018/02/19-11:32:44.187 1539 Delete type=0 #1388
+2018/02/19-11:32:44.188 1539 Compacting 4@0 + 1@1 files
+2018/02/19-11:32:44.204 1539 Generated table #1392@0: 11056 keys, 483222 bytes
+2018/02/19-11:32:44.204 1539 Compacted 4@0 + 1@1 files => 483222 bytes
+2018/02/19-11:32:44.210 1539 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/02/19-11:32:44.211 1539 Delete type=2 #1383
+2018/02/19-11:32:44.211 1539 Delete type=2 #1385
+2018/02/19-11:32:44.211 1539 Delete type=2 #1387
+2018/02/19-11:32:44.211 1539 Delete type=2 #1389
+2018/02/19-11:32:44.211 1539 Delete type=2 #1391

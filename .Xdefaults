@@ -1,2 +1,7 @@
 termite.transparent:	true
 termite.shading:	20
+
+
+
+st.transparent: true
+st.shading:     20

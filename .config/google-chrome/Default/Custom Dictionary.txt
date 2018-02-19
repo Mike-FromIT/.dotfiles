@@ -1,7 +1,8 @@
 Christal
 Coyne
 Deontology
+Hornady
 available
 deontologist
 melatonin
-checksum_v1 = 76ea3ad79c54f2c4a4e738352114c696
+checksum_v1 = 8f6752dbaebe3ed751800d2c6e3f6eaf

@@ -1,0 +1,9 @@
+2018/01/26-10:35:32.189 13246 Reusing MANIFEST /home/michael/.config/google-chrome/Default/IndexedDB/https_kb.vmware.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/01/26-10:35:32.795 13295 Current memtable full; waiting...
+2018/01/26-10:35:32.795 3194 Level-0 table #5: started
+2018/01/26-10:35:32.809 3194 Level-0 table #5: 807494 bytes OK
+2018/01/26-10:35:32.812 3194 Delete type=0 #3
+2018/01/26-10:35:32.813 3194 Level-0 table #7: started
+2018/01/26-10:35:32.813 3194 Level-0 table #7: 0 bytes OK
+2018/01/26-10:35:32.816 3194 Delete type=0 #4
+2018/01/26-10:35:32.816 3194 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
