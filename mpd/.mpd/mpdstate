@@ -1,0 +1,32 @@
+sw_volume: 62
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: pause
+current: 16
+time: 52.749000
+random: 1
+repeat: 1
+single: 0
+consume: 0
+crossfade: 5
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Pursuit of Happiness [Steve Aoki Remix].mp3
+1:Lie.mp3
+2: Come Back to Earth.mp3
+3: Conversation Pt. 1.mp3
+4: Dunno.mp3
+5: Hurt Feelings.mp3
+6: Jet Fuel.mp3
+7: Ladders.mp3
+8: Perfecto.mp3
+9: Self Care.mp3
+10: Wings.mp3
+11:01 Lit Like Bic.mp3
+12:I Think I'm OKAY (feat. YUNGBLUD, Travis Barker & Omer Fedi).mp3
+13:Waste Love (feat. Madison Love).mp3
+14:Candy (feat. Trippie Redd).mp3
+15:Let You Go.mp3
+16:53666 (feat. Phem).mp3
+playlist_end

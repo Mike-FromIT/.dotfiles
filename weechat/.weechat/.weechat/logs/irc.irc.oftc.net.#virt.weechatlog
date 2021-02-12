@@ -1,0 +1,658 @@
+2018-08-16 15:49:04	▬▬▶	MikeFromIT (~MikeFromI@2602:306:3647:86e0:619b:3bc3:4811:ae45) has joined ##windows
+2018-08-16 15:49:04	--	Topic for ##windows is "MS Windows Support & Discussion  www.freenode-windows.org - Keep it polite, factual, constructive, and topical. || Guidelines: http://goo.gl/7ueKMi || Meltdown/Spectre: https://goo.gl/ae7GvE || Servers: ##windows-Server || Unsupported Windows - ##windows-Legacy || Off-topic ##Windows-Social"
+2018-08-16 15:49:04	--	Topic set by blkshp (~blkshp@about/windows/staff/blkshp) on Tue, 14 Aug 2018 04:53:56
+2018-08-16 15:49:05	--	Channel ##windows: 478 nicks (1 op, 0 voices, 477 normals)
+2018-08-16 15:49:05	--	PvNotice(ChanServ): Keep it polite, reasonable, constructive. Guidelines: http://www.freenode-windows.org/channel-guidelines
+2018-08-16 15:49:07	--	Channel created on Fri, 07 Oct 2005 14:11:46
+2018-08-16 15:49:10	◀▬▬	beanbag- (~bogjumper@96-94-103-81-static.hfc.comcastbusiness.net) has left ##windows ("Leaving")
+2018-08-16 15:53:29	◀▬▬	Hedaaa (~Hedaaa@2a00:801:214:db6f:dd0a:c5dd:ec0b:3111) has quit (Quit: Leaving)
+2018-08-16 15:56:24	◀▬▬	blkshp (~blkshp@about/windows/staff/blkshp) has quit (Quit: Quit)
+2018-08-16 16:02:43	◀▬▬	gjmoran (~gjmoran@96-39-245-34.dhcp.mtpk.ca.charter.com) has quit (Quit: Going offline, see ya! (www.adiirc.com))
+2018-08-16 16:04:24	◀▬▬	mrblugo (~ruck@75.98.114.172) has left ##windows ("Leaving")
+2018-08-18 09:48:49	▬▬▶	MikeFromIT (~MikeFromI@2602:306:3647:86e0:619b:3bc3:4811:ae45) has joined ##windows
+2018-08-18 09:48:49	--	Topic for ##windows is "MS Windows Support & Discussion  www.freenode-windows.org - Keep it polite, factual, constructive, and topical. || Guidelines: http://goo.gl/7ueKMi || Meltdown/Spectre: https://goo.gl/ae7GvE || Servers: ##windows-Server || Unsupported Windows - ##windows-Legacy || Off-topic ##Windows-Social"
+2018-08-18 09:48:49	--	Topic set by blkshp (~blkshp@about/windows/staff/blkshp) on Tue, 14 Aug 2018 04:53:56
+2018-08-18 09:48:49	--	Channel ##windows: 460 nicks (1 op, 0 voices, 459 normals)
+2018-08-18 09:48:49	--	PvNotice(ChanServ): Keep it polite, reasonable, constructive. Guidelines: http://www.freenode-windows.org/channel-guidelines
+2018-08-18 09:48:51	--	Channel created on Fri, 07 Oct 2005 14:11:46
+2018-08-18 09:51:51	◀▬▬	dc13ff (uid190567@gateway/web/irccloud.com/x-uotikrazpqvevhpx) has quit (Quit: Connection closed for inactivity)
+2018-08-18 09:54:52	▬▬▶	k_sze[work] (~Kira@unaffiliated/kira) has joined ##windows
+2018-08-18 09:56:51	◀▬▬	Tux[Qyou] (~Tux@unaffiliated/tux-qyou/x-4822048) has quit (Ping timeout: 260 seconds)
+2018-08-18 10:01:23	▬▬▶	ImQ009_ (~ImQ009@unaffiliated/imq009) has joined ##windows
+2018-08-18 10:04:51	◀▬▬	ImQ009 (~ImQ009@unaffiliated/imq009) has quit (Ping timeout: 272 seconds)
+2018-08-18 10:07:55	▬▬▶	KipperedSnack (~secured@buffer0verflow.com) has joined ##windows
+2018-08-18 10:07:57	▬▬▶	doodadjs (~doodadjs@45-42-108-183.cpe.distributel.net) has joined ##windows
+2018-08-18 10:09:43	◀▬▬	graphene (~graphene@46.101.134.251) has quit (Remote host closed the connection)
+2018-08-18 10:10:46	▬▬▶	graphene (~graphene@46.101.134.251) has joined ##windows
+2018-08-18 10:11:07	◀▬▬	Anodl (~Anodl@p5091931E.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2018-08-18 10:11:16	▬▬▶	eszett_ (~eszett@unaffiliated/eszett) has joined ##windows
+2018-08-18 10:17:55	▬▬▶	Shawn|HD5650M (~shawn156@unaffiliated/shawn156) has joined ##windows
+2018-08-18 10:17:59	◀▬▬	Shawn|i3-350M (~shawn156@unaffiliated/shawn156) has quit (Read error: Connection reset by peer)
+2018-08-18 10:18:00	▬▬▶	Comstock_ (~Comstock@unaffiliated/comstock) has joined ##windows
+2018-08-18 10:19:00	▬▬▶	fedorafan (~fedorafan@unaffiliated/fedorafan) has joined ##windows
+2018-08-18 10:20:04	◀▬▬	tpx (~tpx@firewall1.xmltravel.net) has quit (Ping timeout: 272 seconds)
+2018-08-18 10:20:42	◀▬▬	Comstock (~Comstock@unaffiliated/comstock) has quit (Ping timeout: 272 seconds)
+2018-08-18 10:21:12	▬▬▶	dreamcat4 (uid157427@gateway/web/irccloud.com/x-rsgpquqzcojlkqmf) has joined ##windows
+2018-08-18 10:26:19	▬▬▶	Regon (~Regon@unaffiliated/regon) has joined ##windows
+2018-08-18 10:28:35	◀▬▬	k_sze[work] (~Kira@unaffiliated/kira) has quit (Ping timeout: 244 seconds)
+2018-08-18 10:33:28	▬▬▶	genera_ (~genera@unaffiliated/genera) has joined ##windows
+2018-08-18 10:35:14	▬▬▶	Tux[Qyou] (~Tux@unaffiliated/tux-qyou/x-4822048) has joined ##windows
+2018-08-18 10:37:27	◀▬▬	genera (~genera@unaffiliated/genera) has quit (Ping timeout: 260 seconds)
+2018-08-18 10:39:36	◀▬▬	flyingtoaster (~kilo_13@c-73-97-254-75.hsd1.wa.comcast.net) has quit (Quit: "leaving")
+2018-08-18 10:50:17	◀▬▬	DalekSec (unit193@freenode/staff/ubuntu.member.unit193) has quit (Ping timeout: 244 seconds)
+2018-08-18 10:55:47	▬▬▶	DalekSec (unit193@freenode/staff/ubuntu.member.unit193) has joined ##windows
+2018-08-18 11:01:23	◀▬▬	mhall119 (~mhall@ubuntu/member/mhall119) has quit (Ping timeout: 256 seconds)
+2018-08-18 11:02:30	▬▬▶	k_sze[work] (~Kira@unaffiliated/kira) has joined ##windows
+2018-08-18 11:02:51	◀▬▬	S_SubZero (~S_SubZero@about/windows/regular/s-subzero) has quit (Quit: S_SubZero)
+2018-08-18 11:03:06	▬▬▶	mhall119 (~mhall@ubuntu/member/mhall119) has joined ##windows
+2018-08-18 11:05:39	◀▬▬	purplex88 (~purplex88@unaffiliated/purplex88) has quit (Ping timeout: 272 seconds)
+2018-08-18 11:07:36	◀▬▬	Kiora (~Kiora@146.255.181.59) has quit (Ping timeout: 240 seconds)
+2018-08-18 11:17:28	◀▬▬	eszett_ (~eszett@unaffiliated/eszett) has quit (Ping timeout: 240 seconds)
+2018-08-18 11:20:27	▬▬▶	Kiora (~Kiora@gprs-inet-65-3.elisa.ee) has joined ##windows
+2018-08-18 11:26:54	▬▬▶	stevecam (~stevecam@unaffiliated/stevecam) has joined ##windows
+2018-08-18 11:27:08	▬▬▶	catpig (~catpig@2a02:810a:980:2ea0:793c:708:acae:da1f) has joined ##windows
+2018-08-18 11:28:00	▬▬▶	Anodl (~Anodl@p200300D4A3FA35000D8BF18CCFB7441A.dip0.t-ipconnect.de) has joined ##windows
+2018-08-18 11:32:02	▬▬▶	eszett_ (~eszett@unaffiliated/eszett) has joined ##windows
+2018-08-18 11:32:10	▬▬▶	Ussat (~Ussat@pdpc/supporter/active/ussat) has joined ##windows
+2018-08-18 11:32:17	▬▬▶	juanmapalad (~junmapala@175.158.226.121) has joined ##windows
+2018-08-18 11:32:25	juanmapalad	!ping
+2018-08-18 11:33:45	juanmapalad	anyone has idea on how to remove themself from the network so to have administrator privilege?
+2018-08-18 11:35:04	rymate1234	what
+2018-08-18 11:35:48	catpig	you mean remove the computer from the domain?
+2018-08-18 11:36:44	◀▬▬	k_sze[work] (~Kira@unaffiliated/kira) has quit (Ping timeout: 265 seconds)
+2018-08-18 11:37:12	▬▬▶	czart (~czart@acfe109.neoplus.adsl.tpnet.pl) has joined ##windows
+2018-08-18 11:44:27	juanmapalad	yes
+2018-08-18 11:44:34	juanmapalad	remove as a usergroup
+2018-08-18 11:49:31	catpig	usergroup?
+2018-08-18 11:51:48	▬▬▶	SAngeli (~SAngeli@185.11.226.242) has joined ##windows
+2018-08-18 11:52:39	◀▬▬	Nicmavr (~Nicmavr@unaffiliated/nicmavr) has quit (Read error: Connection reset by peer)
+2018-08-18 11:54:53	▬▬▶	Nicmavr (~Nicmavr@unaffiliated/nicmavr) has joined ##windows
+2018-08-18 11:55:42	juanmapalad	i dont have administrator access in my laptop
+2018-08-18 11:55:58	juanmapalad	whats why i ned to remove myself as a user
+2018-08-18 11:58:29	catpig	i dont know what you mean
+2018-08-18 11:58:44	rymate1234	how'd you get the laptop?
+2018-08-18 11:59:20	catpig	here's instructions on removing a system from a domain (but, ofc, you need admin for that) https://technet.microsoft.com/en-us/library/dd277423.aspx
+2018-08-18 11:59:50	juanmapalad	i have a username and pw that has no administrator privilege
+2018-08-18 12:00:00	catpig	so if it's your laptop.. just reinstall. if it's your employer's laptop, ask IT for the local admin password
+2018-08-18 12:00:05	rymate1234	^
+2018-08-18 12:00:28	juanmapalad	is there a way to bypass it aside from reformat and asking it to the IT?
+2018-08-18 12:00:38	catpig	well, if it's your laptop you could also ask the previous owner for the admin password, but i'm assuming that's not possible
+2018-08-18 12:00:47	rymate1234	juanmapalad, there isn't a way around it
+2018-08-18 12:00:51	juanmapalad	its a company owned
+2018-08-18 12:01:00	rymate1234	otherwise there'd be no point having the protections in the first place
+2018-08-18 12:01:02	catpig	juanmapalad, then speak to the IT department
+2018-08-18 12:01:09	rymate1234	which as it's a company laptop are there for a reason most likely
+2018-08-18 12:01:34	catpig	also, i would advise against trying to turn off security measures on your company laptop without asking IT
+2018-08-18 12:01:48	catpig	i should think you can get in serious trouble for that
+2018-08-18 12:02:03	rymate1234	yeah
+2018-08-18 12:02:33	▬▬▶	k_sze[work] (~Kira@unaffiliated/kira) has joined ##windows
+2018-08-18 12:03:00	catpig	not trying to tell you what to do. honestly i dont really care. just saying :)
+2018-08-18 12:03:01	◀▬▬	eszett_ (~eszett@unaffiliated/eszett) has quit (Quit: Leaving)
+2018-08-18 12:03:50	◀▬▬	juanmapalad (~junmapala@175.158.226.121) has quit (Remote host closed the connection)
+2018-08-18 12:08:34	◀▬▬	DLSteve (~DLSteve@c-73-109-135-169.hsd1.wa.comcast.net) has quit (Quit: All rise, the honorable DLSteve has left the channel.)
+2018-08-18 12:10:00	▬▬▶	DLSteve (~DLSteve@2601:601:1301:40a8:442f:514:ddae:4175) has joined ##windows
+2018-08-18 12:14:40	▬▬▶	tacomaster (48b6e4e1@gateway/web/freenode/ip.72.182.228.225) has joined ##windows
+2018-08-18 12:18:08	▬▬▶	rosco_y (~Ross@71.86.239.1) has joined ##windows
+2018-08-18 12:20:17	◀▬▬	Hedaaa (~Hedaaa@2a00:801:214:db6f:3897:870c:1321:771) has quit (Ping timeout: 256 seconds)
+2018-08-18 12:20:21	▬▬▶	S_SubZero (~S_SubZero@about/windows/regular/s-subzero) has joined ##windows
+2018-08-18 12:20:25	◀▬▬	rosco_y (~Ross@71.86.239.1) has quit (Client Quit)
+2018-08-18 12:21:18	◀▬▬	mhache (~mhache_@198.164.250.208) has quit (Quit: The Lounge - https://thelounge.github.io)
+2018-08-18 12:22:03	▬▬▶	mhache (~mhache_@198.164.250.208) has joined ##windows
+2018-08-18 12:23:50	▬▬▶	Tin_man (~Scare_cro@unaffiliated/tin-man/x-0046760) has joined ##windows
+2018-08-18 12:25:12	◀▬▬	Fulgen (~Fulgen@078132024243.public.t-mobile.at) has quit (Remote host closed the connection)
+2018-08-18 12:25:50	▬▬▶	rosco_y (~Ross@71.86.239.1) has joined ##windows
+2018-08-18 12:29:47	▬▬▶	Fulgen (~Fulgen@078132024243.public.t-mobile.at) has joined ##windows
+2018-08-18 12:30:49	◀▬▬	dreamcat4 (uid157427@gateway/web/irccloud.com/x-rsgpquqzcojlkqmf) has quit (Quit: Connection closed for inactivity)
+2018-08-18 12:35:37	▬▬▶	Hedaaa (~Hedaaa@2a00:801:214:db6f:3897:870c:1321:771) has joined ##windows
+2018-08-18 12:36:13	◀▬▬	Tin_man (~Scare_cro@unaffiliated/tin-man/x-0046760) has quit (Ping timeout: 272 seconds)
+2018-08-18 12:37:15	◀▬▬	k_sze[work] (~Kira@unaffiliated/kira) has quit (Ping timeout: 276 seconds)
+2018-08-18 12:42:36	▬▬▶	dreamcat4 (uid157427@gateway/web/irccloud.com/x-ghhzmnjyeriqczhh) has joined ##windows
+2018-08-18 12:43:57	◀▬▬	omega-supreme (iccthedral@federal.prizon.net) has quit (Ping timeout: 256 seconds)
+2018-08-18 12:44:10	▬▬▶	xv8 (~XV8@2600:1003:b104:f211:5c86:ff20:7365:cea8) has joined ##windows
+2018-08-18 12:44:42	◀▬▬	linzst (~linzst@unaffiliated/linzst) has quit (Quit: Leaving)
+2018-08-18 12:46:26	▬▬▶	wildlander (~wildlande@unaffiliated/wildlander) has joined ##windows
+2018-08-18 12:47:19	▬▬▶	DaPinkOne (~dap@cpe-45-37-148-94.nc.res.rr.com) has joined ##windows
+2018-08-18 12:47:37	DaPinkOne	is there a channel for issues with Windows Subsystem for Linux?
+2018-08-18 12:49:28	▬▬▶	ttyX (~ttyX@103.211.53.181) has joined ##windows
+2018-08-18 12:49:29	▬▬▶	nikitha (~rritec1@2409:4070:2196:a152:98cb:71e2:9cbc:750c) has joined ##windows
+2018-08-18 12:50:24	◀▬▬	krabador (~krabador@unaffiliated/krabador) has quit (Remote host closed the connection)
+2018-08-18 12:50:33	▬▬▶	Oogway (~me@unaffiliated/akaseki) has joined ##windows
+2018-08-18 12:52:46	◀▬▬	S_SubZero (~S_SubZero@about/windows/regular/s-subzero) has quit (Quit: S_SubZero)
+2018-08-18 12:52:55	◀▬▬	tacomaster (48b6e4e1@gateway/web/freenode/ip.72.182.228.225) has quit (Ping timeout: 252 seconds)
+2018-08-18 12:58:09	◀▬▬	graphene (~graphene@46.101.134.251) has quit (Remote host closed the connection)
+2018-08-18 12:59:03	▬▬▶	Radicarianubis (~Radicaria@cpe-72-231-246-183.buffalo.res.rr.com) has joined ##windows
+2018-08-18 12:59:16	▬▬▶	graphene (~graphene@46.101.134.251) has joined ##windows
+2018-08-18 13:01:25	▬▬▶	[Gentoo] (~Gentoo@gateway/tor-sasl/gentoo/x-18673937) has joined ##windows
+2018-08-18 13:02:21	▬▬▶	benl90 (8bc38714@gateway/web/freenode/ip.139.195.135.20) has joined ##windows
+2018-08-18 13:03:10	benl90	Hello, I want to ask, is there anyone know any freeware that works well with windows for shading windows or rolling up windows. sometimes I really miss this stuff, really.
+2018-08-18 13:04:51	◀▬▬	ImQ009_ (~ImQ009@unaffiliated/imq009) has quit (Quit: Leaving)
+2018-08-18 13:05:12	▬▬▶	ImQ009 (~ImQ009@unaffiliated/imq009) has joined ##windows
+2018-08-18 13:05:28	◀▬▬	Gurkenglas (~Gurkengla@unaffiliated/gurkenglas) has quit (Ping timeout: 240 seconds)
+2018-08-18 13:06:14	◀▬▬	Ussat (~Ussat@pdpc/supporter/active/ussat) has quit (Remote host closed the connection)
+2018-08-18 13:07:38	◀▬▬	[Gentoo] (~Gentoo@gateway/tor-sasl/gentoo/x-18673937) has quit (Quit: AStorm hi)
+2018-08-18 13:09:23	▬▬▶	theRealGent (~theRealGe@unaffiliated/therealgent) has joined ##windows
+2018-08-18 13:13:39	▬▬▶	Aoyagi (~Aoyagi@unaffiliated/aoyagi) has joined ##windows
+2018-08-18 13:15:40	◀▬▬	iamgr00t (~galaxy@unaffiliated/iamgr00t) has quit (Quit: AFK)
+2018-08-18 13:16:57	◀▬▬	Tux[Qyou] (~Tux@unaffiliated/tux-qyou/x-4822048) has quit (Ping timeout: 256 seconds)
+2018-08-18 13:18:05	◀▬▬	Radicarianubis (~Radicaria@cpe-72-231-246-183.buffalo.res.rr.com) has quit (Ping timeout: 256 seconds)
+2018-08-18 13:18:21	▬▬▶	iamgr00t (~galaxy@unaffiliated/iamgr00t) has joined ##windows
+2018-08-18 13:22:58	◀▬▬	Kiora (~Kiora@gprs-inet-65-3.elisa.ee) has quit (Quit: leaving)
+2018-08-18 13:23:11	▬▬▶	cthulchu (cthulchu@d154-20-167-185.bchsia.telus.net) has joined ##windows
+2018-08-18 13:23:20	cthulchu	how do I stop windows 10 updates completely?
+2018-08-18 13:23:52	DLSteve	You can't really.
+2018-08-18 13:24:00	cthulchu	hell
+2018-08-18 13:24:19	CptLuxx	its once in a month
+2018-08-18 13:24:23	tonyt	Press the Windows logo key + R then type gpedit.msc and click OK. Go to Computer Configuration > Administrative Templates > Windows Components > Windows Update. Select Disabled in Configured Automatic Updates on the left, and click Apply and OK to disable the Windows automatic update feature.
+2018-08-18 13:24:23	CptLuxx	learn to deal with it
+2018-08-18 13:24:33	cthulchu	is there a way to debug why this is happening? https://i.imgur.com/CEKaK6P.jpg
+2018-08-18 13:24:37	CptLuxx	we dont recommend this tonyt
+2018-08-18 13:24:53	cthulchu	lol
+2018-08-18 13:25:00	cthulchu	tonyt, thanks a lot!
+2018-08-18 13:25:13	tonyt	CptLuxx recomended or not, someone asked a question and i gave a reply
+2018-08-18 13:25:22	--	Mode ##windows [+o CptLuxx] by ChanServ
+2018-08-18 13:25:23	--	Mode ##windows [+q *!*@*] by CptLuxx
+2018-08-18 13:25:23	--	Mode ##windows [-o CptLuxx] by ChanServ
+2018-08-18 13:26:57	--	Mode ##windows [+o CptLuxx] by ChanServ
+2018-08-18 13:26:59	--	Mode ##windows [-q *!*@*] by CptLuxx
+2018-08-18 13:27:06	@CptLuxx	my alias is wrong /shrug
+2018-08-18 13:27:08	cthulchu	why would you do this?
+2018-08-18 13:27:11	tonyt	https://www.easeus.com/todo-backup-resource/how-to-stop-windows-10-from-automatically-update.html
+2018-08-18 13:27:15	cthulchu	thanks!
+2018-08-18 13:27:16	tonyt	there is the link
+2018-08-18 13:27:42	◀▬▬	CptLuxx has kicked tonyt (Kleutelschool is ergens anders!)
+2018-08-18 13:27:59	▬▬▶	tonyt (Elite19187@gateway/shell/elitebnc/x-icvszavaxjueftni) has joined ##windows
+2018-08-18 13:28:05	@CptLuxx	next time its a ban
+2018-08-18 13:28:06	@CptLuxx	...
+2018-08-18 13:28:18	cthulchu	JonathanS, can you take a look at what's happening here?
+2018-08-18 13:28:23	cthulchu	doesn't look good
+2018-08-18 13:28:28	@CptLuxx	well i told you
+2018-08-18 13:28:30	▬▬▶	mihi (~mihi@p5B078D84.dip0.t-ipconnect.de) has joined ##windows
+2018-08-18 13:28:33	@CptLuxx	we dont recommend disabling updates
+2018-08-18 13:28:42	cthulchu	I didn't ask about recommendations
+2018-08-18 13:28:45	tonyt	CptLuxx fuck you. your pussy hurts that much when someone disagrees with you? get a fucking life already lol
+2018-08-18 13:28:46	@CptLuxx	if you want to recommend stupid things to other users do it in privat
+2018-08-18 13:28:56	◀▬▬	tonyt (Elite19187@gateway/shell/elitebnc/x-icvszavaxjueftni) has left ##windows
+2018-08-18 13:28:57	cthulchu	tonyt, you shouldn't say that
+2018-08-18 13:29:02	cthulchu	crap
+2018-08-18 13:29:12	cthulchu	that's what happens when you have poor ops
+2018-08-18 13:29:19	@CptLuxx	its enough now cthulchu!
+2018-08-18 13:29:21	@CptLuxx	read our guidelines
+2018-08-18 13:29:25	cthulchu	I did
+2018-08-18 13:29:31	◀▬▬	graphene (~graphene@46.101.134.251) has quit (Remote host closed the connection)
+2018-08-18 13:29:36	cthulchu	I didn't ask for a recommendation
+2018-08-18 13:29:53	cthulchu	he didn't recommend turning off the update
+2018-08-18 13:29:58	cthulchu	and I have real issues with it
+2018-08-18 13:30:01	@CptLuxx	he did!
+2018-08-18 13:30:04	cthulchu	he didn't
+2018-08-18 13:30:16	@CptLuxx	its enough now.. if you want to comment further on this.. privat
+2018-08-18 13:30:22	cthulchu	he answered my question about how I can turn it of, not whether I should do that
+2018-08-18 13:30:33	▬▬▶	graphene (~graphene@46.101.134.251) has joined ##windows
+2018-08-18 13:30:38	--	Mode ##windows [+o CptLuxx] by ChanServ
+2018-08-18 13:30:39	--	Mode ##windows [+q *!*@d154-20-167-185.bchsia.telus.net] by CptLuxx
+2018-08-18 13:30:39	--	Mode ##windows [-o CptLuxx] by ChanServ
+2018-08-18 13:30:49	CptLuxx	i said its enough..
+2018-08-18 13:31:43	--	Mode ##windows [+o CptLuxx] by ChanServ
+2018-08-18 13:31:47	--	Mode ##windows [+b *!Elite19187@gateway/shell/elitebnc/x-icvszavaxjueftni] by CptLuxx
+2018-08-18 13:31:51	--	Mode ##windows [-o CptLuxx] by CptLuxx
+2018-08-18 13:32:57	◀▬▬	cthulchu (cthulchu@d154-20-167-185.bchsia.telus.net) has left ##windows
+2018-08-18 13:37:56	DaPinkOne	it's nice to see information and options discussed so freely.
+2018-08-18 13:38:21	◀▬▬	DaPinkOne (~dap@cpe-45-37-148-94.nc.res.rr.com) has left ##windows
+2018-08-18 13:41:38	▬▬▶	ttyX_ (~ttyX@103.211.53.181) has joined ##windows
+2018-08-18 13:42:04	▬▬▶	steve_3199 (~stevecam@unaffiliated/stevecam) has joined ##windows
+2018-08-18 13:42:08	▬▬▶	minto (~mintograd@47.202.56.49) has joined ##windows
+2018-08-18 13:42:41	◀▬▬	ttyX (~ttyX@103.211.53.181) has quit (Read error: Connection reset by peer)
+2018-08-18 13:42:44	◀▬▬	rev_strangehope (~revstrang@ec2-13-115-230-7.ap-northeast-1.compute.amazonaws.com) has quit (Ping timeout: 272 seconds)
+2018-08-18 13:43:11	▬▬▶	Lunatrius` (~Lunatrius@77.38.21.115) has joined ##windows
+2018-08-18 13:43:44	▬▬▶	rev_strangehope (~revstrang@ec2-13-115-230-7.ap-northeast-1.compute.amazonaws.com) has joined ##windows
+2018-08-18 13:44:37	◀▬▬	Lunatrius (~Lunatrius@77.38.21.115) has quit (Ping timeout: 272 seconds)
+2018-08-18 13:44:38	--	Lunatrius` is now known as Lunatrius
+2018-08-18 13:44:56	▬▬▶	adapter (~adapter@c-71-227-131-190.hsd1.wa.comcast.net) has joined ##windows
+2018-08-18 13:45:05	◀▬▬	adapter (~adapter@c-71-227-131-190.hsd1.wa.comcast.net) has quit (Client Quit)
+2018-08-18 13:45:15	◀▬▬	stevecam (~stevecam@unaffiliated/stevecam) has quit (Ping timeout: 272 seconds)
+2018-08-18 13:45:54	◀▬▬	mintograde (~mintograd@47.202.56.49) has quit (Ping timeout: 272 seconds)
+2018-08-18 13:45:54	◀▬▬	Bideford (AdiIRC@unaffiliated/bideford) has quit (Ping timeout: 272 seconds)
+2018-08-18 13:48:48	▬▬▶	wiiguy (~fake@unaffiliated/wiiguy) has joined ##windows
+2018-08-18 13:48:55	▬▬▶	acidjnk (~acid@mue-88-130-58-102.dsl.tropolys.de) has joined ##windows
+2018-08-18 13:49:13	acidjnk	damn, bitlocker keeps saying my password is wrong after 2 years, in boot screen. I have unlimited tries, right?
+2018-08-18 13:49:45	acidjnk	strange, 5th try worked
+2018-08-18 13:50:32	CptLuxx	you could also use the recover key to disable bitlocker if the password would not work
+2018-08-18 13:51:10	acidjnk	I hope I have it, and not IT only.
+2018-08-18 13:51:13	◀▬▬	wiiguy (~fake@unaffiliated/wiiguy) has quit (Client Quit)
+2018-08-18 13:51:42	◀▬▬	Fulgen (~Fulgen@078132024243.public.t-mobile.at) has quit (Remote host closed the connection)
+2018-08-18 13:53:40	▬▬▶	Yamosu (~ryan2390@host86-156-105-8.range86-156.btcentralplus.com) has joined ##windows
+2018-08-18 13:54:22	◀▬▬	johnny56 (~johnny56@unaffiliated/johnny56) has quit (Read error: Connection reset by peer)
+2018-08-18 13:56:25	◀▬▬	ttyX_ (~ttyX@103.211.53.181) has quit (Quit: Leaving)
+2018-08-18 13:56:49	acidjnk	thanks
+2018-08-18 13:58:17	◀▬▬	mhache (~mhache_@198.164.250.208) has quit (Quit: The Lounge - https://thelounge.github.io)
+2018-08-18 13:58:58	▬▬▶	mhache (~mhache_@198.164.250.208) has joined ##windows
+2018-08-18 13:59:02	▬▬▶	Fulgen (~Fulgen@078132024243.public.t-mobile.at) has joined ##windows
+2018-08-18 14:00:27	▬▬▶	Tux[Qyou] (~Tux@unaffiliated/tux-qyou/x-4822048) has joined ##windows
+2018-08-18 14:02:08	▬▬▶	fandi (~fandi@112.78.178.3) has joined ##windows
+2018-08-18 14:03:43	◀▬▬	SAngeli (~SAngeli@185.11.226.242) has quit (Quit: Leaving)
+2018-08-18 14:07:37	▬▬▶	johnny56 (~johnny56@unaffiliated/johnny56) has joined ##windows
+2018-08-18 14:08:54	◀▬▬	sauvin (sauvin@about/linux/staff/sauvin) has quit (Remote host closed the connection)
+2018-08-18 14:10:09	◀▬▬	Regon (~Regon@unaffiliated/regon) has quit (Quit: Leaving)
+2018-08-18 14:16:48	▬▬▶	Gathis (~TheBlack@unaffiliated/gathis) has joined ##windows
+2018-08-18 14:17:18	▬▬▶	Regon (~Regon@unaffiliated/regon) has joined ##windows
+2018-08-18 14:18:06	◀▬▬	genera_ (~genera@unaffiliated/genera) has quit (Ping timeout: 240 seconds)
+2018-08-18 14:18:21	◀▬▬	Oogway (~me@unaffiliated/akaseki) has quit (Read error: Connection reset by peer)
+2018-08-18 14:19:05	◀▬▬	mhache (~mhache_@198.164.250.208) has quit (Quit: The Lounge - https://thelounge.github.io)
+2018-08-18 14:19:21	▬▬▶	Tempus2 (Tempus2@125.92-220-101.customer.lyse.net) has joined ##windows
+2018-08-18 14:19:46	▬▬▶	mhache (~mhache_@198.164.250.208) has joined ##windows
+2018-08-18 14:21:40	Tempus2	I have two computers a router and a NAS hooked to a switch. Both computers are Windows 10, but only 1 finds the computers (itself and the other) and the NAS. The other doesn't show any of the computers in the network, and the NAS is a different type of device than an accessable network resource. Anyone have an idea how I can make the units visible as normal network devices under Network on
+2018-08-18 14:21:40	Tempus2	the second computer?
+2018-08-18 14:24:34	▬▬▶	rjphares (~rjphares@unaffiliated/rjphares) has joined ##windows
+2018-08-18 14:28:47	▬▬▶	alvinek (~alvinek@unaffiliated/alvinek34) has joined ##windows
+2018-08-18 14:29:51	▬▬▶	lnnb (~weechat@unaffiliated/icetooth) has joined ##windows
+2018-08-18 14:30:02	lnnb	how hard is it to install windows on a macbook?
+2018-08-18 14:30:37	▬▬▶	CheckDavid (uid14990@gateway/web/irccloud.com/x-byozojacrrpmijsu) has joined ##windows
+2018-08-18 14:30:53	CheckDavid	Hello. I found this: https://docs.microsoft.com/en-us/surface-hub/miracast-over-infrastructure#enabling-miracast-over-infrastructure
+2018-08-18 14:31:06	alvinek	hello, search on menu start decided to not work anymore, it doesnt even show up, i tried to troubleshoot it and it says incorrect permissions on windows search directories
+2018-08-18 14:31:13	CheckDavid	Does it mean Miracast work over wired networks (ethernet)?
+2018-08-18 14:31:19	CheckDavid	On Windows 10 devices?
+2018-08-18 14:31:26	◀▬▬	Tempus2 (Tempus2@125.92-220-101.customer.lyse.net) has quit
+2018-08-18 14:31:27	▬▬▶	ntd (~ntd@gateway/tor-sasl/ntd) has joined ##windows
+2018-08-18 14:31:27	◀▬▬	mhache (~mhache_@198.164.250.208) has quit (Quit: The Lounge - https://thelounge.github.io)
+2018-08-18 14:31:36	alvinek	so i tried to reset these permissions, set them up again, gave permission to system, me, everyone but nope
+2018-08-18 14:31:52	▬▬▶	RealM4n (~androirc@181.67.168.50) has joined ##windows
+2018-08-18 14:32:09	▬▬▶	mhache (~mhache_@198.164.250.208) has joined ##windows
+2018-08-18 14:32:47	▬▬▶	Tempus2 (Tempus2@125.92-220-101.customer.lyse.net) has joined ##windows
+2018-08-18 14:32:52	◀▬▬	RealM4n (~androirc@181.67.168.50) has quit (Client Quit)
+2018-08-18 14:33:01	◀▬▬	rosco_y (~Ross@71.86.239.1) has quit (Quit: Konversation terminated!)
+2018-08-18 14:33:15	▬▬▶	genera (~genera@unaffiliated/genera) has joined ##windows
+2018-08-18 14:33:15	alvinek	it says its this directory: C:\ProgramData\Microsoft\Search\Data\, i found program on the internet called "Permissions Time Machine", but it didnt help, I would reset entire C drive but that could be complete disaster
+2018-08-18 14:33:26	CptLuxx	the error is normal  alvinek
+2018-08-18 14:33:34	CptLuxx	it shows that on every win10 machine.. even new
+2018-08-18 14:33:52	alvinek	so how to fix windows search?
+2018-08-18 14:34:42	CptLuxx	reset the search database
+2018-08-18 14:34:43	alvinek	I tried to reload Windows Search under services, restart, kill processes
+2018-08-18 14:34:49	CptLuxx	and wait till its finished with indexing..
+2018-08-18 14:34:50	alvinek	yes I was resetting and still the same
+2018-08-18 14:35:02	CptLuxx	and it was finished with indexing?
+2018-08-18 14:35:13	alvinek	yes, it finished but nothing works
+2018-08-18 14:35:23	alvinek	search on explorer works, but search on menu start nope
+2018-08-18 14:36:01	alvinek	it looks like this: https://i.imgur.com/B1juFTb.png i cannot type anything, then it disappears, resets itself as i can see on task manager
+2018-08-18 14:36:15	alvinek	aand... nothing
+2018-08-18 14:37:00	alvinek	I will check if creating a new user and then logging to new account would fix that issue
+2018-08-18 14:37:48	alvinek	I even dont know when this happened... with Acronis True Image I restored image created month ago and still the same >_<
+2018-08-18 14:38:18	CptLuxx	lnnb
+2018-08-18 14:38:23	CptLuxx	you use bootcamp and install win10..
+2018-08-18 14:38:29	CptLuxx	not realy topical
+2018-08-18 14:38:39	CptLuxx	https://support.apple.com/en-us/HT204990
+2018-08-18 14:38:40	▬▬▶	naphtali (~naphtali@23.249.43.160) has joined ##windows
+2018-08-18 14:38:44	lnnb	they don't even sell install DVD's anymore
+2018-08-18 14:38:49	lnnb	so i would have to manually install windows
+2018-08-18 14:38:52	CptLuxx	and?
+2018-08-18 14:38:57	CptLuxx	read the link..
+2018-08-18 14:38:59	CptLuxx	download wi10
+2018-08-18 14:39:02	CptLuxx	and go for it
+2018-08-18 14:39:10	lnnb	will it boot on a macbook?
+2018-08-18 14:39:11	CptLuxx	https://www.microsoft.com/de-de/software-download/windows10
+2018-08-18 14:39:13	lnnb	with no OS
+2018-08-18 14:39:16	CptLuxx	dude.. read the link
+2018-08-18 14:39:25	CptLuxx	osx will still be there
+2018-08-18 14:39:30	lnnb	i don't have an OSX
+2018-08-18 14:39:31	CptLuxx	[21:38:38] <CptLuxx> https://support.apple.com/en-us/HT204990
+2018-08-18 14:39:36	lnnb	no operating system on hardware
+2018-08-18 14:39:43	lnnb	which is why im trying to install windows
+2018-08-18 14:39:44	CptLuxx	then no
+2018-08-18 14:39:46	CptLuxx	ask apple
+2018-08-18 14:39:57	lnnb	they told me i need to install OSX
+2018-08-18 14:39:59	alvinek	so you need to install Mac OS (i dont know how lol) and then windows
+2018-08-18 14:40:02	lnnb	but that they don't make install DVD's
+2018-08-18 14:40:07	CptLuxx	not our problem
+2018-08-18 14:40:09	CptLuxx	speak with apple
+2018-08-18 14:40:09	lnnb	so i have to install windows manually.
+2018-08-18 14:40:12	CptLuxx	we support windows..
+2018-08-18 14:40:22	CptLuxx	and windows is only supported with bootcamp
+2018-08-18 14:40:26	lnnb	on x86_64 hardware?
+2018-08-18 14:40:28	lnnb	right
+2018-08-18 14:40:37	lnnb	linux runs fine on the machine
+2018-08-18 14:40:44	CptLuxx	good?
+2018-08-18 14:40:53	lnnb	so how do i install windows?
+2018-08-18 14:40:57	CptLuxx	ask apple
+2018-08-18 14:41:00	lnnb	i did
+2018-08-18 14:41:02	lnnb	they told me no
+2018-08-18 14:41:03	CptLuxx	good
+2018-08-18 14:41:11	CptLuxx	i dont know what you want?
+2018-08-18 14:41:14	CptLuxx	the right way is use bootcamp
+2018-08-18 14:41:14	lnnb	information
+2018-08-18 14:41:21	CptLuxx	so fix your mac and get macos installed again
+2018-08-18 14:41:23	CptLuxx	so you can use bootcamp
+2018-08-18 14:41:25	CptLuxx	thats it
+2018-08-18 14:41:41	CptLuxx	we dont support apple!
+2018-08-18 14:41:49	alvinek	dude i found iso's with macos simply typing "mac os iso" in google
+2018-08-18 14:41:53	alvinek	just try lol
+2018-08-18 14:42:01	lnnb	so you mean to say, you cannot install windows on a macbook?
+2018-08-18 14:42:06	--	Tempus2 is now known as Guest58389
+2018-08-18 14:42:06	◀▬▬	Guest58389 (Tempus2@125.92-220-101.customer.lyse.net) has quit (Ping timeout: 240 seconds)
+2018-08-18 14:42:07	CptLuxx	you can!!!!
+2018-08-18 14:42:10	alvinek	you can
+2018-08-18 14:42:10	▬▬▶	Tempus2 (Tempus2@125.92-220-101.customer.lyse.net) has joined ##windows
+2018-08-18 14:42:10	CptLuxx	with bootcamp
+2018-08-18 14:42:11	lnnb	uhhh
+2018-08-18 14:42:13	CptLuxx	srsly
+2018-08-18 14:42:15	alvinek	but you need Mac OS
+2018-08-18 14:42:27	alvinek	and from Mac OS you can install Windows as a second option
+2018-08-18 14:42:30	CptLuxx	[21:38:38] <CptLuxx> https://support.apple.com/en-us/HT204990
+2018-08-18 14:42:46	Tempus2	Either paralelles or bootcamp
+2018-08-18 14:42:53	lnnb	i don't have an OS on the machine and people give nme weird looks when i ask where the install dvd's are at the apple store
+2018-08-18 14:42:55	Tempus2	If you're talking about Windows on OSX
+2018-08-18 14:43:04	CptLuxx	we are moving on now `Ivan
+2018-08-18 14:43:06	CptLuxx	lnnb
+2018-08-18 14:43:25	CptLuxx	go to an apple store and get your mac fixed (installing macos)
+2018-08-18 14:43:40	alvinek	so you can go to the store, buy some DVDs, burn ISO image and install
+2018-08-18 14:43:43	alvinek	where is the problem?
+2018-08-18 14:43:43	lnnb	i'mn not letting those nerds molest my machine with their various dongles
+2018-08-18 14:43:47	Tempus2	Did anyone answer my question while I was rebooting?
+2018-08-18 14:43:48	--	Mode ##windows [+o CptLuxx] by ChanServ
+2018-08-18 14:43:49	--	Mode ##windows [+q *!*@unaffiliated/icetooth] by CptLuxx
+2018-08-18 14:43:49	--	Mode ##windows [-o CptLuxx] by ChanServ
+2018-08-18 14:43:55	CptLuxx	we are moving on
+2018-08-18 14:43:58	CptLuxx	we told you how to do it
+2018-08-18 14:44:02	CptLuxx	if you want to ignore it fine.
+2018-08-18 14:44:21	CptLuxx	Tempus2 ask again
+2018-08-18 14:44:56	◀▬▬	Elirips (~Elirips@46-126-44-28.dynamic.hispeed.ch) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2018-08-18 14:45:25	Tempus2	I have two computer, a router and a NAS hooked to a switch. Both computers are Windows 10. Only one of them shows the "Computers" under "Network". How can I show "Computers" under "Network" on the other?
+2018-08-18 14:46:15	alvinek	I think the second one has to be visible on the network like setting it on privacy network
+2018-08-18 14:47:17	Tempus2	https://gyazo.com/5e139a99db24ce7c2c9f1dc9259c4ad3
+2018-08-18 14:47:20	alvinek	Tempus2, https://i.imgur.com/GbTOVHf.png ?
+2018-08-18 14:47:36	CptLuxx	this detection under network does no longer work Tempus2
+2018-08-18 14:47:47	CptLuxx	never win10 versions have smb1 deactivated because its insecure
+2018-08-18 14:47:56	Tempus2	Hmmm, but both Windowes are the same and same version.
+2018-08-18 14:48:06	CptLuxx	so if you realy want that useless network thing.. enable smb1 again
+2018-08-18 14:48:10	Tempus2	Let me see if SMP1 is activated on the other.
+2018-08-18 14:48:15	CptLuxx	smb
+2018-08-18 14:48:42	Tempus2	Hmm, it stops Synctoy from finding the NAS though.
+2018-08-18 14:48:58	Tempus2	Unless I go to explorer and do "\\NAS\
+2018-08-18 14:49:01	◀▬▬	ntd (~ntd@gateway/tor-sasl/ntd) has quit (Quit: ntd)
+2018-08-18 14:50:11	Tempus2	Ah SMP1 is activated on the other one.
+2018-08-18 14:50:16	CptLuxx	SMB
+2018-08-18 14:50:16	◀▬▬	Antares (~Antares@109-252-99-18.nat.spd-mgts.ru) has quit (Quit: Leaving)
+2018-08-18 14:50:18	CptLuxx	not smp
+2018-08-18 14:50:19	Tempus2	SMB
+2018-08-18 14:50:37	Tempus2	Used to writing Submachine Pistol... :P
+2018-08-18 14:50:38	CptLuxx	and i told you smb1 is insecure.. so i would not activate it
+2018-08-18 14:50:56	Tempus2	How do I make SyncToy find my NAS through network then?
+2018-08-18 14:51:07	CptLuxx	dunno ask the maker of the nas
+2018-08-18 14:51:16	alvinek	XD
+2018-08-18 14:51:18	▬▬▶	nonMOOSE (nonmoose@2607:5300:120:17d:313a:9f3b:60dd:4813) has joined ##windows
+2018-08-18 14:51:19	CptLuxx	i dont know that programm
+2018-08-18 14:51:41	Tempus2	What do I use instead of SMB1 then
+2018-08-18 14:51:49	CptLuxx	smb2 and smb3
+2018-08-18 14:51:56	CptLuxx	thats how you access the nas with \\whatever
+2018-08-18 14:52:22	Tempus2	And where do I find computers on the network with SMB2 and 3?
+2018-08-18 14:52:26	CptLuxx	dns
+2018-08-18 14:52:32	CptLuxx	you know the name.. mape a drive..
+2018-08-18 14:52:52	CptLuxx	whatever smb1 is dead
+2018-08-18 14:53:03	CptLuxx	https://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/
+2018-08-18 14:53:26	CptLuxx	3. Now all Windows devices within that subnet that have these settings in place will appear in Network for browsing. This uses the WS-DISCOVERY protocol. Check with your other vendors and manufacturers if their devices still do not appear in this browse list after Windows devices appear; it is likely they have this protocol disabled or only support SMB1.
+2018-08-18 14:53:37	CptLuxx	if its a synology you can activate ws discovery ..
+2018-08-18 14:53:42	Tempus2	Even with mapping though, I still have to do \\NAS\ before Synctoy finds it.
+2018-08-18 14:53:55	CptLuxx	ask the maker of the program
+2018-08-18 14:53:58	Tempus2	It is a Synology DS1515+
+2018-08-18 14:54:03	CptLuxx	he should fix it.. smb1 is deprecated since years
+2018-08-18 14:54:08	CptLuxx	and disabled in win10
+2018-08-18 14:54:40	CptLuxx	https://www.synology.com/en-global/knowledgebase/DSM/help/DSM/AdminCenter/file_service_discovery read To make your Synology NAS discoverable via WS-Discovery:
+2018-08-18 14:54:46	alvinek	or, when you are not connecting to the internet, then whatever
+2018-08-18 14:54:54	CptLuxx	wrong alvinek
+2018-08-18 14:55:02	▬▬▶	dc13ff (uid190567@gateway/web/irccloud.com/x-eiksrhbaypiqlliv) has joined ##windows
+2018-08-18 14:55:14	CptLuxx	there was ransomware who spreads trough smb1 .. one infected device and its over
+2018-08-18 14:55:28	alvinek	ah you reminded me about that i think there was one last year
+2018-08-18 14:55:29	◀▬▬	romare (~st.pauli@unaffiliated/romare) has quit (Remote host closed the connection)
+2018-08-18 14:55:58	Tempus2	So all resources have to be mapped in order to have a clickable path?
+2018-08-18 14:56:12	Tempus2	Not \\Blabla\ in Explorer
+2018-08-18 14:56:13	◀▬▬	Alexander-47u (~Alexander@85.203.44.21) has quit (Ping timeout: 244 seconds)
+2018-08-18 14:56:15	alvinek	you mean, for example, WannaCry CptLuxx ?
+2018-08-18 14:56:16	CptLuxx	or make a shortcut to it... \\whatever\folder
+2018-08-18 14:56:23	CptLuxx	i dont remember the name alvinek ....
+2018-08-18 14:56:31	CptLuxx	i dont care that much about smb1 problems
+2018-08-18 14:57:17	alvinek	"When executed, the WannaCry malware first checks the "kill switch" domain name;[a] if it is not found, then the ransomware encrypts the computer's data,[20][21][22] then attempts to exploit the SMB vulnerability to spread out to random computers on the Internet"
+2018-08-18 14:57:22	alvinek	so yep, better not to use SMB1
+2018-08-18 14:58:45	Tempus2	But SMB1 can't have been disable for very long by default.
+2018-08-18 14:59:07	CptLuxx	since 1709 in win10
+2018-08-18 14:59:08	Tempus2	Can't be a year
+2018-08-18 14:59:10	CptLuxx	https://support.microsoft.com/en-us/help/4034314/smbv1-is-not-installed-by-default-in-windows
+2018-08-18 14:59:34	CptLuxx	Windows 10 Home and Windows 10 Professional no longer contain the SMBv1 server by default after a clean installation.
+2018-08-18 14:59:52	Tempus2	"contain"?
+2018-08-18 14:59:56	CptLuxx	enabled..
+2018-08-18 15:00:04	Tempus2	Okay
+2018-08-18 15:00:13	CptLuxx	who cares its smb1
+2018-08-18 15:00:28	Tempus2	I am just finding a work around. It doesn't seem to work.
+2018-08-18 15:00:53	Tempus2	Windows doesn't see that the NAS is on.
+2018-08-18 15:01:03	Tempus2	And tells programs its off.
+2018-08-18 15:01:03	◀▬▬	benl90 (8bc38714@gateway/web/freenode/ip.139.195.135.20) has quit (Quit: Page closed)
+2018-08-18 15:01:16	Tempus2	Like Synctoy, even though it is on.
+2018-08-18 15:01:28	CptLuxx	ws-disco veryz
+2018-08-18 15:01:29	Tempus2	Until I do "\\NAS\" in explorer.
+2018-08-18 15:02:14	CptLuxx	enable ws-discovery on the nas
+2018-08-18 15:04:26	alvinek	ouch, my windows search is maybe corrupted by O&O ShutUp 10
+2018-08-18 15:04:41	CptLuxx	thats why we hate those software
+2018-08-18 15:05:24	alvinek	its useful for some things I didnt like, but it would be nice if it would tell me what exactly it does to disable
+2018-08-18 15:05:56	CptLuxx	i go that far and say its  malware
+2018-08-18 15:06:06	CptLuxx	it breaks stuff...
+2018-08-18 15:08:05	alvinek	nothing with WIndows Search related is disabled
+2018-08-18 15:08:11	alvinek	lets see maybe event viewer has something
+2018-08-18 15:09:26	▬▬▶	Alexander-47u (~Alexander@85.203.44.111) has joined ##windows
+2018-08-18 15:09:43	◀▬▬	Fulgen (~Fulgen@078132024243.public.t-mobile.at) has quit (Ping timeout: 256 seconds)
+2018-08-18 15:10:03	alvinek	it has error with searchui.exe, failing module edgehtml.dll and then it says Microsoft Cortana
+2018-08-18 15:13:01	▬▬▶	Gurkenglas (~Gurkengla@unaffiliated/gurkenglas) has joined ##windows
+2018-08-18 15:13:30	◀▬▬	rjphares (~rjphares@unaffiliated/rjphares) has quit
+2018-08-18 15:13:30	◀▬▬	Keanu73 (~Keanu73@2ProIntl/User/Geek/Keanu73) has quit (Read error: Connection reset by peer)
+2018-08-18 15:14:15	◀▬▬	Anodl (~Anodl@p200300D4A3FA35000D8BF18CCFB7441A.dip0.t-ipconnect.de) has quit (Ping timeout: 255 seconds)
+2018-08-18 15:15:18	Tempus2	Unfortunatly there isn't anything called ws-discovery on my NAS. They must have changed something.
+2018-08-18 15:16:22	▬▬▶	m8 (~m8@unaffiliated/m8) has joined ##windows
+2018-08-18 15:16:30	CptLuxx	it is there!
+2018-08-18 15:16:34	CptLuxx	https://www.synology.com/en-global/knowledgebase/DSM/help/DSM/AdminCenter/file_service_discovery
+2018-08-18 15:17:29	alvinek	I think i've just found a solution but i need to test it
+2018-08-18 15:18:37	alvinek	i will let you know in a moment (yes, i love talking to myself)
+2018-08-18 15:19:17	CptLuxx	whatever ws discovery should fix it
+2018-08-18 15:19:28	CptLuxx	and the setting is there.. i have seen it a few days ago
+2018-08-18 15:20:13	Tempus2	Well, it's not really on topic, but it's not there. It doesn't look anything like it anymore either the contents under "File Services".
+2018-08-18 15:21:28	Tempus2	https://gyazo.com/6f3f4654ce4b4c664e426c9aa8dd2096
+2018-08-18 15:21:32	◀▬▬	RazielZ (~Raziel@unaffiliated/raziel) has quit (Ping timeout: 244 seconds)
+2018-08-18 15:21:53	Tempus2	Wait...
+2018-08-18 15:22:09	Tempus2	I guess it was the Advanced tab it was refering to, not the Advanced button...
+2018-08-18 15:22:29	▬▬▶	blkshp (~blkshp@about/windows/staff/blkshp) has joined ##windows
+2018-08-18 15:22:41	▬▬▶	Xiti` (~Xiti-@unaffiliated/xiti) has joined ##windows
+2018-08-18 15:22:46	Tempus2	There we are. Cheers CptLuxx.
+2018-08-18 15:23:10	alvinek	lol
+2018-08-18 15:23:44	CptLuxx	it is
+2018-08-18 15:23:44	CptLuxx	100%
+2018-08-18 15:24:41	◀▬▬	acidjnk (~acid@mue-88-130-58-102.dsl.tropolys.de) has quit (Ping timeout: 272 seconds)
+2018-08-18 15:24:42	◀▬▬	Tempesta (Tempesta@unaffiliated/tempesta) has quit (Ping timeout: 272 seconds)
+2018-08-18 15:25:20	◀▬▬	PlasmaStar (Plasma@unaffiliated/plasmastar) has quit (Ping timeout: 272 seconds)
+2018-08-18 15:25:20	◀▬▬	flyback (~flyback@c-73-154-9-168.hsd1.pa.comcast.net) has quit (Ping timeout: 272 seconds)
+2018-08-18 15:25:38	alvinek	interesting thing is, I'm from Poland, I picked up english version of Windows using tool from Microsoft to build setup on flash drive, I installed it and log on has polish text, descritiopns in "computer management" are in polish :P
+2018-08-18 15:25:40	▬▬▶	flyback (~flyback@c-73-154-9-168.hsd1.pa.comcast.net) has joined ##windows
+2018-08-18 15:25:54	▬▬▶	PlasmaStar (Plasma@unaffiliated/plasmastar) has joined ##windows
+2018-08-18 15:26:36	◀▬▬	Xiti (~Xiti-@unaffiliated/xiti) has quit (Ping timeout: 272 seconds)
+2018-08-18 15:27:30	◀▬▬	Tempus2 (Tempus2@125.92-220-101.customer.lyse.net) has quit
+2018-08-18 15:29:27	◀▬▬	alvinek (~alvinek@unaffiliated/alvinek34) has quit (Quit: Leaving)
+2018-08-18 15:29:31	▬▬▶	alvinek34 (~alvinek2@unaffiliated/alvinek34) has joined ##windows
+2018-08-18 15:31:00	◀▬▬	blkshp (~blkshp@about/windows/staff/blkshp) has quit (Quit: Quit)
+2018-08-18 15:31:48	▬▬▶	blkshp (~blkshp@about/windows/staff/blkshp) has joined ##windows
+2018-08-18 15:33:31	▬▬▶	TR2990WX (~TR1950X@115-186-145-85.ftth.glasoperator.nl) has joined ##windows
+2018-08-18 15:33:32	TR2990WX	hi
+2018-08-18 15:33:42	TR2990WX	can some one recommend me a API design  tool for Windows?
+2018-08-18 15:34:09	CptLuxx	Coding Coding/programming questions should be directed towards development channels such as ##windows-coding ##XAML ##csharp #win32 #winapi etc or a channel specific to your programming language. If you’re looking for a more appropriate channel you can use freenode's "alis" tool, with the command /msg alis help or check out this regularly updated freenode channel search tool. "http://irc.netsplit.de/channels/?net=freenode"
+2018-08-18 15:34:33	▬▬▶	RealM4n (~androirc@181.67.168.50) has joined ##windows
+2018-08-18 15:35:30	◀▬▬	RealM4n (~androirc@181.67.168.50) has quit (Client Quit)
+2018-08-18 15:35:35	▬▬▶	Zexaron (~zexpc2@cpe-86-58-122-93.static.triera.net) has joined ##windows
+2018-08-18 15:41:36	▬▬▶	MikeFromIT (~MikeFromI@2602:306:3647:86e0:619b:3bc3:4811:ae45) has joined ##windows
+2018-08-18 15:41:36	--	Topic for ##windows is "MS Windows Support & Discussion  www.freenode-windows.org - Keep it polite, factual, constructive, and topical. || Guidelines: http://goo.gl/7ueKMi || Meltdown/Spectre: https://goo.gl/ae7GvE || Servers: ##windows-Server || Unsupported Windows - ##windows-Legacy || Off-topic ##Windows-Social"
+2018-08-18 15:41:36	--	Topic set by blkshp (~blkshp@about/windows/staff/blkshp) on Tue, 14 Aug 2018 04:53:56
+2018-08-18 15:41:36	--	Channel ##windows: 469 nicks (1 op, 0 voices, 468 normals)
+2018-08-18 15:41:36	--	PvNotice(ChanServ): Keep it polite, reasonable, constructive. Guidelines: http://www.freenode-windows.org/channel-guidelines
+2018-08-18 15:41:37	--	Channel created on Fri, 07 Oct 2005 14:11:46
+2018-08-18 15:48:02	◀▬▬	Oatmeal (Suzeanne@gateway/vpn/privateinternetaccess/suzeanne) has quit (Ping timeout: 260 seconds)
+2018-08-18 15:48:02	◀▬▬	MikeFromIT (~MikeFromI@2602:306:3647:86e0:619b:3bc3:4811:ae45) has quit (Ping timeout: 255 seconds)
+2018-08-18 15:48:02	--	irc: disconnected from server
+2018-08-18 15:48:26	--	##windows: ##windows-please-register :Forwarding to another channel
+2018-08-18 15:49:01	▬▬▶	MikeFromIT (~MikeFromI@64.42.179.43) has joined ##windows
+2018-08-18 15:49:01	--	Topic for ##windows is "MS Windows Support & Discussion  www.freenode-windows.org - Keep it polite, factual, constructive, and topical. || Guidelines: http://goo.gl/7ueKMi || Meltdown/Spectre: https://goo.gl/ae7GvE || Servers: ##windows-Server || Unsupported Windows - ##windows-Legacy || Off-topic ##Windows-Social"
+2018-08-18 15:49:01	--	Topic set by blkshp (~blkshp@about/windows/staff/blkshp) on Tue, 14 Aug 2018 04:53:56
+2018-08-18 15:49:01	--	Channel ##windows: 468 nicks (1 op, 0 voices, 467 normals)
+2018-08-18 15:49:01	--	PvNotice(ChanServ): Keep it polite, reasonable, constructive. Guidelines: http://www.freenode-windows.org/channel-guidelines
+2018-08-18 15:49:03	--	Channel created on Fri, 07 Oct 2005 14:11:46
+2018-08-18 15:56:17	▬▬▶	Oatmeal (Suzeanne@gateway/vpn/privateinternetaccess/suzeanne) has joined ##windows
+2018-08-18 15:56:28	◀▬▬	eir (eir@freenode/utility-bot/eir) has quit (Quit: Restarting (mquin))
+2018-08-18 15:56:34	▬▬▶	eir (eir@freenode/utility-bot/eir) has joined ##windows
+2018-08-18 15:58:56	◀▬▬	Tempus2 (Tempus2@125.92-220-101.customer.lyse.net) has quit
+2018-08-18 15:59:18	◀▬▬	lnnb (~weechat@unaffiliated/icetooth) has quit (Quit: WeeChat 2.0.1)
+2018-08-18 16:01:13	▬▬▶	Tin^man (~Scare_cro@unaffiliated/tin-man/x-0046760) has joined ##windows
+2018-08-18 16:02:41	▬▬▶	jennam (~Guest9024@unaffiliated/jennam) has joined ##windows
+2018-08-18 16:04:46	naphtali	jcotton, how are OneDrive for Windows 10 updates delivered?
+2018-08-18 16:07:11	◀▬▬	xv8 (~XV8@2600:1003:b104:f211:5c86:ff20:7365:cea8) has quit (Quit: Leaving)
+2018-08-18 16:07:51	naphtali	Bug fix to address sign-in failures for organizations serviced by 21Vianet or Microsoft Cloud Germany.
+2018-08-18 16:07:53	naphtali	muhahah
+2018-08-18 16:10:41	▬▬▶	Cihan (uid286286@gateway/web/irccloud.com/x-uhzmxonmqpgtsxrq) has joined ##windows
+2018-08-18 16:14:00	--	Mode ##windows [+o eir] by ChanServ
+2018-08-18 16:14:19	--	Mode ##windows [-bo *!*@unaffiliated/cyl$##fix_your_connection eir] by eir
+2018-08-18 16:14:19	◀▬▬	graphene (~graphene@46.101.134.251) has quit (Read error: Connection reset by peer)
+2018-08-18 16:15:30	▬▬▶	graphene (~graphene@46.101.134.251) has joined ##windows
+2018-08-18 16:19:30	◀▬▬	SmirGel (~SmirGel@2a03:8600:1001:4000::76c) has quit (Remote host closed the connection)
+2018-08-18 16:22:54	▬▬▶	purplex88 (~purplex88@unaffiliated/purplex88) has joined ##windows
+2018-08-18 16:25:00	◀▬▬	fedorafan (~fedorafan@unaffiliated/fedorafan) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2018-08-18 16:25:30	◀▬▬	compdoc (~me@unaffiliated/compdoc) has quit (Ping timeout: 240 seconds)
+2018-08-18 16:27:08	◀▬▬	applegal (uid245422@gateway/web/irccloud.com/x-sjxcaskyolmftqod) has quit (Quit: Connection closed for inactivity)
+2018-08-18 16:28:52	◀▬▬	nikitha (~rritec1@2409:4070:2196:a152:98cb:71e2:9cbc:750c) has left ##windows
+2018-08-18 16:30:49	▬▬▶	lowd (~x@2601:2c6:480:890:d812:158a:6838:4592) has joined ##windows
+2018-08-18 16:31:21	◀▬▬	ImQ009 (~ImQ009@unaffiliated/imq009) has quit (Quit: Leaving)
+2018-08-18 16:34:26	◀▬▬	graphene (~graphene@46.101.134.251) has quit (Read error: Connection reset by peer)
+2018-08-18 16:34:45	◀▬▬	genera (~genera@unaffiliated/genera) has quit (Ping timeout: 256 seconds)
+2018-08-18 16:35:31	▬▬▶	graphene (~graphene@46.101.134.251) has joined ##windows
+2018-08-18 16:39:24	▬▬▶	Sanderski (~Sanderski@2a02:a314:823d:2100:b30c:ea38:d0f0:d3ef) has joined ##windows
+2018-08-18 16:40:05	◀▬▬	cb1 (~cb1@unaffiliated/cb1) has quit (Ping timeout: 272 seconds)
+2018-08-18 16:41:04	▬▬▶	oeuvre (~oeuvre@unaffiliated/oeuvre) has joined ##windows
+2018-08-18 16:41:11	◀▬▬	Ta1}s0n (~Ta1}s0n@unaffiliated/ta1s0n) has quit (Read error: Connection reset by peer)
+2018-08-18 16:41:34	▬▬▶	Ta1}s0n (~Ta1}s0n@unaffiliated/ta1s0n) has joined ##windows
+2018-08-18 16:41:46	▬▬▶	cb1 (~cb1@unaffiliated/cb1) has joined ##windows
+2018-08-18 16:42:38	◀▬▬	GAMEOEUVRE (~oeuvre@unaffiliated/oeuvre) has quit (Ping timeout: 240 seconds)
+2018-08-18 16:42:41	◀▬▬	kropulus (AdiIRC@142.196.132.223) has quit (Ping timeout: 260 seconds)
+2018-08-18 16:45:04	▬▬▶	kropulus (~menotu@142.196.132.223) has joined ##windows
+2018-08-18 16:47:21	◀▬▬	hyperreal (~hyperreal@unaffiliated/serieux) has quit (Ping timeout: 260 seconds)
+2018-08-18 16:48:58	◀▬▬	Alexander-47u (~Alexander@85.203.44.111) has quit (Remote host closed the connection)
+2018-08-18 16:50:30	◀▬▬	Zexaron (~zexpc2@cpe-86-58-122-93.static.triera.net) has quit (Quit: Leaving)
+2018-08-18 16:52:02	▬▬▶	nadir (uid134094@gateway/web/irccloud.com/x-yxytmhlcjxsjxtxk) has joined ##windows
+2018-08-18 16:54:36	◀▬▬	m8 (~m8@unaffiliated/m8) has quit (Read error: Connection reset by peer)
+2018-08-18 17:02:25	▬▬▶	fedorafan (~fedorafan@unaffiliated/fedorafan) has joined ##windows
+2018-08-18 17:03:13	naphtali	When docs pages get Dark/Light options? https://docs.microsoft.com/en-us/onedrive/sync-client-update-process
+2018-08-18 17:03:50	◀▬▬	lowd (~x@2601:2c6:480:890:d812:158a:6838:4592) has left ##windows ("Leaving")
+2018-08-18 17:04:27	◀▬▬	dc13ff (uid190567@gateway/web/irccloud.com/x-eiksrhbaypiqlliv) has quit (Quit: Connection closed for inactivity)
+2018-08-18 17:05:13	◀▬▬	watom (~watom@unaffiliated/watom) has quit (Quit: watom)
+2018-08-18 17:07:36	◀▬▬	pinPoint (~pinPoint@about/windows/regular/pinpoint) has quit (Quit: Lost terminal)
+2018-08-18 17:08:27	◀▬▬	blkshp (~blkshp@about/windows/staff/blkshp) has quit (Quit: Quit)
+2018-08-18 17:10:21	▬▬▶	pinPoint (~pinPoint@about/windows/regular/pinpoint) has joined ##windows
+2018-08-18 17:11:28	◀▬▬	fedorafan (~fedorafan@unaffiliated/fedorafan) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2018-08-18 17:16:22	◀▬▬	grumble (~grumble@freenode/staff/grumble) has quit (Remote host closed the connection)
+2018-08-18 17:16:27	▬▬▶	coolball_ (~coolball@unaffiliated/coolball) has joined ##windows
+2018-08-18 17:20:05	▬▬▶	grumble (~grumble@freenode/staff/grumble) has joined ##windows
+2018-08-18 17:20:51	◀▬▬	dreamcat4 (uid157427@gateway/web/irccloud.com/x-ghhzmnjyeriqczhh) has quit (Quit: Connection closed for inactivity)
+2018-08-18 17:21:13	▬▬▶	dirtyroshi (~dirtyrosh@unaffiliated/dirtyroshi) has joined ##windows
+2018-08-18 17:22:59	▬▬▶	fedorafan (~fedorafan@unaffiliated/fedorafan) has joined ##windows
+2018-08-18 17:24:30	◀▬▬	TR2990WX (~TR1950X@115-186-145-85.ftth.glasoperator.nl) has quit (Ping timeout: 240 seconds)
+2018-08-18 17:26:03	◀▬▬	kropulus (~menotu@142.196.132.223) has quit (Remote host closed the connection)
+2018-08-18 17:26:16	◀▬▬	Bideford (AdiIRC@unaffiliated/bideford) has quit (Quit: Quit - Bye)
+2018-08-18 17:33:21	--	irc: disconnected from server
+2018-08-18 17:33:37	--	##windows: ##windows-please-register :Forwarding to another channel
+2018-08-19 15:40:31	▬▬▶	MikeFromIT (~MikeFromI@2602:306:3647:86e0:619b:3bc3:4811:ae45) has joined ##windows
+2018-08-19 15:40:31	--	Topic for ##windows is "MS Windows Support & Discussion  www.freenode-windows.org - Keep it polite, factual, constructive, and topical. || Guidelines: http://goo.gl/7ueKMi || Meltdown/Spectre: https://goo.gl/ae7GvE || Servers: ##windows-Server || Unsupported Windows - ##windows-Legacy || Off-topic ##Windows-Social"
+2018-08-19 15:40:31	--	Topic set by blkshp (~blkshp@about/windows/staff/blkshp) on Tue, 14 Aug 2018 04:53:56
+2018-08-19 15:40:32	--	Channel ##windows: 462 nicks (2 ops, 0 voices, 460 normals)
+2018-08-19 15:40:32	--	PvNotice(ChanServ): Keep it polite, reasonable, constructive. Guidelines: http://www.freenode-windows.org/channel-guidelines
+2018-08-19 15:40:33	--	Channel created on Fri, 07 Oct 2005 14:11:46
+2018-08-19 15:43:17	◀▬▬	contingo (~textual@cpc82355-lewi18-2-0-cust128.2-4.cable.virginm.net) has quit (Ping timeout: 272 seconds)
+2018-08-19 15:43:32	▬▬▶	Gathis (~TheBlack@unaffiliated/gathis) has joined ##windows
+2018-08-19 15:44:57	◀▬▬	ImQ009 (~ImQ009@unaffiliated/imq009) has quit (Quit: Leaving)
+2018-08-19 15:48:10	◀▬▬	Gathis (~TheBlack@unaffiliated/gathis) has quit (Remote host closed the connection)
+2018-08-19 15:51:21	◀▬▬	S_SubZero (~S_SubZero@about/windows/regular/s-subzero) has quit (Quit: S_SubZero)
+2018-08-19 15:51:47	▬▬▶	Gathis (~TheBlack@unaffiliated/gathis) has joined ##windows
+2018-08-19 15:52:02	◀▬▬	Keanu73_ (~Keanu73@2ProIntl/User/Geek/Keanu73) has quit (Read error: Connection reset by peer)
+2018-08-19 15:52:49	◀▬▬	KipperedSnack (~secured@64.137.189.11) has quit (Quit: Meow.)
+2018-08-19 15:53:01	▬▬▶	bubbely (~IceChat9@cpe-76-168-35-178.socal.res.rr.com) has joined ##windows
+2018-08-19 15:53:08	bubbely	can i talk windows coding here
+2018-08-19 15:55:39	RingtailedFox	sure, i guess
+2018-08-19 15:55:48	RingtailedFox	does anyone else have trouble loading any games on pogo.com?
+2018-08-19 15:56:09	RingtailedFox	tried in internet explorer, chrome, seamonkey.... all seem to crap out on me... tried disabling adblock, but nothing.. flash and java are up to date
+2018-08-19 15:57:08	◀▬▬	applegal (uid245422@gateway/web/irccloud.com/x-szxdrofapvlcgvvy) has quit (Quit: Connection closed for inactivity)
+2018-08-19 15:57:15	RingtailedFox	if skyie comes back, can someone tell him that control-escape launches the start menu on all windows versions since 95/NT?
+2018-08-19 15:57:18	RingtailedFox	*NT4?
+2018-08-19 15:57:54	▬▬▶	KipperedSnack (~secured@buffer0verflow.com) has joined ##windows
+2018-08-19 15:57:55	◀▬▬	Sanderski (~Sanderski@2a02:a314:823d:2100:b30c:ea38:d0f0:d3ef) has quit (Remote host closed the connection)
+2018-08-19 16:01:01	◀▬▬	rippa (~rippa@ppp-vpdn-37.1.85.157.yarnet.ru) has quit (Quit: {#`%${%&`+'${`%&NO CARRIER)
+2018-08-19 16:01:30	◀▬▬	Aoyagi (~Aoyagi@unaffiliated/aoyagi) has quit (Quit: For the rise of the fallen angel - sing hallelujah)
+2018-08-19 16:02:33	◀▬▬	fedorafan (~fedorafan@unaffiliated/fedorafan) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2018-08-19 16:02:33	▬▬▶	Kiora (~Kiora@gprs-inet-183-227.elisa.ee) has joined ##windows
+2018-08-19 16:03:50	▬▬▶	fedorafan (~fedorafan@unaffiliated/fedorafan) has joined ##windows
+2018-08-19 16:10:47	weq	RingtailedFox: contact pogo.com for support then
+2018-08-19 16:10:52	weq	bubbely: see this
+2018-08-19 16:10:53	weq	Coding/programming questions should be directed towards development channels such as ##windows-coding ##XAML ##csharp #win32 #winapi etc or a channel specific to your programming language. If you’re looking for a more appropriate channel you can use freenode's "alis" tool, with the command /msg alis help or ask #freenode.
+2018-08-19 16:13:14	◀▬▬	Hedaaa (~Hedaaa@2a00:801:214:db6f:e1ce:21d8:ea4f:27d4) has quit (Read error: Connection reset by peer)
+2018-08-19 16:25:50	◀▬▬	yans (~yans@unaffiliated/yinsen) has quit (Ping timeout: 276 seconds)
+2018-08-19 16:28:02	◀▬▬	dza (~dza@unaffiliated/dza) has quit (Read error: Connection reset by peer)
+2018-08-19 16:29:21	▬▬▶	dza (~dza@unaffiliated/dza) has joined ##windows
+2018-08-19 16:33:34	weq	windbg in store now? 3
+2018-08-19 16:33:42	weq	<3 *
+2018-08-19 16:36:25	◀▬▬	Ace__ (516ed5ab@gateway/web/freenode/ip.81.110.213.171) has quit (Quit: Page closed)
+2018-08-19 16:40:00	◀▬▬	eszett (~eszett@unaffiliated/eszett) has quit (Ping timeout: 240 seconds)
+2018-08-19 16:42:50	◀▬▬	blkshp (~blkshp@about/windows/staff/blkshp) has quit (Quit: Quit)
+2018-08-19 16:45:39	◀▬▬	Bideford (AdiIRC@unaffiliated/bideford) has quit (Quit: Quit - Bye)
+2018-08-19 16:49:09	◀▬▬	purplex88 (~purplex88@unaffiliated/purplex88) has quit (Ping timeout: 272 seconds)
+2018-08-19 16:49:44	◀▬▬	Yamosu (~ryan2390@host86-156-105-8.range86-156.btcentralplus.com) has quit (Remote host closed the connection)
+2018-08-19 16:55:00	RingtailedFox	weq, alrighty
+2018-08-19 16:56:08	◀▬▬	mDfRg (~mDfRg@ksrv.com.pl) has quit (Ping timeout: 240 seconds)
+2018-08-19 17:00:58	▬▬▶	awkwardpenguin (~awkwardpe@cpe-172-118-246-147.socal.res.rr.com) has joined ##windows
+2018-08-19 17:03:06	◀▬▬	n35xdxb0 (~n35xdxb0@cpc130684-camd16-2-0-cust846.know.cable.virginm.net) has quit (Quit: WeeChat 2.2)
+2018-08-19 17:03:36	▬▬▶	mDfRg (~mDfRg@ksrv.com.pl) has joined ##windows
+2018-08-19 17:03:49	◀▬▬	Taylor (~Taylor@unaffiliated/taylor) has quit (Ping timeout: 244 seconds)
+2018-08-19 17:04:17	--	KipperedSnack is now known as mindamp
+2018-08-19 17:05:19	◀▬▬	bint (~bint@86.87.78.83.dynamic.wline.res.cust.swisscom.ch) has quit
+2018-08-19 17:05:22	◀▬▬	Usurp (~syl@reactos/developer/Usurp) has quit (Ping timeout: 244 seconds)
+2018-08-19 17:07:04	▬▬▶	WoC (WoC@tx-71-54-99-246.dhcp.embarqhsd.net) has joined ##windows
+2018-08-19 17:07:06	▬▬▶	Usurp (~syl@reactos/developer/Usurp) has joined ##windows
+2018-08-19 17:07:11	◀▬▬	graphene (~graphene@46.101.134.251) has quit (Remote host closed the connection)
+2018-08-19 17:08:15	▬▬▶	graphene (~graphene@46.101.134.251) has joined ##windows
+2018-08-19 17:10:09	WoC	I'm having some issues installing Win10Pro in a virtual machine (VirtualBox). The setup asks for region etc, when at the end, it goes back to asking for region again, none of the users that been created from previous loops can be used... Anyone seen this?
+2018-08-19 17:11:27	▬▬▶	Taylor (~Taylor@unaffiliated/taylor) has joined ##windows
+2018-08-19 17:20:16	◀▬▬	Warmy (~Warmy@185.206.224.115) has quit (Ping timeout: 260 seconds)
+2018-08-19 17:23:14	▬▬▶	ComicsNight (~imac1@2600:1700:fbd0:52c0:404f:ea3a:a971:48ff) has joined ##windows
+2018-08-19 17:23:22	ComicsNight	hi
+2018-08-19 17:24:43	WoC	howdy
+2018-08-19 17:26:50	▬▬▶	asig (~asig@92.58.164.112) has joined ##windows
+2018-08-19 17:27:32	ComicsNight	is windows releasing windows 11 anytime soon
+2018-08-19 17:32:10	◀▬▬	Gathis (~TheBlack@unaffiliated/gathis) has quit (Remote host closed the connection)
+2018-08-19 17:36:34	▬▬▶	kexec (55d89122@gateway/web/freenode/ip.85.216.145.34) has joined ##windows
+2018-08-19 17:37:08	kexec	hello, please any advice, how to enter a variable path in Get-ChildItem (powershell cmdlet)? like %WINDIR% or %USERPROFILE%
+2018-08-19 17:37:25	◀▬▬	DLSteve (~DLSteve@c-73-109-135-169.hsd1.wa.comcast.net) has quit (Quit: All rise, the honorable DLSteve has left the channel.)
+2018-08-19 17:37:28	▬▬▶	hirogen (hirogen@90.215.235.165) has joined ##windows
+2018-08-19 17:40:32	▬▬▶	DLSteve (~DLSteve@2601:601:1301:40a8:148c:8e4d:d763:93ff) has joined ##windows
+2018-08-19 17:41:06	◀▬▬	graphene (~graphene@46.101.134.251) has quit (Remote host closed the connection)
+2018-08-19 17:43:01	Tin_man	kexec, might try #Powershell, if you can't find answer here.
+2018-08-19 17:45:27	kexec	Tin_man: thanks, i tried more in depth googling and found answer :D
+2018-08-19 17:46:13	ComicsNight	windows 11 beta coming out soon ?
+2018-08-19 17:47:59	Tin_man	ComicsNight, next week i think.
+2018-08-19 17:48:44	ComicsNight	ok
+2018-08-19 17:49:42	Tin_man	nah, i'm just kidding, the fall update is in september (or close)
+2018-08-19 17:52:01	▬▬▶	eszett (~eszett@unaffiliated/eszett) has joined ##windows
+2018-08-19 17:52:23	Tin_man	ComicsNight, https://www.howtogeek.com/353165/whats-new-in-windows-10s-redstone-5-update-available-fall-2018/
+2018-08-19 17:55:25	Tin_man	ComicsNight, and the only beta version is the Insider program, then you'll receive updates for what ever level of insider program your enrolled in.
+2018-08-19 17:58:01	ComicsNight	i was at the insider preview page the other day
+2018-08-19 17:58:19	ComicsNight	i saw no beta for 11 yet
+2018-08-19 18:00:04	Tin_man	neat program if you like helping in the development of windows
+2018-08-19 18:04:02	◀▬▬	awkwardpenguin (~awkwardpe@cpe-172-118-246-147.socal.res.rr.com) has quit (Remote host closed the connection)
+2018-08-19 18:05:38	◀▬▬	Tux[Qyou] (~Tux@unaffiliated/tux-qyou/x-4822048) has quit (Ping timeout: 240 seconds)
+2018-08-19 18:05:42	◀▬▬	kexec (55d89122@gateway/web/freenode/ip.85.216.145.34) has quit (Quit: Page closed)
+2018-08-19 18:10:11	◀▬▬	hirogen (hirogen@90.215.235.165) has quit
+2018-08-19 18:10:17	▬▬▶	Tux[Qyou] (~Tux@unaffiliated/tux-qyou/x-4822048) has joined ##windows
+2018-08-19 18:12:46	▬▬▶	Logograph (~Logograph@unaffiliated/logograph) has joined ##windows
+2018-08-19 18:16:02	▬▬▶	awkwardpenguin (~awkwardpe@cpe-172-118-246-147.socal.res.rr.com) has joined ##windows
+2018-08-19 18:18:27	◀▬▬	biax_ (~biax@unaffiliated/biax) has quit (Ping timeout: 272 seconds)
+2018-08-19 18:20:57	▬▬▶	Mart|n (~Mart|n@79-68-33-46.dynamic.dsl.as9105.com) has joined ##windows
+2018-08-19 18:22:22	◀▬▬	bubbely (~IceChat9@cpe-76-168-35-178.socal.res.rr.com) has left ##windows
+2018-08-19 18:25:29	▬▬▶	tribrid (~textual@47.184.142.24) has joined ##windows
+2018-08-19 18:25:42	▬▬▶	wethu (~egray@unaffiliated/wethu) has joined ##windows
+2018-08-19 18:26:09	◀▬▬	asig (~asig@92.58.164.112) has quit (Quit: KVIrc 4.9.2 Aria http://www.kvirc.net/)
+2018-08-19 18:27:33	▬▬▶	n35xdxb0 (~n35xdxb0@cpc130684-camd16-2-0-cust846.know.cable.virginm.net) has joined ##windows
+2018-08-19 18:31:40	◀▬▬	ComicsNight (~imac1@2600:1700:fbd0:52c0:404f:ea3a:a971:48ff) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2018-08-19 23:32:23	◀▬▬	adapter (~adapter@c-71-227-131-190.hsd1.wa.comcast.net) has quit (Ping timeout: 272 seconds)

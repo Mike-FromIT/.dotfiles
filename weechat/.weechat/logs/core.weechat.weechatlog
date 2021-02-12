@@ -1,0 +1,781 @@
+[2018-08-14 18:45:23] WeeChat 2.2 (compiled on Aug  1 2018 12:25:48)
+[2018-08-14 18:45:23] Reading configuration file sec.conf
+[2018-08-14 18:45:23] Reading configuration file weechat.conf
+[2018-08-14 18:45:23] Reading configuration file plugins.conf
+[2018-08-14 18:45:23] Reading configuration file charset.conf
+[2018-08-14 18:45:23] Reading configuration file logger.conf
+[2018-08-14 18:45:23] Reading configuration file exec.conf
+[2018-08-14 18:45:23] Reading configuration file trigger.conf
+[2018-08-14 18:45:23] Reading configuration file aspell.conf
+[2018-08-14 18:45:23] Reading configuration file alias.conf
+[2018-08-14 18:45:23] Reading configuration file buflist.conf
+[2018-08-14 18:45:23] Reading configuration file irc.conf
+[2018-08-14 18:45:23] Reading configuration file relay.conf
+[2018-08-14 18:45:23] Reading configuration file perl.conf
+[2018-08-14 18:45:23] Reading configuration file iset.conf
+[2018-08-14 18:45:23] Reading configuration file python.conf
+[2018-08-14 18:45:23] Reading configuration file buffer_autoset.conf
+[2018-08-14 18:45:23] Reading configuration file autosort.conf
+[2018-08-14 18:45:23] Writing configuration file autosort.conf
+[2018-08-14 18:45:23] Reading configuration file colorize_nicks.conf
+[2018-08-14 18:45:23] Reading configuration file ruby.conf
+[2018-08-14 18:45:23] Reading configuration file script.conf
+[2018-08-14 18:45:23] Reading configuration file fset.conf
+[2018-08-14 18:45:23] irc: connecting to server chat.freenode.net/6667...
+[2018-08-14 18:55:46] Terminal lost, exiting WeeChat...
+[2018-08-14 18:55:46] Writing configuration file plugins.conf
+[2018-08-14 18:55:46] Writing configuration file trigger.conf
+[2018-08-14 18:55:46] Writing configuration file script.conf
+[2018-08-14 18:55:46] Writing configuration file ruby.conf
+[2018-08-14 18:55:46] Writing configuration file relay.conf
+[2018-08-14 18:55:46] Writing configuration file autosort.conf
+[2018-08-14 18:55:46] Writing configuration file buffer_autoset.conf
+[2018-08-14 18:55:46] Writing configuration file buffer_autoset.conf
+[2018-08-14 18:55:46] Writing configuration file colorize_nicks.conf
+[2018-08-14 18:55:46] Writing configuration file python.conf
+[2018-08-14 18:55:46] Writing configuration file iset.conf
+[2018-08-14 18:55:46] Writing configuration file perl.conf
+[2018-08-14 18:55:46] Writing configuration file logger.conf
+[2018-08-14 18:55:46] Writing configuration file irc.conf
+[2018-08-14 18:55:46] Writing configuration file fset.conf
+[2018-08-14 18:55:46] Writing configuration file exec.conf
+[2018-08-14 18:55:46] Writing configuration file charset.conf
+[2018-08-14 18:55:46] Writing configuration file buflist.conf
+[2018-08-14 18:55:46] Writing configuration file aspell.conf
+[2018-08-14 18:55:46] Writing configuration file alias.conf
+[2018-08-14 18:55:46] Writing configuration file weechat.conf
+[2018-08-14 18:55:46] Writing configuration file sec.conf
+2018-08-21 02:31:23		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2018-08-21 02:31:23		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2018-08-21 02:31:23		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2018-08-21 02:31:23		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 12: unknown section identifier ("debug")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 14: unknown section identifier ("startup")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 15: option outside section: command_after_plugins = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 16: option outside section: command_before_plugins = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 17: option outside section: display_logo = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 18: option outside section: display_version = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 19: option outside section: sys_rlimit = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 22: unknown option for section "look": align_end_of_lines = message
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 23: unknown option for section "look": align_multiline_words = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 24: unknown option for section "look": bar_more_down = "?"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 25: unknown option for section "look": bar_more_left = "?"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 26: unknown option for section "look": bar_more_right = "?"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 27: unknown option for section "look": bar_more_up = "?"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 28: unknown option for section "look": bare_display_exit_on_input = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 29: unknown option for section "look": bare_display_time_format = "%H:%M"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 30: unknown option for section "look": buffer_auto_renumber = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 31: unknown option for section "look": buffer_notify_default = all
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 32: unknown option for section "look": buffer_position = end
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 33: unknown option for section "look": buffer_search_case_sensitive = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 34: unknown option for section "look": buffer_search_force_default = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 35: unknown option for section "look": buffer_search_regex = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 36: unknown option for section "look": buffer_search_where = prefix_message
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 37: unknown option for section "look": buffer_time_format = "${color:252}%I:${color:245}%M"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 38: unknown option for section "look": color_basic_force_bold = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 39: unknown option for section "look": color_inactive_buffer = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 40: unknown option for section "look": color_inactive_message = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 41: unknown option for section "look": color_inactive_prefix = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 42: unknown option for section "look": color_inactive_prefix_buffer = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 43: unknown option for section "look": color_inactive_time = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 44: unknown option for section "look": color_inactive_window = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 45: unknown option for section "look": color_nick_offline = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 46: unknown option for section "look": color_pairs_auto_reset = 5
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 47: unknown option for section "look": color_real_white = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 48: unknown option for section "look": command_chars = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 49: unknown option for section "look": command_incomplete = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 50: unknown option for section "look": confirm_quit = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 51: unknown option for section "look": confirm_upgrade = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 52: unknown option for section "look": day_change = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 53: unknown option for section "look": day_change_message_1date = "-- %a, %d %b %Y --"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 54: unknown option for section "look": day_change_message_2dates = "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 55: unknown option for section "look": eat_newline_glitch = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 56: unknown option for section "look": emphasized_attributes = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 57: unknown option for section "look": highlight = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 58: unknown option for section "look": highlight_regex = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 59: unknown option for section "look": highlight_tags = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 60: unknown option for section "look": hotlist_add_conditions = "${away} || ${buffer.num_displayed} == 0"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 61: unknown option for section "look": hotlist_buffer_separator = ", "
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 62: unknown option for section "look": hotlist_count_max = 2
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 63: unknown option for section "look": hotlist_count_min_msg = 2
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 64: unknown option for section "look": hotlist_names_count = 3
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 65: unknown option for section "look": hotlist_names_length = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 66: unknown option for section "look": hotlist_names_level = 12
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 67: unknown option for section "look": hotlist_names_merged_buffers = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 68: unknown option for section "look": hotlist_prefix = "H: "
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 69: unknown option for section "look": hotlist_remove = merged
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 70: unknown option for section "look": hotlist_short_names = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 71: unknown option for section "look": hotlist_sort = group_time_asc
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 72: unknown option for section "look": hotlist_suffix = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 73: unknown option for section "look": hotlist_unique_numbers = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 74: unknown option for section "look": input_cursor_scroll = 20
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 75: unknown option for section "look": input_share = none
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 76: unknown option for section "look": input_share_overwrite = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 77: unknown option for section "look": input_undo_max = 32
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 78: unknown option for section "look": item_away_message = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 79: unknown option for section "look": item_buffer_filter = "?"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 80: unknown option for section "look": item_buffer_zoom = "!"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 81: unknown option for section "look": item_mouse_status = "M"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 82: unknown option for section "look": item_time_format = "%H:%M"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 83: unknown option for section "look": jump_current_to_previous_buffer = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 84: unknown option for section "look": jump_previous_buffer_when_closing = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 85: unknown option for section "look": jump_smart_back_to_buffer = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 86: unknown option for section "look": key_bind_safe = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 87: unknown option for section "look": key_grab_delay = 800
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 88: unknown option for section "look": mouse = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 89: unknown option for section "look": mouse_timer_delay = 100
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 90: unknown option for section "look": nick_color_force = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 91: unknown option for section "look": nick_color_hash = djb2
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 92: unknown option for section "look": nick_color_stop_chars = "_|["
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 93: unknown option for section "look": nick_prefix = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 94: unknown option for section "look": nick_suffix = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 95: unknown option for section "look": paste_auto_add_newline = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 96: unknown option for section "look": paste_bracketed = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 97: unknown option for section "look": paste_bracketed_timer_delay = 10
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 98: unknown option for section "look": paste_max_lines = 1
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 99: unknown option for section "look": prefix_action = " *"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 100: unknown option for section "look": prefix_align = right
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 101: unknown option for section "look": prefix_align_max = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 102: unknown option for section "look": prefix_align_min = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 103: unknown option for section "look": prefix_align_more = "+"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 104: unknown option for section "look": prefix_align_more_after = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 105: unknown option for section "look": prefix_buffer_align = right
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 106: unknown option for section "look": prefix_buffer_align_max = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 107: unknown option for section "look": prefix_buffer_align_more = "+"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 108: unknown option for section "look": prefix_buffer_align_more_after = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 109: unknown option for section "look": prefix_error = "=!="
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 110: unknown option for section "look": prefix_join = "???"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 111: unknown option for section "look": prefix_network = "--"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 112: unknown option for section "look": prefix_quit = "???"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 113: unknown option for section "look": prefix_same_nick = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 114: unknown option for section "look": prefix_suffix = "?"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 115: unknown option for section "look": quote_nick_prefix = "<"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 116: unknown option for section "look": quote_nick_suffix = ">"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 117: unknown option for section "look": quote_time_format = "%H:%M:%S"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 118: unknown option for section "look": read_marker = line
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 119: unknown option for section "look": read_marker_always_show = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 120: unknown option for section "look": read_marker_string = "?"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 121: unknown option for section "look": save_config_on_exit = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 122: unknown option for section "look": save_config_with_fsync = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 123: unknown option for section "look": save_layout_on_exit = none
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 124: unknown option for section "look": scroll_amount = 3
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 125: unknown option for section "look": scroll_bottom_after_switch = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 126: unknown option for section "look": scroll_page_percent = 100
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 127: unknown option for section "look": search_text_not_found_alert = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 128: unknown option for section "look": separator_horizontal = "-"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 129: unknown option for section "look": separator_vertical = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 130: unknown option for section "look": tab_width = 1
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 131: unknown option for section "look": time_format = "%a, %d %b %Y %T"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 132: unknown option for section "look": window_auto_zoom = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 133: unknown option for section "look": window_separator_horizontal = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 134: unknown option for section "look": window_separator_vertical = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 135: unknown option for section "look": window_title = "WeeChat ${info:version}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 136: unknown option for section "look": word_chars_highlight = "!\u00A0,-,_,|,alnum"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 137: unknown option for section "look": word_chars_input = "!\u00A0,-,_,|,alnum"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 139: unknown section identifier ("palette")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 142: unknown option for section "color": bar_more = lightmagenta
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 143: unknown option for section "color": chat = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 144: unknown option for section "color": chat_bg = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 145: unknown option for section "color": chat_buffer = white
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 146: unknown option for section "color": chat_channel = white
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 147: unknown option for section "color": chat_day_change = cyan
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 148: unknown option for section "color": chat_delimiters = green
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 149: unknown option for section "color": chat_highlight = yellow
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 150: unknown option for section "color": chat_highlight_bg = magenta
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 151: unknown option for section "color": chat_host = cyan
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 152: unknown option for section "color": chat_inactive_buffer = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 153: unknown option for section "color": chat_inactive_window = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 154: unknown option for section "color": chat_nick = lightcyan
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 155: unknown option for section "color": chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 156: unknown option for section "color": chat_nick_offline = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 157: unknown option for section "color": chat_nick_offline_highlight = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 158: unknown option for section "color": chat_nick_offline_highlight_bg = blue
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 159: unknown option for section "color": chat_nick_other = cyan
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 160: unknown option for section "color": chat_nick_prefix = green
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 161: unknown option for section "color": chat_nick_self = white
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 162: unknown option for section "color": chat_nick_suffix = green
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 163: unknown option for section "color": chat_prefix_action = white
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 164: unknown option for section "color": chat_prefix_buffer = brown
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 165: unknown option for section "color": chat_prefix_buffer_inactive_buffer = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 166: unknown option for section "color": chat_prefix_error = yellow
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 167: unknown option for section "color": chat_prefix_join = lightgreen
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 168: unknown option for section "color": chat_prefix_more = lightmagenta
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 169: unknown option for section "color": chat_prefix_network = magenta
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 170: unknown option for section "color": chat_prefix_quit = lightred
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 171: unknown option for section "color": chat_prefix_suffix = green
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 172: unknown option for section "color": chat_read_marker = magenta
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 173: unknown option for section "color": chat_read_marker_bg = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 174: unknown option for section "color": chat_server = brown
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 175: unknown option for section "color": chat_tags = red
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 176: unknown option for section "color": chat_text_found = yellow
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 177: unknown option for section "color": chat_text_found_bg = lightmagenta
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 178: unknown option for section "color": chat_time = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 179: unknown option for section "color": chat_time_delimiters = brown
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 180: unknown option for section "color": chat_value = cyan
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 181: unknown option for section "color": chat_value_null = blue
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 182: unknown option for section "color": emphasized = yellow
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 183: unknown option for section "color": emphasized_bg = magenta
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 184: unknown option for section "color": input_actions = lightgreen
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 185: unknown option for section "color": input_text_not_found = red
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 186: unknown option for section "color": item_away = yellow
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 187: unknown option for section "color": nicklist_away = cyan
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 188: unknown option for section "color": nicklist_group = green
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 189: unknown option for section "color": separator = blue
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 190: unknown option for section "color": status_count_highlight = magenta
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 191: unknown option for section "color": status_count_msg = brown
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 192: unknown option for section "color": status_count_other = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 193: unknown option for section "color": status_count_private = green
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 194: unknown option for section "color": status_data_highlight = lightmagenta
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 195: unknown option for section "color": status_data_msg = yellow
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 196: unknown option for section "color": status_data_other = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 197: unknown option for section "color": status_data_private = lightgreen
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 198: unknown option for section "color": status_filter = green
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 199: unknown option for section "color": status_more = yellow
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 200: unknown option for section "color": status_mouse = green
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 201: unknown option for section "color": status_name = white
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 202: unknown option for section "color": status_name_ssl = lightgreen
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 203: unknown option for section "color": status_nicklist_count = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 204: unknown option for section "color": status_number = yellow
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 205: unknown option for section "color": status_time = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 207: unknown section identifier ("completion")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 208: option outside section: base_word_until_cursor = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 209: option outside section: command_inline = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 210: option outside section: default_template = "%(nicks)|%(irc_channels)"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 211: option outside section: nick_add_space = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 212: option outside section: nick_case_sensitive = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 213: option outside section: nick_completer = ":"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 214: option outside section: nick_first_only = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 215: option outside section: nick_ignore_chars = "[]`_-^"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 216: option outside section: partial_completion_alert = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 217: option outside section: partial_completion_command = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 218: option outside section: partial_completion_command_arg = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 219: option outside section: partial_completion_count = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 220: option outside section: partial_completion_other = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 221: option outside section: partial_completion_templates = "config_options"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 223: unknown section identifier ("history")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 224: option outside section: display_default = 5
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 225: option outside section: max_buffer_lines_minutes = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 226: option outside section: max_buffer_lines_number = 4096
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 227: option outside section: max_commands = 100
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 228: option outside section: max_visited_buffers = 50
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 230: unknown section identifier ("proxy")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 233: unknown option for section "network": connection_timeout = 60
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 234: unknown option for section "network": gnutls_ca_file = "/etc/ssl/certs/ca-certificates.crt"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 235: unknown option for section "network": gnutls_handshake_timeout = 30
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 236: unknown option for section "network": proxy_curl = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 238: unknown section identifier ("plugin")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 239: option outside section: autoload = "*,!lua,!tcl,!fifo,!xfer,!guile,!javascript"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 240: option outside section: debug = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 241: option outside section: extension = ".so,.dll"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 242: option outside section: path = "%h/plugins"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 243: option outside section: save_config_on_unload = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 245: unknown section identifier ("bar")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 246: option outside section: buflist.color_bg = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 247: option outside section: buflist.color_delim = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 248: option outside section: buflist.color_fg = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 249: option outside section: buflist.conditions = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 250: option outside section: buflist.filling_left_right = vertical
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 251: option outside section: buflist.filling_top_bottom = columns_vertical
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 252: option outside section: buflist.hidden = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 253: option outside section: buflist.items = "buflist"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 254: option outside section: buflist.position = left
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 255: option outside section: buflist.priority = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 256: option outside section: buflist.separator = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 257: option outside section: buflist.size = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 258: option outside section: buflist.size_max = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 259: option outside section: buflist.type = root
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 260: option outside section: fset.color_bg = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 261: option outside section: fset.color_delim = cyan
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 262: option outside section: fset.color_fg = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 263: option outside section: fset.conditions = "${buffer.full_name} == fset.fset"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 264: option outside section: fset.filling_left_right = vertical
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 265: option outside section: fset.filling_top_bottom = horizontal
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 266: option outside section: fset.hidden = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 267: option outside section: fset.items = "fset"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 268: option outside section: fset.position = top
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 269: option outside section: fset.priority = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 270: option outside section: fset.separator = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 271: option outside section: fset.size = 3
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 272: option outside section: fset.size_max = 3
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 273: option outside section: fset.type = window
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 274: option outside section: input.color_bg = 8
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 275: option outside section: input.color_delim = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 276: option outside section: input.color_fg = gray
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 277: option outside section: input.conditions = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 278: option outside section: input.filling_left_right = vertical
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 279: option outside section: input.filling_top_bottom = horizontal
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 280: option outside section: input.hidden = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 281: option outside section: input.items = "[buffer_name]+[input_prompt]+(away),[input_search],[input_paste],input_text"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 282: option outside section: input.position = bottom
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 283: option outside section: input.priority = 1000
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 284: option outside section: input.separator = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 285: option outside section: input.size = 1
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 286: option outside section: input.size_max = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 287: option outside section: input.type = root
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 288: option outside section: isetbar.color_bg = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 289: option outside section: isetbar.color_delim = cyan
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 290: option outside section: isetbar.color_fg = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 291: option outside section: isetbar.conditions = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 292: option outside section: isetbar.filling_left_right = vertical
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 293: option outside section: isetbar.filling_top_bottom = horizontal
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 294: option outside section: isetbar.hidden = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 295: option outside section: isetbar.items = "isetbar_help"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 296: option outside section: isetbar.position = top
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 297: option outside section: isetbar.priority = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 298: option outside section: isetbar.separator = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 299: option outside section: isetbar.size = 3
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 300: option outside section: isetbar.size_max = 3
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 301: option outside section: isetbar.type = window
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 302: option outside section: nicklist.color_bg = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 303: option outside section: nicklist.color_delim = cyan
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 304: option outside section: nicklist.color_fg = gray
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 305: option outside section: nicklist.conditions = "${nicklist} && ${window.number} == 1 && ${buffer.full_name} !~ ^irc.freenode.(#newsbin|##news)$"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 306: option outside section: nicklist.filling_left_right = vertical
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 307: option outside section: nicklist.filling_top_bottom = columns_vertical
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 308: option outside section: nicklist.hidden = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 309: option outside section: nicklist.items = "buffer_nicklist"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 310: option outside section: nicklist.position = right
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 311: option outside section: nicklist.priority = 200
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 312: option outside section: nicklist.separator = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 313: option outside section: nicklist.size = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 314: option outside section: nicklist.size_max = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 315: option outside section: nicklist.type = window
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 316: option outside section: status.color_bg = 234
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 317: option outside section: status.color_delim = default
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 318: option outside section: status.color_fg = 31
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 319: option outside section: status.conditions = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 320: option outside section: status.filling_left_right = vertical
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 321: option outside section: status.filling_top_bottom = horizontal
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 322: option outside section: status.hidden = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 323: option outside section: status.items = "[time],[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_filter,[bitlbee_typing_notice],[lag],[aspell_dict],[aspell_suggest],completion,scroll"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 324: option outside section: status.position = bottom
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 325: option outside section: status.priority = 500
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 326: option outside section: status.separator = on
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 327: option outside section: status.size = 1
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 328: option outside section: status.size_max = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 329: option outside section: status.type = root
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 330: option outside section: title.color_bg = 234
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 331: option outside section: title.color_delim = cyan
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 332: option outside section: title.color_fg = gray
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 333: option outside section: title.conditions = ""
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 334: option outside section: title.filling_left_right = vertical
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 335: option outside section: title.filling_top_bottom = horizontal
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 336: option outside section: title.hidden = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 337: option outside section: title.items = "buffer_title"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 338: option outside section: title.position = top
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 339: option outside section: title.priority = 500
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 340: option outside section: title.separator = off
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 341: option outside section: title.size = 1
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 342: option outside section: title.size_max = 0
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 343: option outside section: title.type = window
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 345: unknown section identifier ("layout")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 346: option outside section: _zoom.window = "1;0;0;0;irc;server.freenode"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 348: unknown section identifier ("notify")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 350: unknown section identifier ("filter")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 351: option outside section: irc_smart = on;*;irc_smart_filter;*
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 353: unknown section identifier ("key")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 354: option outside section: ctrl-? = "/input delete_previous_char"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 355: option outside section: ctrl-A = "/input move_beginning_of_line"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 356: option outside section: ctrl-B = "/input move_previous_char"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 357: option outside section: ctrl-C_ = "/input insert \x1F"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 358: option outside section: ctrl-Cb = "/input insert \x02"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 359: option outside section: ctrl-Cc = "/input insert \x03"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 360: option outside section: ctrl-Ci = "/input insert \x1D"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 361: option outside section: ctrl-Co = "/input insert \x0F"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 362: option outside section: ctrl-Cv = "/input insert \x16"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 363: option outside section: ctrl-D = "/input delete_next_char"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 364: option outside section: ctrl-E = "/input move_end_of_line"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 365: option outside section: ctrl-F = "/input move_next_char"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 366: option outside section: ctrl-H = "/input delete_previous_char"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 367: option outside section: ctrl-I = "/input complete_next"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 368: option outside section: ctrl-J = "/input return"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 369: option outside section: ctrl-K = "/input delete_end_of_line"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 370: option outside section: ctrl-L = "/window refresh"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 371: option outside section: ctrl-M = "/input return"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 372: option outside section: ctrl-N = "/buffer +1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 373: option outside section: ctrl-P = "/buffer -1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 374: option outside section: ctrl-R = "/input search_text_here"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 375: option outside section: ctrl-Sctrl-U = "/input set_unread"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 376: option outside section: ctrl-T = "/input transpose_chars"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 377: option outside section: ctrl-U = "/input delete_beginning_of_line"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 378: option outside section: ctrl-W = "/input delete_previous_word"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 379: option outside section: ctrl-X = "/input switch_active_buffer"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 380: option outside section: ctrl-Y = "/input clipboard_paste"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 381: option outside section: meta-meta-OP = "/bar scroll buflist * b"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 382: option outside section: meta-meta-OQ = "/bar scroll buflist * e"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 383: option outside section: meta-meta2-1~ = "/window scroll_top"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 384: option outside section: meta-meta2-23~ = "/bar scroll nicklist * b"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 385: option outside section: meta-meta2-24~ = "/bar scroll nicklist * e"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 386: option outside section: meta-meta2-4~ = "/window scroll_bottom"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 387: option outside section: meta-meta2-5~ = "/window scroll_up"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 388: option outside section: meta-meta2-6~ = "/window scroll_down"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 389: option outside section: meta-meta2-7~ = "/window scroll_top"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 390: option outside section: meta-meta2-8~ = "/window scroll_bottom"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 391: option outside section: meta-meta2-A = "/buffer -1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 392: option outside section: meta-meta2-B = "/buffer +1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 393: option outside section: meta-meta2-C = "/buffer +1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 394: option outside section: meta-meta2-D = "/buffer -1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 395: option outside section: meta-- = "/filter toggle @"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 396: option outside section: meta-/ = "/input jump_last_buffer_displayed"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 397: option outside section: meta-0 = "/buffer *10"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 398: option outside section: meta-1 = "/buffer *1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 399: option outside section: meta-2 = "/buffer *2"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 400: option outside section: meta-3 = "/buffer *3"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 401: option outside section: meta-4 = "/buffer *4"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 402: option outside section: meta-5 = "/buffer *5"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 403: option outside section: meta-6 = "/buffer *6"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 404: option outside section: meta-7 = "/buffer *7"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 405: option outside section: meta-8 = "/buffer *8"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 406: option outside section: meta-9 = "/buffer *9"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 407: option outside section: meta-< = "/input jump_previously_visited_buffer"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 408: option outside section: meta-= = "/filter toggle"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 409: option outside section: meta-> = "/input jump_next_visited_buffer"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 410: option outside section: meta-OA = "/input history_global_previous"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 411: option outside section: meta-OB = "/input history_global_next"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 412: option outside section: meta-OC = "/input move_next_word"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 413: option outside section: meta-OD = "/input move_previous_word"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 414: option outside section: meta-OF = "/input move_end_of_line"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 415: option outside section: meta-OH = "/input move_beginning_of_line"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 416: option outside section: meta-OP = "/bar scroll buflist * -100%"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 417: option outside section: meta-OQ = "/bar scroll buflist * +100%"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 418: option outside section: meta-Oa = "/input history_global_previous"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 419: option outside section: meta-Ob = "/input history_global_next"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 420: option outside section: meta-Oc = "/input move_next_word"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 421: option outside section: meta-Od = "/input move_previous_word"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 422: option outside section: meta2-15~ = "/buffer -1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 423: option outside section: meta2-17~ = "/buffer +1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 424: option outside section: meta2-18~ = "/window -1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 425: option outside section: meta2-19~ = "/window +1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 426: option outside section: meta2-1;3A = "/buffer -1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 427: option outside section: meta2-1;3B = "/buffer +1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 428: option outside section: meta2-1;3C = "/buffer +1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 429: option outside section: meta2-1;3D = "/buffer -1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 430: option outside section: meta2-1;3F = "/window scroll_bottom"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 431: option outside section: meta2-1;3H = "/window scroll_top"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 432: option outside section: meta2-1;5A = "/input history_global_previous"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 433: option outside section: meta2-1;5B = "/input history_global_next"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 434: option outside section: meta2-1;5C = "/input move_next_word"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 435: option outside section: meta2-1;5D = "/input move_previous_word"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 436: option outside section: meta2-1~ = "/input move_beginning_of_line"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 437: option outside section: meta2-200~ = "/input paste_start"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 438: option outside section: meta2-201~ = "/input paste_stop"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 439: option outside section: meta2-20~ = "/bar scroll title * -30%"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 440: option outside section: meta2-21~ = "/bar scroll title * +30%"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 441: option outside section: meta2-23;3~ = "/bar scroll nicklist * b"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 442: option outside section: meta2-23~ = "/bar scroll nicklist * -100%"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 443: option outside section: meta2-24;3~ = "/bar scroll nicklist * e"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 444: option outside section: meta2-24~ = "/bar scroll nicklist * +100%"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 445: option outside section: meta2-3~ = "/input delete_next_char"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 446: option outside section: meta2-4~ = "/input move_end_of_line"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 447: option outside section: meta2-5;3~ = "/window scroll_up"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 448: option outside section: meta2-5~ = "/window page_up"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 449: option outside section: meta2-6;3~ = "/window scroll_down"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 450: option outside section: meta2-6~ = "/window page_down"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 451: option outside section: meta2-7~ = "/input move_beginning_of_line"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 452: option outside section: meta2-8~ = "/input move_end_of_line"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 453: option outside section: meta2-A = "/input history_previous"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 454: option outside section: meta2-B = "/input history_next"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 455: option outside section: meta2-C = "/input move_next_char"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 456: option outside section: meta2-D = "/input move_previous_char"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 457: option outside section: meta2-F = "/input move_end_of_line"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 458: option outside section: meta2-G = "/window page_down"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 459: option outside section: meta2-H = "/input move_beginning_of_line"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 460: option outside section: meta2-I = "/window page_up"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 461: option outside section: meta2-Z = "/input complete_previous"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 462: option outside section: meta2-[E = "/buffer -1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 463: option outside section: meta-_ = "/input redo"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 464: option outside section: meta-a = "/input jump_smart"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 465: option outside section: meta-b = "/input move_previous_word"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 466: option outside section: meta-d = "/input delete_next_word"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 467: option outside section: meta-f = "/input move_next_word"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 468: option outside section: meta-h = "/input hotlist_clear"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 469: option outside section: meta-jmeta-f = "/buffer -"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 470: option outside section: meta-jmeta-l = "/buffer +"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 471: option outside section: meta-jmeta-r = "/server raw"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 472: option outside section: meta-jmeta-s = "/server jump"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 473: option outside section: meta-j01 = "/buffer *1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 474: option outside section: meta-j02 = "/buffer *2"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 475: option outside section: meta-j03 = "/buffer *3"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 476: option outside section: meta-j04 = "/buffer *4"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 477: option outside section: meta-j05 = "/buffer *5"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 478: option outside section: meta-j06 = "/buffer *6"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 479: option outside section: meta-j07 = "/buffer *7"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 480: option outside section: meta-j08 = "/buffer *8"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 481: option outside section: meta-j09 = "/buffer *9"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 482: option outside section: meta-j10 = "/buffer *10"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 483: option outside section: meta-j11 = "/buffer *11"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 484: option outside section: meta-j12 = "/buffer *12"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 485: option outside section: meta-j13 = "/buffer *13"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 486: option outside section: meta-j14 = "/buffer *14"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 487: option outside section: meta-j15 = "/buffer *15"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 488: option outside section: meta-j16 = "/buffer *16"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 489: option outside section: meta-j17 = "/buffer *17"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 490: option outside section: meta-j18 = "/buffer *18"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 491: option outside section: meta-j19 = "/buffer *19"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 492: option outside section: meta-j20 = "/buffer *20"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 493: option outside section: meta-j21 = "/buffer *21"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 494: option outside section: meta-j22 = "/buffer *22"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 495: option outside section: meta-j23 = "/buffer *23"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 496: option outside section: meta-j24 = "/buffer *24"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 497: option outside section: meta-j25 = "/buffer *25"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 498: option outside section: meta-j26 = "/buffer *26"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 499: option outside section: meta-j27 = "/buffer *27"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 500: option outside section: meta-j28 = "/buffer *28"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 501: option outside section: meta-j29 = "/buffer *29"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 502: option outside section: meta-j30 = "/buffer *30"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 503: option outside section: meta-j31 = "/buffer *31"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 504: option outside section: meta-j32 = "/buffer *32"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 505: option outside section: meta-j33 = "/buffer *33"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 506: option outside section: meta-j34 = "/buffer *34"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 507: option outside section: meta-j35 = "/buffer *35"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 508: option outside section: meta-j36 = "/buffer *36"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 509: option outside section: meta-j37 = "/buffer *37"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 510: option outside section: meta-j38 = "/buffer *38"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 511: option outside section: meta-j39 = "/buffer *39"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 512: option outside section: meta-j40 = "/buffer *40"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 513: option outside section: meta-j41 = "/buffer *41"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 514: option outside section: meta-j42 = "/buffer *42"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 515: option outside section: meta-j43 = "/buffer *43"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 516: option outside section: meta-j44 = "/buffer *44"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 517: option outside section: meta-j45 = "/buffer *45"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 518: option outside section: meta-j46 = "/buffer *46"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 519: option outside section: meta-j47 = "/buffer *47"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 520: option outside section: meta-j48 = "/buffer *48"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 521: option outside section: meta-j49 = "/buffer *49"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 522: option outside section: meta-j50 = "/buffer *50"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 523: option outside section: meta-j51 = "/buffer *51"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 524: option outside section: meta-j52 = "/buffer *52"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 525: option outside section: meta-j53 = "/buffer *53"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 526: option outside section: meta-j54 = "/buffer *54"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 527: option outside section: meta-j55 = "/buffer *55"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 528: option outside section: meta-j56 = "/buffer *56"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 529: option outside section: meta-j57 = "/buffer *57"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 530: option outside section: meta-j58 = "/buffer *58"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 531: option outside section: meta-j59 = "/buffer *59"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 532: option outside section: meta-j60 = "/buffer *60"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 533: option outside section: meta-j61 = "/buffer *61"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 534: option outside section: meta-j62 = "/buffer *62"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 535: option outside section: meta-j63 = "/buffer *63"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 536: option outside section: meta-j64 = "/buffer *64"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 537: option outside section: meta-j65 = "/buffer *65"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 538: option outside section: meta-j66 = "/buffer *66"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 539: option outside section: meta-j67 = "/buffer *67"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 540: option outside section: meta-j68 = "/buffer *68"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 541: option outside section: meta-j69 = "/buffer *69"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 542: option outside section: meta-j70 = "/buffer *70"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 543: option outside section: meta-j71 = "/buffer *71"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 544: option outside section: meta-j72 = "/buffer *72"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 545: option outside section: meta-j73 = "/buffer *73"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 546: option outside section: meta-j74 = "/buffer *74"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 547: option outside section: meta-j75 = "/buffer *75"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 548: option outside section: meta-j76 = "/buffer *76"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 549: option outside section: meta-j77 = "/buffer *77"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 550: option outside section: meta-j78 = "/buffer *78"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 551: option outside section: meta-j79 = "/buffer *79"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 552: option outside section: meta-j80 = "/buffer *80"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 553: option outside section: meta-j81 = "/buffer *81"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 554: option outside section: meta-j82 = "/buffer *82"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 555: option outside section: meta-j83 = "/buffer *83"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 556: option outside section: meta-j84 = "/buffer *84"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 557: option outside section: meta-j85 = "/buffer *85"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 558: option outside section: meta-j86 = "/buffer *86"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 559: option outside section: meta-j87 = "/buffer *87"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 560: option outside section: meta-j88 = "/buffer *88"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 561: option outside section: meta-j89 = "/buffer *89"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 562: option outside section: meta-j90 = "/buffer *90"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 563: option outside section: meta-j91 = "/buffer *91"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 564: option outside section: meta-j92 = "/buffer *92"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 565: option outside section: meta-j93 = "/buffer *93"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 566: option outside section: meta-j94 = "/buffer *94"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 567: option outside section: meta-j95 = "/buffer *95"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 568: option outside section: meta-j96 = "/buffer *96"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 569: option outside section: meta-j97 = "/buffer *97"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 570: option outside section: meta-j98 = "/buffer *98"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 571: option outside section: meta-j99 = "/buffer *99"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 572: option outside section: meta-k = "/input grab_key_command"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 573: option outside section: meta-l = "/window bare"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 574: option outside section: meta-m = "/mute mouse toggle"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 575: option outside section: meta-n = "/window scroll_next_highlight"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 576: option outside section: meta-p = "/window scroll_previous_highlight"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 577: option outside section: meta-r = "/input delete_line"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 578: option outside section: meta-s = "/mute aspell toggle"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 579: option outside section: meta-u = "/window scroll_unread"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 580: option outside section: meta-wmeta-meta2-A = "/window up"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 581: option outside section: meta-wmeta-meta2-B = "/window down"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 582: option outside section: meta-wmeta-meta2-C = "/window right"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 583: option outside section: meta-wmeta-meta2-D = "/window left"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 584: option outside section: meta-wmeta2-1;3A = "/window up"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 585: option outside section: meta-wmeta2-1;3B = "/window down"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 586: option outside section: meta-wmeta2-1;3C = "/window right"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 587: option outside section: meta-wmeta2-1;3D = "/window left"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 588: option outside section: meta-wmeta-b = "/window balance"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 589: option outside section: meta-wmeta-s = "/window swap"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 590: option outside section: meta-x = "/input zoom_merged_buffer"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 591: option outside section: meta-z = "/window zoom"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 592: option outside section: ctrl-_ = "/input undo"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 594: unknown section identifier ("key_search")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 595: option outside section: ctrl-I = "/input search_switch_where"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 596: option outside section: ctrl-J = "/input search_stop_here"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 597: option outside section: ctrl-M = "/input search_stop_here"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 598: option outside section: ctrl-Q = "/input search_stop"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 599: option outside section: ctrl-R = "/input search_switch_regex"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 600: option outside section: meta2-A = "/input search_previous"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 601: option outside section: meta2-B = "/input search_next"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 602: option outside section: meta-c = "/input search_switch_case"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 604: unknown section identifier ("key_cursor")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 605: option outside section: ctrl-J = "/cursor stop"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 606: option outside section: ctrl-M = "/cursor stop"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 607: option outside section: meta-meta2-A = "/cursor move area_up"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 608: option outside section: meta-meta2-B = "/cursor move area_down"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 609: option outside section: meta-meta2-C = "/cursor move area_right"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 610: option outside section: meta-meta2-D = "/cursor move area_left"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 611: option outside section: meta2-1;3A = "/cursor move area_up"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 612: option outside section: meta2-1;3B = "/cursor move area_down"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 613: option outside section: meta2-1;3C = "/cursor move area_right"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 614: option outside section: meta2-1;3D = "/cursor move area_left"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 615: option outside section: meta2-A = "/cursor move up"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 616: option outside section: meta2-B = "/cursor move down"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 617: option outside section: meta2-C = "/cursor move right"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 618: option outside section: meta2-D = "/cursor move left"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 619: option outside section: @item(buffer_nicklist):K = "/window ${_window_number};/kickban ${nick}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 620: option outside section: @item(buffer_nicklist):b = "/window ${_window_number};/ban ${nick}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 621: option outside section: @item(buffer_nicklist):k = "/window ${_window_number};/kick ${nick}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 622: option outside section: @item(buffer_nicklist):q = "/window ${_window_number};/query ${nick};/cursor stop"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 623: option outside section: @item(buffer_nicklist):w = "/window ${_window_number};/whois ${nick}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 624: option outside section: @chat:Q = "hsignal:chat_quote_time_prefix_message;/cursor stop"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 625: option outside section: @chat:m = "hsignal:chat_quote_message;/cursor stop"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 626: option outside section: @chat:q = "hsignal:chat_quote_prefix_message;/cursor stop"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 628: unknown section identifier ("key_mouse")
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 629: option outside section: @bar(buflist):ctrl-wheeldown = "hsignal:buflist_mouse"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 630: option outside section: @bar(buflist):ctrl-wheelup = "hsignal:buflist_mouse"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 631: option outside section: @bar(input):button2 = "/input grab_mouse_area"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 632: option outside section: @bar(nicklist):button1-gesture-down = "/bar scroll nicklist ${_window_number} +100%"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 633: option outside section: @bar(nicklist):button1-gesture-down-long = "/bar scroll nicklist ${_window_number} e"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 634: option outside section: @bar(nicklist):button1-gesture-up = "/bar scroll nicklist ${_window_number} -100%"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 635: option outside section: @bar(nicklist):button1-gesture-up-long = "/bar scroll nicklist ${_window_number} b"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 636: option outside section: @chat(fset.fset):button1 = "/window ${_window_number};/fset -go ${_chat_line_y}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 637: option outside section: @chat(fset.fset):button2* = "hsignal:fset_mouse"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 638: option outside section: @chat(fset.fset):wheeldown = "/fset -down 5"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 639: option outside section: @chat(fset.fset):wheelup = "/fset -up 5"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 640: option outside section: @chat(perl.iset):button1 = "hsignal:iset_mouse"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 641: option outside section: @chat(perl.iset):button2* = "hsignal:iset_mouse"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 642: option outside section: @chat(perl.iset):wheeldown = "/repeat 5 /iset **down"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 643: option outside section: @chat(perl.iset):wheelup = "/repeat 5 /iset **up"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 644: option outside section: @chat(script.scripts):button1 = "/window ${_window_number};/script go ${_chat_line_y}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 645: option outside section: @chat(script.scripts):button2 = "/window ${_window_number};/script go ${_chat_line_y};/script installremove -q ${script_name_with_extension}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 646: option outside section: @chat(script.scripts):wheeldown = "/script down 5"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 647: option outside section: @chat(script.scripts):wheelup = "/script up 5"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 648: option outside section: @item(buffer_nicklist):button1 = "/window ${_window_number};/query ${nick}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 649: option outside section: @item(buffer_nicklist):button1-gesture-left = "/window ${_window_number};/kick ${nick}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 650: option outside section: @item(buffer_nicklist):button1-gesture-left-long = "/window ${_window_number};/kickban ${nick}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 651: option outside section: @item(buffer_nicklist):button2 = "/window ${_window_number};/whois ${nick}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 652: option outside section: @item(buffer_nicklist):button2-gesture-left = "/window ${_window_number};/ban ${nick}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 653: option outside section: @item(buflist):button1* = "hsignal:buflist_mouse"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 654: option outside section: @item(buflist):button2* = "hsignal:buflist_mouse"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 655: option outside section: @item(buflist2):button1* = "hsignal:buflist_mouse"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 656: option outside section: @item(buflist2):button2* = "hsignal:buflist_mouse"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 657: option outside section: @item(buflist3):button1* = "hsignal:buflist_mouse"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 658: option outside section: @item(buflist3):button2* = "hsignal:buflist_mouse"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 659: option outside section: @bar:wheeldown = "/bar scroll ${_bar_name} ${_window_number} +20%"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 660: option outside section: @bar:wheelup = "/bar scroll ${_bar_name} ${_window_number} -20%"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 661: option outside section: @chat:button1 = "/window ${_window_number}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 662: option outside section: @chat:button1-gesture-left = "/window ${_window_number};/buffer -1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 663: option outside section: @chat:button1-gesture-left-long = "/window ${_window_number};/buffer 1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 664: option outside section: @chat:button1-gesture-right = "/window ${_window_number};/buffer +1"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 665: option outside section: @chat:button1-gesture-right-long = "/window ${_window_number};/input jump_last_buffer"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 666: option outside section: @chat:ctrl-wheeldown = "/window scroll_horiz -window ${_window_number} +10%"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 667: option outside section: @chat:ctrl-wheelup = "/window scroll_horiz -window ${_window_number} -10%"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 668: option outside section: @chat:wheeldown = "/window scroll_down -window ${_window_number}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 669: option outside section: @chat:wheelup = "/window scroll_up -window ${_window_number}"
+2018-08-21 02:31:23	=!=	Warning: /home/michael/.weechat/xfer.conf, line 670: option outside section: @*:button3 = "/cursor go ${_x},${_y}"
+2018-08-21 02:31:23		script: 346 scripts for WeeChat 2.2
+2018-08-21 02:31:23		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-08-21 02:51:37		script: 346 scripts for WeeChat 2.2
+2018-08-21 02:51:37		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-08-21 02:53:02		script: 346 scripts for WeeChat 2.2
+2018-08-21 02:53:02		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-08-21 13:37:01		script: 346 scripts for WeeChat 2.2
+2018-08-21 13:37:01		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-08-22 15:36:21		script: downloading list of scripts...
+2018-08-22 15:36:21		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-08-22 15:36:22		script: 346 scripts for WeeChat 2.2
+2018-08-24 22:21:09		script: downloading list of scripts...
+2018-08-24 22:21:09		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2018-08-24 22:21:10		script: 346 scripts for WeeChat 2.2
+2018-10-08 21:34:17		script: downloading list of scripts...
+2018-10-08 21:34:17		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-10-08 21:34:18		script: 357 scripts for WeeChat 2.2
+2018-10-08 21:34:23	=!=	irc: unable to add temporary server "freenode" because the addition of temporary servers with command /connect is currently disabled
+2018-10-08 21:34:23	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-10-09 20:24:38		script: 357 scripts for WeeChat 2.2
+2018-10-09 20:24:38		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2018-10-09 20:24:43	=!=	irc: unable to add temporary server "irc.freenode.net" because the addition of temporary servers with command /connect is currently disabled
+2018-10-09 20:24:43	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-10-09 20:24:55		irc: server irc.freenode.net added
+2018-10-09 20:25:00	=!=	irc: unable to add temporary server "freenode" because the addition of temporary servers with command /connect is currently disabled
+2018-10-09 20:25:00	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2018-10-09 20:25:18		Option changed: irc.look.temporary_servers = on  (default: off)
+2019-05-01 17:08:33		New key binding (context "default"): meta2-1;5P => /bar scroll buflist * -100%
+2019-05-01 17:08:33		New key binding (context "default"): meta2-1;5Q => /bar scroll buflist * +100%
+2019-05-01 17:08:33		New key binding (context "default"): meta2-1;3Q => /bar scroll buflist * e
+2019-05-01 17:08:33		New key binding (context "default"): meta2-1;3P => /bar scroll buflist * b
+2019-05-01 17:08:33		New key binding (context "default"): meta-meta2-12~ => /bar scroll buflist * e
+2019-05-01 17:08:33		New key binding (context "default"): meta-meta2-11~ => /bar scroll buflist * b
+2019-05-01 17:08:33		New key binding (context "default"): meta2-12^ => /bar scroll buflist * +100%
+2019-05-01 17:08:33		New key binding (context "default"): meta2-12~ => /bar scroll buflist * +100%
+2019-05-01 17:08:33		New key binding (context "default"): meta2-11^ => /bar scroll buflist * -100%
+2019-05-01 17:08:33		New key binding (context "default"): meta2-11~ => /bar scroll buflist * -100%
+2019-05-01 17:08:34		script: downloading list of scripts...
+2019-05-01 17:08:34		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2019-05-01 17:08:40		script: 359 scripts for WeeChat 2.4
+2019-05-01 17:12:34		script: 359 scripts for WeeChat 2.4
+2019-05-01 17:12:34		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2019-05-01 17:13:47	=!=	irc: command "part" must be executed on connected irc server
+2019-05-01 17:13:50	=!=	irc: command "part" must be executed on connected irc server
+2019-05-01 17:15:59	=!=	irc: command "part" must be executed on connected irc server
+2019-05-01 17:16:04		irc: server irc.freenode.org added (temporary server, NOT SAVED!)
+2019-05-01 18:24:37	=!=	irc: already connected to server "irc.freenode.org"!
+2019-05-01 18:24:50	=!=	Error: unknown command "/jon" (type /help for help)
+2019-05-01 21:29:18		script: 359 scripts for WeeChat 2.4
+2019-05-01 21:29:18		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2019-05-01 21:29:43		irc: server irc.freenode.org added (temporary server, NOT SAVED!)
+2019-05-02 18:42:34	=!=	irc: already connected to server "irc.freenode.org"!
+2019-05-02 18:42:48		script: downloading list of scripts...
+2019-05-02 18:42:48		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2019-05-02 18:42:55		script: 359 scripts for WeeChat 2.4
+2019-05-02 18:43:15		irc: server irc.freenode.org added (temporary server, NOT SAVED!)
+2019-05-05 18:08:55		script: downloading list of scripts...
+2019-05-05 18:08:55		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2019-05-05 18:09:01		script: 359 scripts for WeeChat 2.4
+2019-05-11 15:44:50		script: downloading list of scripts...
+2019-05-11 15:44:50		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2019-05-11 15:44:56		script: 359 scripts for WeeChat 2.4
+2019-05-11 15:45:05		script: 359 scripts for WeeChat 2.4
+2019-05-11 15:45:05		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2019-05-11 15:45:29	=!=	Error: unknown command "/ext" (type /help for help)
+2019-05-19 14:49:06		script: downloading list of scripts...
+2019-05-19 14:49:06		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, trigger, xfer
+2019-05-19 14:49:12		script: 359 scripts for WeeChat 2.4
+2019-05-19 14:49:14		irc: server irc.freenode.org added (temporary server, NOT SAVED!)
+2019-05-19 14:49:56		irc: server #archlinux added (temporary server, NOT SAVED!)
+2019-05-19 14:50:19		Mouse is disabled
+2019-05-19 14:50:24		Mouse enabled
+2019-07-06 16:47:50	=!=	spell: warning: the plugin "aspell" has been renamed to "spell" and the file /home/michael/.weechat/aspell.conf still exists (but not /home/michael/.weechat/spell.conf); if you upgraded from an older version, you should check instructions in release notes (version 2.5) to recover your settings
+2019-07-06 16:47:50	=!=	Warning: /home/michael/.weechat/xfer.conf, line 34: unknown option for section "network": speed_limit = 0
+2019-07-06 16:47:50		script: downloading list of scripts...
+2019-07-06 16:47:50		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, spell, trigger, xfer
+2019-07-06 16:47:56		script: 363 scripts for WeeChat 2.5
+2019-07-06 16:48:02		irc: server irc.freenode.org added (temporary server, NOT SAVED!)
+2019-07-06 16:48:38		irc: server #archlinux added (temporary server, NOT SAVED!)
+2019-07-22 20:49:57		script: downloading list of scripts...
+2019-07-22 20:49:57		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, lua, perl, python, relay, ruby, script, spell, trigger, xfer
+2019-07-22 20:50:03		script: 363 scripts for WeeChat 2.5
+2019-07-22 20:50:22		irc: server irc.freenode.org added (temporary server, NOT SAVED!)
+2019-07-22 20:50:50	=!=	Error with command "/buffer closer" (help on command: /help buffer)
+2019-07-22 20:51:03	=!=	Error: unknown command "/jon" (type /help for help)
+2019-07-22 20:51:05	=!=	Error with command "/join" (help on command: /help join)
+2019-07-22 20:52:38	=!=	Error: unknown command "/stop" (type /help for help)
+2019-07-22 20:52:56		irc: server chat.freenode.net added (temporary server, NOT SAVED!)
+2020-02-26 19:06:35	=!=	Warning: /home/michael/.weechat/irc.conf, line 91: unknown option for section "network": channel_encode = off
+2020-02-26 19:06:35		script: downloading list of scripts...
+2020-02-26 19:06:35		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, spell, tcl, trigger, xfer

@@ -1,0 +1,523 @@
+2019-07-22 20:53:28	-->	MikeFromIT (~michael@99-100-120-110.lightspeed.stlsmo.sbcglobal.net) has joined #archlinux
+2019-07-22 20:53:28	--	Topic for #archlinux is "Welcome to Arch Linux, Good Luck: https://archlinux.org | Rules: https://goo.gl/XWFreH | Pastebins: see !paste | https://i.imgflip.com/nwm8q.jpg | Happy 17th birthday Arch - may you have the great feature of many more broken installations"
+2019-07-22 20:53:28	--	Topic set by alad (~alad@archlinux/trusteduser/alad) on Mon, 11 Mar 2019 10:44:32
+2019-07-22 20:53:28	--	Channel #archlinux: 1724 nicks (1 op, 0 voices, 1723 normals)
+2019-07-22 20:53:30	--	Channel created on Sat, 14 Feb 2004 23:08:31
+2019-07-22 20:53:50	-->	bigrick (~bigrick@66.208.156.194) has joined #archlinux
+2019-07-22 20:54:51	The0x539	yes
+2019-07-22 20:55:13	The0x539	specifically it does so because you copied it
+2019-07-22 20:55:30	-->	zzeroo (~zzeroo@p50999e88.dip0.t-ipconnect.de) has joined #archlinux
+2019-07-22 20:55:36	The0x539	under no circumstances will it try to make a hard link and end up copying, it'll just say "yo this can't be done across a filesystem boundary"
+2019-07-22 20:56:11	<--	flippy (~jerwin@unaffiliated/flippy) has quit (Quit: WeeChat 2.5)
+2019-07-22 20:56:16	<--	ChucklesTheBeard (~ChucklesT@2001:19f0:300:6226:5400:ff:fe05:2bdb) has quit (Quit: ZNC crashed)
+2019-07-22 20:56:30	-->	ChucklesTheBeard (~ChucklesT@2001:19f0:300:6226:5400:ff:fe05:2bdb) has joined #archlinux
+2019-07-22 20:57:45	bigrick	ok I'm having some serious dns weirdness and need to get this out there. How can `dig` successfully get responses from my home dns server (10.0.0.20) while I'm not home? I don't even have an IP address on the 10.0.0.0/8 network. I created a paste of the issue: https://bhh.sh/5j3
+2019-07-22 20:57:47	phrik	Title: PrivateBin (at bhh.sh)
+2019-07-22 20:57:57	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 245 seconds)
+2019-07-22 20:58:04	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-22 20:58:07	-->	kts (~kts@103.73.236.200) has joined #archlinux
+2019-07-22 20:59:00	MoziM	The0x539: any idea why something like this https://github.com/laurent22/rsync-time-backup/blob/master/rsync_tmbackup.sh could cause such headaches when manually deleting said backups? i've been reading it for the past hour but i can't think of a valid reason why the usb drive is listed as full even after i delete X amount of backup files
+2019-07-22 20:59:01	phrik	Title: rsync-time-backup/rsync_tmbackup.sh at master ? laurent22/rsync-time-backup ? GitHub (at github.com)
+2019-07-22 20:59:12	<--	mrbanie (~mrbanie@unaffiliated/mrbanie) has quit (Ping timeout: 272 seconds)
+2019-07-22 20:59:30	<--	raijin (~raijin@unaffiliated/raijin) has quit (Ping timeout: 248 seconds)
+2019-07-22 21:00:00	-->	raijin (~raijin@unaffiliated/raijin) has joined #archlinux
+2019-07-22 21:00:45	-->	mrbanie (~mrbanie@unaffiliated/mrbanie) has joined #archlinux
+2019-07-22 21:01:21	The0x539	so other tools also still say the drive is full?
+2019-07-22 21:02:00	-->	flippy (~jerwin@unaffiliated/flippy) has joined #archlinux
+2019-07-22 21:03:10	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-22 21:04:03	-->	Kilroo (~Kilroo@173.94.24.151) has joined #archlinux
+2019-07-22 21:04:54	<--	tschan (~tschan@p57A8615F.dip0.t-ipconnect.de) has quit (Ping timeout: 272 seconds)
+2019-07-22 21:05:33	MoziM	yes
+2019-07-22 21:05:38	MoziM	i can't even delete my trash bin
+2019-07-22 21:05:38	The0x539	hmm
+2019-07-22 21:05:48	MoziM	which contains a bunch of files from the usb drive i tried to delete
+2019-07-22 21:05:51	The0x539	what does ncdu or something similar say
+2019-07-22 21:05:54	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 248 seconds)
+2019-07-22 21:06:04	The0x539	what's a trash bin; that's not a filesystem concept
+2019-07-22 21:06:13	MoziM	ncdu?
+2019-07-22 21:06:24	The0x539	terminal disk-usage tool, I'm fond of it
+2019-07-22 21:06:31	The0x539	short for "ncurses disk usage"
+2019-07-22 21:06:32	MoziM	by trashbin i guess i mean .local/share/Trash/
+2019-07-22 21:06:41	raijin	ncdu is great
+2019-07-22 21:07:11	raijin	a good companion to ranger
+2019-07-22 21:07:16	MoziM	whoa...
+2019-07-22 21:07:24	The0x539	and what does the trash folder's structure look like? it'd have to be pretty special to have files that are actually present on multiple mounts all in one dir
+2019-07-22 21:07:27	MoziM	thanks! didn't know about this
+2019-07-22 21:07:42	MoziM	The0x539: what do you mean by 'structure'?
+2019-07-22 21:07:50	The0x539	what does the dir look like
+2019-07-22 21:08:05	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-22 21:08:07	The0x539	subdirs, contents, any symlinks or what
+2019-07-22 21:08:28	<--	flippy (~jerwin@unaffiliated/flippy) has quit (Quit: WeeChat 2.5)
+2019-07-22 21:08:42	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 272 seconds)
+2019-07-22 21:08:57	-->	flippy (~jerwin@unaffiliated/flippy) has joined #archlinux
+2019-07-22 21:09:07	MoziM	3 directories, 1 sub directory, no files
+2019-07-22 21:09:15	MoziM	which... is really weird
+2019-07-22 21:09:17	-->	tschan (~tschan@p5498643F.dip0.t-ipconnect.de) has joined #archlinux
+2019-07-22 21:09:26	The0x539	paint us a picture
+2019-07-22 21:09:29	<--	acercle (~a_cercle@gateway/tor-sasl/acercle/x-62487713) has quit (Quit: acercle)
+2019-07-22 21:11:52	-->	xirhtogal (~lagothrix@unaffiliated/lagothrix) has joined #archlinux
+2019-07-22 21:11:52	--	lagothrix is now known as Guest7388
+2019-07-22 21:11:52	<--	Guest7388 (~lagothrix@unaffiliated/lagothrix) has quit (Killed (hitchcock.freenode.net (Nickname regained by services)))
+2019-07-22 21:11:52	--	xirhtogal is now known as lagothrix
+2019-07-22 21:12:27	-->	grazzolini_ (grazzolini@archlinux/developer/grazzolini) has joined #archlinux
+2019-07-22 21:13:09	<--	grazzolini (grazzolini@archlinux/developer/grazzolini) has quit (Ping timeout: 258 seconds)
+2019-07-22 21:13:10	--	grazzolini_ is now known as grazzolini
+2019-07-22 21:13:10	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-22 21:15:04	<--	tasse (~tasse@55d444ab.access.ecotel.net) has quit (Ping timeout: 258 seconds)
+2019-07-22 21:15:09	MoziM	The0x539: ok well this is where it gets weird https://termbin.com/0r3a
+2019-07-22 21:15:18	<--	lucenera (~lucenera@net-2-42-139-101.cust.vodafonedsl.it) has quit (Quit: lucenera)
+2019-07-22 21:15:39	<--	ulili (~quassel@p200300C96F0E8900EA9A8FFFFEBD3E0F.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2019-07-22 21:15:42	MoziM	The0x539: the contents of ~/.local/share/Trash differ from what thunar says is in the trash bin...
+2019-07-22 21:15:54	-->	ulili (~quassel@p200300C96F250E00EA9A8FFFFEBD3E0F.dip0.t-ipconnect.de) has joined #archlinux
+2019-07-22 21:16:02	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 248 seconds)
+2019-07-22 21:16:16	The0x539	ah, that actually makes sense
+2019-07-22 21:16:29	-->	lucenera (~lucenera@net-2-42-139-101.cust.vodafonedsl.it) has joined #archlinux
+2019-07-22 21:16:37	The0x539	thunar is able to present it as a user-readable thing, but that stuff represents files that are...elsewhere
+2019-07-22 21:16:44	The0x539	now to see how space is being taken up, look at ncdu
+2019-07-22 21:17:05	-->	tasse (~tasse@55d485d0.access.ecotel.net) has joined #archlinux
+2019-07-22 21:17:11	<--	GI_Jack (~GI_Jack@pdpc/supporter/active/gi-jack) has quit (Remote host closed the connection)
+2019-07-22 21:17:47	<--	Deide (~Deide@90.249.49.168) has quit (Ping timeout: 268 seconds)
+2019-07-22 21:18:06	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-22 21:19:34	MoziM	it's saying ~/.local/share/Trash is 11 mb
+2019-07-22 21:19:46	-->	jathan (~jathan@conference/debconf/x-zfamyercowiwcgna) has joined #archlinux
+2019-07-22 21:20:37	<--	grazzolini (grazzolini@archlinux/developer/grazzolini) has quit (Quit: ZNC - https://znc.in)
+2019-07-22 21:20:53	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 245 seconds)
+2019-07-22 21:21:15	mgolisch	doesnt it create something like a .trash on the other filesystems? if it actualy had to copy the files it would take forever to trash files
+2019-07-22 21:21:33	<--	kupi (uid212005@gateway/web/irccloud.com/x-imnznqnetmoqxgbg) has quit (Quit: Connection closed for inactivity)
+2019-07-22 21:21:37	mgolisch	then again not sure how different filemanagers handle that sort of stuff
+2019-07-22 21:21:55	-->	svag (~svag@servify02.servify.se) has joined #archlinux
+2019-07-22 21:22:14	-->	yunhao94 (~yunhao94@183.198.197.185) has joined #archlinux
+2019-07-22 21:22:26	-->	[b0b] (~bob@unaffiliated/sulfyr) has joined #archlinux
+2019-07-22 21:22:58	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 248 seconds)
+2019-07-22 21:23:06	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-22 21:24:24	-->	VayuVata (~vayuvata@113.199.248.219) has joined #archlinux
+2019-07-22 21:25:04	<--	b0b (~bob@unaffiliated/sulfyr) has quit (Ping timeout: 246 seconds)
+2019-07-22 21:25:06	--	[b0b] is now known as b0b
+2019-07-22 21:25:15	<--	himmijimmy (~himmijimm@2a02:560:42c6:9200:c5:9ff:fe81:6af3) has quit (Ping timeout: 250 seconds)
+2019-07-22 21:26:02	-->	user_51 (~quassel@92.117.240.117) has joined #archlinux
+2019-07-22 21:26:33	<--	witchyanna (witchyanna@gateway/vpn/privateinternetaccess/witchyanna) has quit (Remote host closed the connection)
+2019-07-22 21:27:14	-->	himmijimmy (~himmijimm@2a02:560:4283:eb00:c5:9ff:fe81:6af3) has joined #archlinux
+2019-07-22 21:27:34	The0x539	yeah I'm more interested in what the, y'know, flash drive looks like
+2019-07-22 21:27:39	<--	saltpepp3r (~saltpepp3@91.207.173.118) has quit (Ping timeout: 268 seconds)
+2019-07-22 21:28:12	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-22 21:28:30	<--	agent_white (~agent_whi@unaffiliated/agent-white/x-6197888) has quit (Quit: later)
+2019-07-22 21:28:34	-->	fox8091 (~fox8091@unaffiliated/fox8091) has joined #archlinux
+2019-07-22 21:28:55	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 246 seconds)
+2019-07-22 21:29:07	<--	zro (~zro@wikimedia/zro) has quit (Read error: Connection reset by peer)
+2019-07-22 21:29:08	-->	saltpepp3r (~saltpepp3@91.207.173.118) has joined #archlinux
+2019-07-22 21:29:19	-->	grazzolini (grazzolini@archlinux/developer/grazzolini) has joined #archlinux
+2019-07-22 21:29:55	<--	user_51_ (~quassel@92.117.144.85) has quit (Ping timeout: 244 seconds)
+2019-07-22 21:30:27	-->	hardfalcon_ (~hardfalco@x2f45813.dyn.telefonica.de) has joined #archlinux
+2019-07-22 21:32:01	<--	hammer065 (~hammer065@unaffiliated/hammer065) has quit (Quit: Restart the game...)
+2019-07-22 21:32:04	-->	witchyanna (witchyanna@gateway/vpn/privateinternetaccess/witchyanna) has joined #archlinux
+2019-07-22 21:32:28	<--	DCyrax (~DCyrax@91-156-248-84.elisa-laajakaista.fi) has quit (Read error: Connection reset by peer)
+2019-07-22 21:32:35	-->	DCyrax (~DCyrax@91-156-248-84.elisa-laajakaista.fi) has joined #archlinux
+2019-07-22 21:33:02	<--	hardfalcon (~hardfalco@2a01:c23:6c11:b403:4521:91ac:91c5:7246) has quit (Ping timeout: 252 seconds)
+2019-07-22 21:33:05	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 258 seconds)
+2019-07-22 21:33:08	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-22 21:34:35	<--	fox8091 (~fox8091@unaffiliated/fox8091) has quit (Read error: Connection reset by peer)
+2019-07-22 21:34:40	-->	fox8091_ (~fox8091@unaffiliated/fox8091) has joined #archlinux
+2019-07-22 21:34:44	-->	zro (~zro@wikimedia/zro) has joined #archlinux
+2019-07-22 21:34:52	<--	flippy (~jerwin@unaffiliated/flippy) has quit (Quit: WeeChat 2.5)
+2019-07-23 18:14:49	--	irc: disconnected from server
+2019-07-23 18:15:16	--	#archlinux: #archlinux-unregistered :Forwarding to another channel
+2019-07-23 18:21:55	-->	MikeFromIT (~michael@99-100-120-110.lightspeed.stlsmo.sbcglobal.net) has joined #archlinux
+2019-07-23 18:21:55	--	Topic for #archlinux is "Welcome to Arch Linux, Good Luck: https://archlinux.org | Rules: https://goo.gl/XWFreH | Pastebins: see !paste | https://i.imgflip.com/nwm8q.jpg | Happy 17th birthday Arch - may you have the great feature of many more broken installations"
+2019-07-23 18:21:55	--	Topic set by alad (~alad@archlinux/trusteduser/alad) on Mon, 11 Mar 2019 10:44:32
+2019-07-23 18:21:55	--	Channel #archlinux: 1743 nicks (1 op, 0 voices, 1742 normals)
+2019-07-23 18:21:58	--	Channel created on Sat, 14 Feb 2004 23:08:31
+2019-07-23 18:22:04	<--	unknwn (~unknown@unaffiliated/unknwn) has quit (Remote host closed the connection)
+2019-07-23 18:22:45	-->	priits (~priits@211-31-235-80.dyn.estpak.ee) has joined #archlinux
+2019-07-23 18:23:22	<--	nextus (~nextus@80.251.112.202) has quit (Ping timeout: 245 seconds)
+2019-07-23 18:23:31	-->	tk1 (~tk@p200300E53F13E3031317D115E9C64048.dip0.t-ipconnect.de) has joined #archlinux
+2019-07-23 18:24:13	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 245 seconds)
+2019-07-23 18:24:23	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 18:24:38	-->	lukelr (~lukelr@p5DEDAC58.dip0.t-ipconnect.de) has joined #archlinux
+2019-07-23 18:25:21	<--	semeion (~semeion@unaffiliated/semeion) has quit (Read error: Connection reset by peer)
+2019-07-23 18:25:58	-->	semeion (~semeion@unaffiliated/semeion) has joined #archlinux
+2019-07-23 18:26:21	engys	djapo: so you are now able to print?
+2019-07-23 18:27:39	TheCommieDuck60	okay, I can get alsa to play sounds if I manually specify plughw:1, yet it does nothing w/o plughw:1 despite having edited /etc/asound/ conf file to set1 as default
+2019-07-23 18:27:52	TheCommieDuck60	and similarly, pavucontrol is giving me nothing but the dummy device
+2019-07-23 18:28:00	<--	Vonter (~Vonter@49.206.13.132) has quit (Ping timeout: 244 seconds)
+2019-07-23 18:28:19	<--	Icedman (~Icedman@unaffiliated/icedman) has quit (Quit: WeeChat 2.5)
+2019-07-23 18:28:36	<--	lordkek (~Thunderbi@kevanhill.plus.com) has quit (Remote host closed the connection)
+2019-07-23 18:29:06	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 248 seconds)
+2019-07-23 18:29:16	<--	_thelion_ (~matthias@194-118-59-84.hdsl.highway.telekom.at) has quit (Quit: WeeChat 2.5)
+2019-07-23 18:29:23	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 18:29:30	-->	lukelra (~lukelr@p5DEDA93E.dip0.t-ipconnect.de) has joined #archlinux
+2019-07-23 18:29:37	-->	Vonter (~Vonter@49.206.13.132) has joined #archlinux
+2019-07-23 18:29:47	-->	tabsterleir2 (~tabs@178.162.222.41.adsl.inet-telecom.org) has joined #archlinux
+2019-07-23 18:30:10	<--	lukelr (~lukelr@p5DEDAC58.dip0.t-ipconnect.de) has quit (Ping timeout: 248 seconds)
+2019-07-23 18:30:27	TheCommieDuck60	if I check /proc/asound/modules, both sound cards are listed as snd_hda_intel so I can't set one to default
+2019-07-23 18:31:08	<--	Llewelyn (~Llewelyn@184.12.106.34) has quit (Remote host closed the connection)
+2019-07-23 18:31:26	-->	Megver83 (~Icedove@pc-88-170-100-190.cm.vtr.net) has joined #archlinux
+2019-07-23 18:31:26	<--	ctroy (~ctroy@179-241-252-3.3g.claro.net.br) has quit (Remote host closed the connection)
+2019-07-23 18:32:19	<--	cuppajoeman (~cuppajoem@2607:fea8:61f:fc32::3) has quit (Ping timeout: 250 seconds)
+2019-07-23 18:32:19	<--	alex-EP (~alex-EP@91.77.167.245) has quit (Read error: Connection reset by peer)
+2019-07-23 18:32:30	<--	Megver83 (~Icedove@pc-88-170-100-190.cm.vtr.net) has quit (Client Quit)
+2019-07-23 18:33:41	-->	NoobAlice (~NoobAlice@cpe-74-69-20-71.rochester.res.rr.com) has joined #archlinux
+2019-07-23 18:33:46	<--	jkwki (~jkwki@p200300CD4731900045CBA8593BC2BD40.dip0.t-ipconnect.de) has quit (Ping timeout: 276 seconds)
+2019-07-23 18:34:11	-->	alex-EP (~alex-EP@91.77.167.245) has joined #archlinux
+2019-07-23 18:34:34	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 18:35:00	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 272 seconds)
+2019-07-23 18:35:31	djapo	engys: yes
+2019-07-23 18:36:02	<--	Lord^Anubis (~anubis@unaffiliated/lordanubis/x-837129) has quit (Ping timeout: 248 seconds)
+2019-07-23 18:37:09	-->	Llewelyn (~Llewelyn@184.12.106.34) has joined #archlinux
+2019-07-23 18:37:22	engys	djapo: yeah! :)
+2019-07-23 18:39:22	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 244 seconds)
+2019-07-23 18:39:24	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 18:39:50	<--	Captain_Rage (~smuxi@c53-94.icpnet.pl) has quit (Ping timeout: 268 seconds)
+2019-07-23 18:40:27	-->	thamoo1 (~thamoo@modemcable107.108-131-66.mc.videotron.ca) has joined #archlinux
+2019-07-23 18:40:51	-->	henninb (~henninb@63-226-184-170.mpls.qwest.net) has joined #archlinux
+2019-07-23 18:40:53	<--	organixpear (~organixpe@gateway/tor-sasl/organixpear) has quit (Remote host closed the connection)
+2019-07-23 18:41:20	<--	thamoo1 (~thamoo@modemcable107.108-131-66.mc.videotron.ca) has quit (Client Quit)
+2019-07-23 18:42:13	-->	thamoo1 (~thamoo@modemcable107.108-131-66.mc.videotron.ca) has joined #archlinux
+2019-07-23 18:43:52	TheCommieDuck60	okay, pacmd list can find the card, but it says unavailable
+2019-07-23 18:44:02	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 248 seconds)
+2019-07-23 18:44:03	TheCommieDuck60	pavucontrol cannot
+2019-07-23 18:44:16	<--	noraj (~quassel@per18-h03-89-89-230-177.dsl.sta.abo.bbox.fr) has quit (Read error: Connection reset by peer)
+2019-07-23 18:44:24	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 18:45:02	<--	jathan (~jathan@conference/debconf/x-lszleuqlbtcxvpco) has quit (Ping timeout: 245 seconds)
+2019-07-23 18:45:28	-->	Eiii (~eiii@unaffiliated/eiii) has joined #archlinux
+2019-07-23 18:46:04	<--	cgundersson (~christian@195.216.38.78) has quit (Ping timeout: 246 seconds)
+2019-07-23 18:46:06	<--	Eiii (~eiii@unaffiliated/eiii) has quit (Client Quit)
+2019-07-23 18:46:56	<--	Betal (~Betal@unaffiliated/betal) has quit (Remote host closed the connection)
+2019-07-23 18:47:09	<--	DCyrax (~DCyrax@91-156-248-84.elisa-laajakaista.fi) has quit (Remote host closed the connection)
+2019-07-23 18:47:29	-->	purpleshift^ (purpleshif@gateway/vpn/mullvad/purpleshift) has joined #archlinux
+2019-07-23 18:47:35	-->	DCyrax (~DCyrax@91-156-248-84.elisa-laajakaista.fi) has joined #archlinux
+2019-07-23 18:48:18	<--	cdown (~cdown@163.114.130.1) has quit (Ping timeout: 248 seconds)
+2019-07-23 18:49:31	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 18:49:34	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 272 seconds)
+2019-07-23 18:49:58	-->	cdown (~cdown@163.114.130.1) has joined #archlinux
+2019-07-23 18:50:25	-->	Newami (~Newami@ip174-68-64-138.sd.sd.cox.net) has joined #archlinux
+2019-07-23 18:50:27	<--	purpleshift (purpleshif@gateway/vpn/mullvad/purpleshift) has quit (Ping timeout: 245 seconds)
+2019-07-23 18:51:28	<--	mongy (~dean@unaffiliated/duffydack) has quit (Remote host closed the connection)
+2019-07-23 18:51:42	<--	Fernando-Basso (~FernandoB@131.221.13.35) has quit (Remote host closed the connection)
+2019-07-23 18:52:23	<--	TheCommieDuck60 (5aff1c05@90.255.28.5) has quit (Ping timeout: 260 seconds)
+2019-07-23 18:52:44	<--	Kezi (~quassel@fsf/member/Keziolio) has quit (Ping timeout: 272 seconds)
+2019-07-23 18:54:27	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 18:54:38	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 272 seconds)
+2019-07-23 18:56:50	<--	Tazmain (~Tazmain@unaffiliated/tazmain) has quit (Quit: Left)
+2019-07-23 18:58:27	<--	q4t1 (~unix@209.ip-51-68-197.eu) has quit (Remote host closed the connection)
+2019-07-23 18:59:04	<--	einveru (~einveru@ip72-211-87-237.no.no.cox.net) has quit (Ping timeout: 272 seconds)
+2019-07-23 18:59:32	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 18:59:33	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 258 seconds)
+2019-07-23 19:00:35	-->	einveru (~einveru@185.45.195.168) has joined #archlinux
+2019-07-23 19:01:39	-->	ground__ (~ground_@67.8.4.4) has joined #archlinux
+2019-07-23 19:03:09	-->	ctroy (~ctroy@179-241-252-3.3g.claro.net.br) has joined #archlinux
+2019-07-23 19:03:30	<--	ctroy (~ctroy@179-241-252-3.3g.claro.net.br) has quit (Remote host closed the connection)
+2019-07-23 19:04:27	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 19:04:30	<--	agent_white (~agent_whi@unaffiliated/agent-white/x-6197888) has quit (Quit: Lost terminal)
+2019-07-23 19:04:33	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 258 seconds)
+2019-07-23 19:04:57	mgolisch	probably because some alsa client uses it?
+2019-07-23 19:05:00	-->	ctroy (~ctroy@179-241-252-3.3g.claro.net.br) has joined #archlinux
+2019-07-23 19:05:16	-->	agent_white (~agent_whi@unaffiliated/agent-white/x-6197888) has joined #archlinux
+2019-07-23 19:06:47	-->	TikityTik (~TikityTik@unaffiliated/tikitytik) has joined #archlinux
+2019-07-23 19:09:34	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 19:09:44	<--	Deide (~Deide@90.249.49.168) has quit (Quit: Seeee yaaaa)
+2019-07-23 19:09:50	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 272 seconds)
+2019-07-23 19:10:50	<--	goncalor (~goncalor@unaffiliated/goncalor) has quit (Read error: Connection reset by peer)
+2019-07-23 19:11:18	<--	saltpepp3r (~saltpepp3@91.207.173.118) has quit (Ping timeout: 245 seconds)
+2019-07-23 19:12:05	<--	purpleshift^ (purpleshif@gateway/vpn/mullvad/purpleshift) has quit (Quit: .)
+2019-07-23 19:12:46	-->	goncalor (~goncalor@unaffiliated/goncalor) has joined #archlinux
+2019-07-23 19:13:10	<--	ground__ (~ground_@67.8.4.4) has quit (Remote host closed the connection)
+2019-07-23 19:13:33	-->	saltpepp3r (~saltpepp3@91.207.173.118) has joined #archlinux
+2019-07-23 19:14:04	-->	viddi (~viddi@136.56.38.43) has joined #archlinux
+2019-07-23 19:14:26	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 248 seconds)
+2019-07-23 19:14:33	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 19:18:23	<--	matheusmoreira (~matheusmo@179.83.190.183) has quit (Remote host closed the connection)
+2019-07-23 19:19:19	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 246 seconds)
+2019-07-23 19:19:34	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 19:19:43	-->	megazorg (~megazorg_@unaffiliated/netjrc) has joined #archlinux
+2019-07-23 19:22:05	<--	ctroy (~ctroy@179-241-252-3.3g.claro.net.br) has quit (Remote host closed the connection)
+2019-07-23 19:24:15	-->	ctroy (~ctroy@179-241-252-3.3g.claro.net.br) has joined #archlinux
+2019-07-23 19:24:34	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 248 seconds)
+2019-07-23 19:24:40	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 19:24:59	<--	grinja (~c01n@2a02:8084:2142:3f80:b4ad:a74e:151b:1a4c) has quit (Quit: Leaving)
+2019-07-23 19:25:56	djapo	i want to add a command to ranger .. to use rsync .. so instead of yy to copy i want to use rsync instead
+2019-07-23 19:26:23	<--	natrys (~natrys@116.206.252.68) has quit (Quit: natrys)
+2019-07-23 19:26:31	-->	Brocellous (~user@2600:8800:1e00:242:b0be:d85d:668b:9218) has joined #archlinux
+2019-07-23 19:29:26	<--	klardotsh (~klardotsh@172.92.139.200) has quit (Quit: WeeChat 2.5)
+2019-07-23 19:29:35	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 19:29:38	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 245 seconds)
+2019-07-23 19:30:52	<--	xInferno (~xInferno@107.13.179.72) has quit (Quit: ZNC 1.7.2 - https://znc.in)
+2019-07-23 19:31:05	<--	henninb (~henninb@63-226-184-170.mpls.qwest.net) has quit (Quit: Lost terminal)
+2019-07-23 19:31:11	<--	Vixtron (~vix@unaffiliated/vixtron) has quit (Quit: WeeChat 2.4)
+2019-07-23 19:32:03	-->	klardotsh (~klardotsh@172.92.139.200) has joined #archlinux
+2019-07-23 19:34:13	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 245 seconds)
+2019-07-23 19:34:37	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 19:34:43	<--	fardog (~shrubbery@dezik.fardog.io) has quit (Ping timeout: 268 seconds)
+2019-07-23 19:34:52	<--	tk1 (~tk@p200300E53F13E3031317D115E9C64048.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2019-07-23 19:35:04	<--	atlas_ (~atlas@unaffiliated/atlas/x-3943829) has quit (Quit: ZNC 1.7.3 - https://znc.in)
+2019-07-23 19:35:04	<--	CodeLyoko (TheMesquit@wikipedia/TheMesquito) has quit (Quit: To win, sometimes you have to know how to lose.)
+2019-07-23 19:36:30	<--	megazorg (~megazorg_@unaffiliated/netjrc) has quit (Remote host closed the connection)
+2019-07-23 19:36:36	-->	CodeLyoko (TheMesquit@wikipedia/TheMesquito) has joined #archlinux
+2019-07-23 19:36:50	<--	styledash (~styledash@157.230.173.136) has quit (Ping timeout: 248 seconds)
+2019-07-23 19:36:51	djapo	i want to pipe the output of find ./ -type f -name config -exec cat {} \;
+2019-07-23 19:37:02	djapo	to sed or echo but i get an error
+2019-07-23 19:37:19	<--	rossome (~indieross@server.likeaross.com) has quit (Ping timeout: 250 seconds)
+2019-07-23 19:37:23	djapo	find: ?cat? terminated by signal 13
+2019-07-23 19:37:40	<--	seaglass (~seaglass@unaffiliated/seaglass) has quit (Quit: WeeChat 2.5)
+2019-07-23 19:37:42	-->	styledash (~styledash@157.230.173.136) has joined #archlinux
+2019-07-23 19:38:07	<--	glowpelt (~myst@focks.pw) has quit (Ping timeout: 276 seconds)
+2019-07-23 19:39:18	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 244 seconds)
+2019-07-23 19:39:35	-->	atlas_ (~atlas@unaffiliated/atlas/x-3943829) has joined #archlinux
+2019-07-23 19:39:36	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 19:39:52	djapo	nvm, it started working
+2019-07-23 19:39:55	-->	glowpelt (~myst@focks.pw) has joined #archlinux
+2019-07-23 19:40:14	-->	yunhao94 (~yunhao94@183.198.197.185) has joined #archlinux
+2019-07-23 19:40:46	-->	oscurochu (~Adium@c-98-245-37-59.hsd1.co.comcast.net) has joined #archlinux
+2019-07-23 19:40:48	-->	cdown_ (~cdown@163.114.130.1) has joined #archlinux
+2019-07-23 19:41:04	<--	houkime (~houkime@gateway/tor-sasl/houkime) has quit (Ping timeout: 260 seconds)
+2019-07-23 19:41:18	<--	cdown (~cdown@163.114.130.1) has quit (Ping timeout: 245 seconds)
+2019-07-23 19:41:20	-->	fardog (~shrubbery@dezik.fardog.io) has joined #archlinux
+2019-07-23 19:41:22	-->	abf_ (~abf@2601:404:c101:234::16d3) has joined #archlinux
+2019-07-23 19:41:22	--	cdown_ is now known as cdown
+2019-07-23 19:41:32	oscurochu	 am getting invalid or corrupted package (PGP signature) when i try to run pacman -S grub-bios
+2019-07-23 19:42:22	Edu4rdSHL	oscurochu, update archlinux-keyring and try again-
+2019-07-23 19:42:29	oscurochu	how?
+2019-07-23 19:42:57	oscurochu	packman -S archlinux-keyring?
+2019-07-23 19:43:01	Edu4rdSHL	Yes.
+2019-07-23 19:43:18	Edu4rdSHL	Or use pacman-key --refresh-keys
+2019-07-23 19:44:10	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 246 seconds)
+2019-07-23 19:44:19	oscurochu	i get that same error when i try to update archlinux-keyring and packman-key ?refresh-keys doesnt do anything
+2019-07-23 19:44:27	oscurochu	well, it doesnt fix the problem anyway
+2019-07-23 19:44:37	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 19:44:42	<--	CodeLyoko (TheMesquit@wikipedia/TheMesquito) has quit (Quit: To win, sometimes you have to know how to lose.)
+2019-07-23 19:45:14	--	Mode #archlinux [+o eir] by ChanServ
+2019-07-23 19:45:14	oscurochu	72 signatures not checked due to missing keys, 1 bad signature
+2019-07-23 19:45:14	--	Mode #archlinux [-qo $a:ytf0rd eir] by eir
+2019-07-23 19:45:16	<--	Forsaken87 (~quassel@2a02:908:1861:340:3f50:ee15:aa6:ab4d) has quit (Ping timeout: 276 seconds)
+2019-07-23 19:45:22	<--	Condor (~Condor@www.nixmagic.com) has quit (Quit: ZNC 1.7.2+deb3 - https://znc.in)
+2019-07-23 19:45:43	-->	CodeLyoko (~CodeLyoko@wikipedia/TheMesquito) has joined #archlinux
+2019-07-23 19:45:58	-->	Kryptron (~Kryptron@unaffiliated/kryptron) has joined #archlinux
+2019-07-23 19:46:04	Brocellous	I've been using iwd for a bit and its nice
+2019-07-23 19:46:13	-->	parak0vsky (~user@ih1120366.vds.myihor.ru) has joined #archlinux
+2019-07-23 19:46:17	Brocellous	But I don't know how I feel about them implementing a DHCP client...
+2019-07-23 19:47:13	Brocellous	I just got the features I wanted into networkd. Hope iwd doesn't try to make me ditch it.
+2019-07-23 19:49:06	<--	Kryptron_ (~Kryptron@unaffiliated/kryptron) has quit (Ping timeout: 272 seconds)
+2019-07-23 19:49:17	<--	CodeLyoko (~CodeLyoko@wikipedia/TheMesquito) has quit (Client Quit)
+2019-07-23 19:49:25	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 246 seconds)
+2019-07-23 19:49:37	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 19:50:02	-->	tk1 (~tk@p200300E53F13E3031317D115E9C64048.dip0.t-ipconnect.de) has joined #archlinux
+2019-07-23 19:50:37	oscurochu	this is a fresh install, i cant even boot into my system because i cant install grub? i've never had this issue and i've tried everything i've  read online so far with noluck
+2019-07-23 19:50:37	-->	rossome (~indieross@server.likeaross.com) has joined #archlinux
+2019-07-23 19:51:42	<--	parak0vsky (~user@ih1120366.vds.myihor.ru) has quit (Ping timeout: 245 seconds)
+2019-07-23 19:52:02	-->	zirpu (~allan@24.35.74.214) has joined #archlinux
+2019-07-23 19:52:23	oscurochu	pacman-key --populate archlinux gives me "could not be locally signed"
+2019-07-23 19:53:39	oscurochu	i got it working finally
+2019-07-23 19:54:19	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 246 seconds)
+2019-07-23 19:54:38	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 19:55:09	-->	CodeLyoko (TheMesquit@wikipedia/TheMesquito) has joined #archlinux
+2019-07-23 19:55:31	-->	crimsonglare (~Thunderbi@unaffiliated/crimsonglare) has joined #archlinux
+2019-07-23 19:56:08	-->	mcurran (~muteman@c-73-114-1-173.hsd1.ma.comcast.net) has joined #archlinux
+2019-07-23 19:57:52	mcurran	Is there a way to search (like 'locate') for symlinks, based on their directory?  Like if I want to find all symlinks associated with files located in /opt/oracle/java/*.so within or after /usr, I could do something like this:  locate /opt/oracle | grep /usr/lib/
+2019-07-23 19:58:48	mcurran	or can grep use $PWD as a definition?
+2019-07-23 19:59:43	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 19:59:50	BrainDamage	use find and filter for symlink type, then use xargs to execute ls on each of them to resolve the destination, then grep the path
+2019-07-23 20:00:00	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 268 seconds)
+2019-07-23 20:02:26	<--	maetthew (~maetthew@unaffiliated/maetthew) has quit (Read error: Connection reset by peer)
+2019-07-23 20:02:48	<--	chartreuse (~chartreus@S0106f0f249dfd9c3.cg.shawcable.net) has quit (Remote host closed the connection)
+2019-07-23 20:02:48	mcurran	BrainDamage:  can you show me an example?  I'm not that good at bash.
+2019-07-23 20:03:22	<--	alex-EP (~alex-EP@91.77.167.245) has quit (Read error: Connection reset by peer)
+2019-07-23 20:03:29	mcurran	find %Y symlink | xargs ls -al | grep /usr/lib?
+2019-07-23 20:03:53	<--	urodna (~urodna@unaffiliated/urodna) has quit (Quit: urodna)
+2019-07-23 20:04:11	BrainDamage	find -type l
+2019-07-23 20:04:38	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 245 seconds)
+2019-07-23 20:04:40	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 20:04:45	BrainDamage	actually, you can ditch the xargs if you use find's print statement using that
+2019-07-23 20:04:45	-->	alex-EP (~alex-EP@91.77.167.245) has joined #archlinux
+2019-07-23 20:04:57	BrainDamage	because it'll print the destination already
+2019-07-23 20:05:04	BrainDamage	but you do want to print the orig file too
+2019-07-23 20:05:12	BrainDamage	so you know the source and dest path
+2019-07-23 20:07:32	<--	mcurran (~muteman@c-73-114-1-173.hsd1.ma.comcast.net) has quit (Read error: Connection reset by peer)
+2019-07-23 20:08:17	-->	chepaz (~chepaz@62.68.26.160) has joined #archlinux
+2019-07-23 20:09:37	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 245 seconds)
+2019-07-23 20:09:45	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 20:11:20	<--	chep4z (~chepaz@195.245.38.146) has quit (Ping timeout: 244 seconds)
+2019-07-23 20:12:13	-->	neurowire (~neurowire@2600:1700:cde0:8db0:ebad:395c:4458:7aa9) has joined #archlinux
+2019-07-23 20:13:16	-->	gratidude (~gratidude@unaffiliated/gratidude) has joined #archlinux
+2019-07-23 20:13:44	<--	raenk (~raenk@vpn.blacktip.link) has quit (Quit: leaving)
+2019-07-23 20:14:35	-->	smb374 (~thomas@2001-b011-3810-19a6-9da2-b93a-2045-fec7.dynamic-ip6.hinet.net) has joined #archlinux
+2019-07-23 20:14:37	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 245 seconds)
+2019-07-23 20:14:40	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 20:17:29	<--	Newami (~Newami@ip174-68-64-138.sd.sd.cox.net) has quit (Read error: Connection reset by peer)
+2019-07-23 20:17:33	<--	t4skforce (~t4skforce@cm100-100.liwest.at) has quit (Ping timeout: 245 seconds)
+2019-07-23 20:18:01	-->	t4skforce (~t4skforce@178.113.39.184.wireless.dyn.drei.com) has joined #archlinux
+2019-07-23 20:18:22	<--	matzy_ (8e933bcb@142.147.59.203) has quit (Remote host closed the connection)
+2019-07-23 20:19:30	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 248 seconds)
+2019-07-23 20:19:41	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 20:21:04	oscurochu	why would i be getting a grub rescue shell? i installed grub to /dev/sda, / is on an encrypted lvm, i used mkinitcpio with lvm and encrypt hooks enabled, and also have them enabled in /etc/default/grub and generated the file with grub-mkconfig
+2019-07-23 20:24:11	-->	wizeC (~wize@a85-138-234-201.cpe.netcabo.pt) has joined #archlinux
+2019-07-23 20:24:22	<--	aplabs|2 (~aplabs@47.202.13.2) has quit (Quit: KVIrc 4.3.1 Aria MovieGods build)
+2019-07-23 20:24:30	sheep	oscurochu: do you have a separate partition for /boot?
+2019-07-23 20:24:39	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 258 seconds)
+2019-07-23 20:24:52	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 20:25:57	<--	priits (~priits@211-31-235-80.dyn.estpak.ee) has quit (Quit: ZNC 1.7.4 - https://znc.in)
+2019-07-23 20:27:10	oscurochu	yeah on /dev/sda1
+2019-07-23 20:28:07	-->	Betal (~Betal@unaffiliated/betal) has joined #archlinux
+2019-07-23 20:28:47	<--	cdown (~cdown@163.114.130.1) has quit (Ping timeout: 245 seconds)
+2019-07-23 20:29:25	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 244 seconds)
+2019-07-23 20:29:42	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 20:29:49	oscurochu	should i install grub on /dev/sda1 instead of /dev/sda?
+2019-07-23 20:30:11	MikeFromIT	Yes, you want it on the partition not the whole drive
+2019-07-23 20:30:28	-->	cdown (~cdown@163.114.130.1) has joined #archlinux
+2019-07-23 20:31:26	-->	Nuc1eoN (~Nuc1eoN@oss/nuc1eon) has joined #archlinux
+2019-07-23 20:32:15	syntaxman	Any ideas why running lspci|lshw would make my system shutdown?
+2019-07-23 20:32:32	-->	SteveDeFacto (~SteveDeFa@ip-184-218-47-54.phnxaz.spcsdns.net) has joined #archlinux
+2019-07-23 20:32:50	oscurochu	how do i reinstall my /boot partition? i think i need to format it, because it says ext2 doesnt support embedding. i really thought i formatted it to ext4 though
+2019-07-23 20:32:51	syntaxman	brand new thinkpad, haven't even installed X
+2019-07-23 20:33:04	<--	TimeTrap (~TimeTrap@2601:44:c280:def:f980:2cf1:8dde:ce88) has quit (Ping timeout: 264 seconds)
+2019-07-23 20:33:06	mingdao	syntaxman: unbelievable
+2019-07-23 20:33:46	-->	miracleTurtle (~tony@ppp-94-66-223-91.home.otenet.gr) has joined #archlinux
+2019-07-23 20:34:34	<--	tpowa (~tpowa@archlinux/developer/tpowa) has quit (Ping timeout: 246 seconds)
+2019-07-23 20:34:37	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 245 seconds)
+2019-07-23 20:34:46	-->	Beta (~Betal@unaffiliated/betal) has joined #archlinux
+2019-07-23 20:34:48	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 20:35:16	<--	proj (~proj@ip5657e78c.direct-adsl.nl) has quit (Ping timeout: 246 seconds)
+2019-07-23 20:35:20	<--	Beta (~Betal@unaffiliated/betal) has quit (Remote host closed the connection)
+2019-07-23 20:35:31	-->	tpowa (~tpowa@archlinux/developer/tpowa) has joined #archlinux
+2019-07-23 20:35:44	-->	Beta (~Betal@unaffiliated/betal) has joined #archlinux
+2019-07-23 20:37:57	<--	Betal (~Betal@unaffiliated/betal) has quit (Ping timeout: 245 seconds)
+2019-07-23 20:38:02	-->	Lord^Anubis (~anubis@unaffiliated/lordanubis/x-837129) has joined #archlinux
+2019-07-23 20:38:11	<--	elichai2 (uid212594@gateway/web/irccloud.com/x-ijbjmbptmkvlbchy) has quit (Quit: Connection closed for inactivity)
+2019-07-23 20:38:14	<--	ayekat (~ayekat@2001:788:2:102:62:220:134:35) has quit (Quit: watching this channel in stealth mode now)
+2019-07-23 20:38:43	<--	well_laid_lawn (~Jean-luc@c114-77-254-225.rochd21.qld.optusnet.com.au) has quit (Ping timeout: 244 seconds)
+2019-07-23 20:39:01	sheep	oscurochu: did you use GPT, or did you use DOS/MBR formatting
+2019-07-23 20:39:36	-->	ayekat (~ayekat@62.220.134.35) has joined #archlinux
+2019-07-23 20:39:43	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 20:39:47	<--	exmortus (darkstarde@gateway/vpn/privateinternetaccess/darkstardevx) has quit (Remote host closed the connection)
+2019-07-23 20:40:05	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 268 seconds)
+2019-07-23 20:40:15	<--	neurowire (~neurowire@2600:1700:cde0:8db0:ebad:395c:4458:7aa9) has quit (Ping timeout: 264 seconds)
+2019-07-23 20:40:28	<--	avriltest4 (~avriltest@49.205.104.49) has quit (Ping timeout: 245 seconds)
+2019-07-23 20:42:51	oscurochu	typically i've always used DOS/MBR
+2019-07-23 20:43:23	oscurochu	i bought a lenovo thinkpad from ebay and this is my first time installing linux on it
+2019-07-23 20:44:50	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 20:44:50	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 272 seconds)
+2019-07-23 20:45:09	sheep	but is that what you used as the partition scheme this time?
+2019-07-23 20:46:34	oscurochu	i really dont know
+2019-07-23 20:47:04	sheep	fdisk -l will say
+2019-07-23 20:47:22	<--	crimsonglare (~Thunderbi@unaffiliated/crimsonglare) has left #archlinux
+2019-07-23 20:47:43	-->	jimmiet (~jimmie@2600:1700:8460:1740:e66:71ff:13a3:1154) has joined #archlinux
+2019-07-23 20:48:43	oscurochu	disklabel type: dos
+2019-07-23 20:49:07	sheep	you should install grub to /dev/sda then. but your /boot filesystem needs to be mounted when you run grub-mkconfig
+2019-07-23 20:49:16	<--	wizeC (~wize@a85-138-234-201.cpe.netcabo.pt) has quit (Ping timeout: 272 seconds)
+2019-07-23 20:49:22	sheep	grub usually reaches a rescue shell because it can't load the config
+2019-07-23 20:49:23	oscurochu	it most definitely is mounted
+2019-07-23 20:49:46	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 20:49:52	sheep	try reinstalling grub on /dev/sda
+2019-07-23 20:49:54	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 272 seconds)
+2019-07-23 20:50:00	oscurochu	weird. im not sure what im doing wrong then. i did
+2019-07-23 20:50:33	sheep	and /boot/grub/grub.cfg exists?
+2019-07-23 20:51:20	oscurochu	yup
+2019-07-23 20:51:26	oscurochu	let me check again
+2019-07-23 20:51:51	oscurochu	oh i have grub.conf, not grub.cfg
+2019-07-23 20:53:19	-->	staticx (~darkstard@2601:1c2:380:174e:590f:7d10:488:2419) has joined #archlinux
+2019-07-23 20:53:21	oscurochu	cool. thats all it was so far. now i gotta see if it will boot my encrypted lvm, and nope? didnt happen
+2019-07-23 20:53:23	<--	shibboleth (~shibbolet@gateway/tor-sasl/shibboleth) has quit (Quit: shibboleth)
+2019-07-23 20:53:35	sheep	is /boot encrypted?
+2019-07-23 20:53:42	<--	saltpepp3r (~saltpepp3@91.207.173.118) has quit (Ping timeout: 272 seconds)
+2019-07-23 20:53:58	sheep	where did the boot fail this time?
+2019-07-23 20:54:06	staticx	Hi I just rebooted after an update and am stuck at stuck at "reached target graphical interface", using lightdm login
+2019-07-23 20:54:25	-->	Betall (~Betal@unaffiliated/betal) has joined #archlinux
+2019-07-23 20:54:29	oscurochu	couldnt find the lvm volume, which makes sense because it didnt ask me to enter my encryption key
+2019-07-23 20:54:30	sheep	staticx: can you log in at a text console?
+2019-07-23 20:54:35	-->	saltpepp3r (~saltpepp3@91.207.173.118) has joined #archlinux
+2019-07-23 20:54:37	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 245 seconds)
+2019-07-23 20:54:45	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 20:54:57	sheep	oscurochu: what mkinitcpio hooks do you have, and what's your kernel command line?
+2019-07-23 20:55:08	staticx	sheep I can alt+f2 to get a comand prompt but thats all I know how to do
+2019-07-23 20:55:30	sheep	staticx: log in and run journalctl -u lightdm -e. That should reveal if lightdm is experiencing some error
+2019-07-23 20:55:33	-->	triplenull (triplenull@gateway/vpn/privateinternetaccess/triplenull) has joined #archlinux
+2019-07-23 20:55:56	-->	cuppajoeman (~cuppajoem@2607:fea8:61f:fc32::3) has joined #archlinux
+2019-07-23 20:56:08	-->	atomicity|phone (~atomicity@cpc73844-dals21-2-0-cust776.20-2.cable.virginm.net) has joined #archlinux
+2019-07-23 20:56:45	staticx	sheep no erroe
+2019-07-23 20:56:51	-->	Betal (~Betal@unaffiliated/betal) has joined #archlinux
+2019-07-23 20:56:52	staticx	error
+2019-07-23 20:57:08	<--	cdown (~cdown@163.114.130.1) has quit (Ping timeout: 245 seconds)
+2019-07-23 20:57:26	sheep	staticx: what about in /var/log/Xorg.0.log ?
+2019-07-23 20:57:52	oscurochu	this is the exact issues i ran into like a month ago when i installed arch on my desktop pc. i cant believe i didnt learn the first time lol
+2019-07-23 20:57:58	<--	Beta (~Betal@unaffiliated/betal) has quit (Ping timeout: 268 seconds)
+2019-07-23 20:57:58	<--	mrbanie (~mrbanie@unaffiliated/mrbanie) has quit (Ping timeout: 268 seconds)
+2019-07-23 20:58:22	-->	Beta (~Betal@unaffiliated/betal) has joined #archlinux
+2019-07-23 20:58:44	-->	cdown (~cdown@163.114.130.1) has joined #archlinux
+2019-07-23 20:59:17	-->	mrbanie (~mrbanie@unaffiliated/mrbanie) has joined #archlinux
+2019-07-23 20:59:24	<--	Betall (~Betal@unaffiliated/betal) has quit (Ping timeout: 272 seconds)
+2019-07-23 20:59:37	oscurochu	i have the lvm and encrypt hooks
+2019-07-23 20:59:42	oscurochu	lvm2*
+2019-07-23 20:59:54	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 21:00:25	<--	Nuc1eoN (~Nuc1eoN@oss/nuc1eon) has quit (Remote host closed the connection)
+2019-07-23 21:00:34	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 248 seconds)
+2019-07-23 21:01:27	-->	hardfalcon_ (~hardfalco@x4e3012fe.dyn.telefonica.de) has joined #archlinux
+2019-07-23 21:02:17	<--	Betal (~Betal@unaffiliated/betal) has quit (Ping timeout: 268 seconds)
+2019-07-23 21:02:34	<--	tschan (~tschan@p5498643F.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2019-07-23 21:03:01	-->	seaglass (~seaglass@unaffiliated/seaglass) has joined #archlinux
+2019-07-23 21:03:28	oscurochu	how do i set the kernel command line? i bet thats the issue
+2019-07-23 21:03:43	sheep	GRUB_CMDLINE_LINUX_DEFAULT in /etc/grub/default, I think
+2019-07-23 21:03:55	oscurochu	yeah but what do i set it to ?
+2019-07-23 21:03:58	<--	srslypascal__ (~hardfalco@2a01:c23:7001:d103:4521:91ac:91c5:7246) has quit (Ping timeout: 252 seconds)
+2019-07-23 21:04:11	sheep	what is it set to now? are you using LVM on LUKS, or is it LUKS on LVM?
+2019-07-23 21:04:14	oscurochu	do i use root=/path/to/root?
+2019-07-23 21:04:29	oscurochu	lvm on luks
+2019-07-23 21:04:33	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 244 seconds)
+2019-07-23 21:04:37	oscurochu	idk
+2019-07-23 21:04:47	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 21:04:51	oscurochu	i put in my key, then do vgchange -ay
+2019-07-23 21:05:02	oscurochu	so that would be lvm on luks, right?
+2019-07-23 21:05:06	sheep	Lyeah
+2019-07-23 21:05:30	sheep	cryptdevice=<path to LVM physical volume's path>:<some name> root=/dev/mapper/<volume group name>-<root logical volume name>
+2019-07-23 21:05:39	<--	smb374 (~thomas@2001-b011-3810-19a6-9da2-b93a-2045-fec7.dynamic-ip6.hinet.net) has quit (Read error: Connection reset by peer)
+2019-07-23 21:08:39	<--	yith (~yith@70-237-93-52.lightspeed.rlghnc.sbcglobal.net) has quit (Quit: Singing the song that ends the world...)
+2019-07-23 21:09:18	-->	VayuVata (~vayuvata@113.199.251.5) has joined #archlinux
+2019-07-23 21:09:19	-->	tschan (~tschan@p57A862C2.dip0.t-ipconnect.de) has joined #archlinux
+2019-07-23 21:09:40	-->	codyps (~codyps@richard.einic.org) has joined #archlinux
+2019-07-23 21:09:43	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 244 seconds)
+2019-07-23 21:09:53	-->	frvr_ (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 21:11:12	-->	xirhtogal (~lagothrix@unaffiliated/lagothrix) has joined #archlinux
+2019-07-23 21:11:12	<--	lagothrix (~lagothrix@unaffiliated/lagothrix) has quit (Killed (barjavel.freenode.net (Nickname regained by services)))
+2019-07-23 21:11:12	--	xirhtogal is now known as lagothrix
+2019-07-23 21:11:14	<--	zfs_lover3 (~zfs_lover@144.172.68.147) has quit (Quit: Leaving)
+2019-07-23 21:11:32	<--	cdown (~cdown@163.114.130.1) has quit (Ping timeout: 268 seconds)
+2019-07-23 21:12:07	Ruuchan	oscurochu: you don't have to set the root device, grub-mkconfig is smart enough to work that out
+2019-07-23 21:12:14	sheep	sometimes
+2019-07-23 21:12:19	-->	stanna (~stanna@43.76.96.58.static.exetel.com.au) has joined #archlinux
+2019-07-23 21:12:32	-->	hotaru2k3 (~hotaru@2605:a000:f620:cf10:14af:f59:c6be:526f) has joined #archlinux
+2019-07-23 21:12:42	<--	tasse (~tasse@55d485d0.access.ecotel.net) has quit (Ping timeout: 272 seconds)
+2019-07-23 21:13:22	Ruuchan	you do have to set the cryptdevice
+2019-07-23 21:13:47	Ruuchan	and "GRUB_ENABLE_CRYPTODISK=y" before you install grub
+2019-07-23 21:14:47	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 21:14:49	sheep	that's only necessary if grub's modules and configuration are on an encrypted filesystem
+2019-07-23 21:14:56	sheep	they might be in this case
+2019-07-23 21:14:58	<--	frvr_ (~florea@83.103.192.82) has quit (Ping timeout: 248 seconds)
+2019-07-23 21:15:15	<--	tk1 (~tk@p200300E53F13E3031317D115E9C64048.dip0.t-ipconnect.de) has quit (Ping timeout: 250 seconds)
+2019-07-23 21:15:40	oscurochu	finally got it.
+2019-07-23 21:15:42	-->	tasse (~tasse@55d4c12d.access.ecotel.net) has joined #archlinux
+2019-07-23 21:16:31	<--	miracleTurtle (~tony@ppp-94-66-223-91.home.otenet.gr) has quit (Quit: Konversation terminated!)
+2019-07-23 21:18:22	<--	klardotsh (~klardotsh@172.92.139.200) has quit (Quit: WeeChat 2.5)
+2019-07-23 21:19:11	-->	arescorpio (~negrito@201.178.46.238) has joined #archlinux
+2019-07-23 21:19:13	-->	blackf0x (~blackf0x@cpe-184-54-84-166.swo.res.rr.com) has joined #archlinux
+2019-07-23 21:19:32	<--	hejki (hejki@mehtanen.fi) has quit (Ping timeout: 244 seconds)
+2019-07-23 21:19:38	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 245 seconds)
+2019-07-23 21:19:41	<--	agent_white (~agent_whi@unaffiliated/agent-white/x-6197888) has quit (Quit: brb)
+2019-07-23 21:19:48	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 21:19:56	-->	[b0b] (~bob@unaffiliated/sulfyr) has joined #archlinux
+2019-07-23 21:20:00	-->	agent_white (~agent_whi@unaffiliated/agent-white/x-6197888) has joined #archlinux
+2019-07-23 21:22:58	<--	b0b (~bob@unaffiliated/sulfyr) has quit (Ping timeout: 248 seconds)
+2019-07-23 21:23:00	--	[b0b] is now known as b0b
+2019-07-23 21:24:37	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 246 seconds)
+2019-07-23 21:24:39	<--	himmijimmy (~himmijimm@2a02:560:4283:eb00:c5:9ff:fe81:6af3) has quit (Ping timeout: 264 seconds)
+2019-07-23 21:24:41	oscurochu	now its running a start job for a disk and then wants me to enter a password to go into maintenance mode. i have never had such a difficult time just getting my system booted? im not sure why i cant do something as trivial as this right now lmao
+2019-07-23 21:24:43	-->	klardotsh (~klardotsh@172.92.139.200) has joined #archlinux
+2019-07-23 21:24:48	-->	user_51_ (~quassel@92.117.156.225) has joined #archlinux
+2019-07-23 21:24:49	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 21:25:08	sheep	you probably have something wrong in /etc/fstab or /etc/crypttab
+2019-07-23 21:25:57	oscurochu	thats weird, i have to entries for /
+2019-07-23 21:26:33	-->	himmijimmy (~himmijimm@2a02:560:424b:8300:c5:9ff:fe81:6af3) has joined #archlinux
+2019-07-23 21:29:03	<--	user_51 (~quassel@92.117.240.117) has quit (Ping timeout: 258 seconds)
+2019-07-23 21:29:37	<--	frvr (~florea@83.103.192.82) has quit (Ping timeout: 245 seconds)
+2019-07-23 21:29:40	<--	Adbray_ (~Adbray@2600-6c48-6f7f-d764-48b8-260d-2cc4-d0a7.dhcp6.chtrptr.net) has quit (Remote host closed the connection)
+2019-07-23 21:29:50	-->	frvr (~florea@83.103.192.82) has joined #archlinux
+2019-07-23 21:31:53	<--	blackf0x (~blackf0x@cpe-184-54-84-166.swo.res.rr.com) has quit (Quit: Leaving.)
+2019-07-23 21:32:52	-->	jathan (~jathan@conference/debconf/x-giptkjfvbczzmqxv) has joined #archlinux
+2019-07-24 17:28:44	--	irc: disconnected from server
+2019-07-24 17:29:13	--	#archlinux: #archlinux-unregistered :Forwarding to another channel

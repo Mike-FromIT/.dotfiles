@@ -1,0 +1,252 @@
+2019-07-22 20:52:56	--	irc: connecting to server chat.freenode.net/6667...
+2019-07-22 20:53:01	--	irc: connected to chat.freenode.net/6667 (185.30.166.38)
+2019-07-22 20:53:01	--	verne.freenode.net: *** Looking up your hostname...
+2019-07-22 20:53:01	--	verne.freenode.net: *** Checking Ident
+2019-07-22 20:53:01	--	verne.freenode.net: *** Found your hostname
+2019-07-22 20:53:11	--	verne.freenode.net: *** No Ident response
+2019-07-22 20:53:11	--	irc: nickname "michael" is already in use, trying nickname "michael1"
+2019-07-22 20:53:11	--	irc: nickname "michael1" is already in use, trying nickname "michael2"
+2019-07-22 20:53:12	--	irc: nickname "michael2" is already in use, trying nickname "michael3"
+2019-07-22 20:53:12	--	irc: nickname "michael3" is already in use, trying nickname "michael4"
+2019-07-22 20:53:12	--	Welcome to the freenode Internet Relay Chat Network michael4
+2019-07-22 20:53:12	--	Your host is verne.freenode.net[185.30.166.38/6667], running version ircd-seven-1.1.7
+2019-07-22 20:53:12	--	This server was created Fri Feb 15 2019 at 23:14:45 UTC
+2019-07-22 20:53:12	--	verne.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2019-07-22 20:53:12	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2019-07-22 20:53:12	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX KNOCK :are supported by this server
+2019-07-22 20:53:12	--	SAFELIST ELIST=CTU CPRIVMSG CNOTICE :are supported by this server
+2019-07-22 20:53:12	--	There are 95 users and 83279 invisible on 29 servers
+2019-07-22 20:53:12	--	35 :IRC Operators online
+2019-07-22 20:53:12	--	16 :unknown connection(s)
+2019-07-22 20:53:12	--	46122 :channels formed
+2019-07-22 20:53:12	--	I have 5396 clients and 1 servers
+2019-07-22 20:53:12	--	5396 5945 :Current local users 5396, max 5945
+2019-07-22 20:53:12	--	83374 91149 :Current global users 83374, max 91149
+2019-07-22 20:53:12	--	Highest connection count: 5946 (5945 clients) (717887 connections received)
+2019-07-22 20:53:12	--	- verne.freenode.net Message of the Day - 
+2019-07-22 20:53:12	--	- Welcome to verne.freenode.net in Amsterdam, NL.
+2019-07-22 20:53:12	--	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2019-07-22 20:53:12	--	- this server!
+2019-07-22 20:53:12	--	-  
+2019-07-22 20:53:12	--	-  
+2019-07-22 20:53:12	--	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+2019-07-22 20:53:12	--	- a pioneering french author known for novels such as Twenty
+2019-07-22 20:53:12	--	- Thousand Leagues Under the Sea, A Journey to the Center of the
+2019-07-22 20:53:12	--	- Earth, and Around the World in Eighty Days. Often lauded as the
+2019-07-22 20:53:12	--	- Father of science fiction, Verne wrote about concepts such as
+2019-07-22 20:53:12	--	- space travel, skyscrapers, and worldwide communications
+2019-07-22 20:53:12	--	- networks long before these ideas became popularised or realised.
+2019-07-22 20:53:12	--	-  
+2019-07-22 20:53:12	--	- Welcome to freenode - supporting the free and open source
+2019-07-22 20:53:12	--	- software communities since 1998.
+2019-07-22 20:53:12	--	-  
+2019-07-22 20:53:12	--	- By connecting to freenode you indicate that you have read and
+2019-07-22 20:53:12	--	- accept our policies and guidelines as set out on https://freenode.net
+2019-07-22 20:53:12	--	-  
+2019-07-22 20:53:12	--	- In the event that you observe behaviour that contravenes our policies,
+2019-07-22 20:53:12	--	- please notify a volunteer staff member via private message, or send us an
+2019-07-22 20:53:12	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2019-07-22 20:53:12	--	- situation within a reasonable period of time, and we may request further
+2019-07-22 20:53:12	--	- information or, as appropriate, involve other parties such as channel operators 
+2019-07-22 20:53:12	--	- Group Contacts representing an on-topic group.
+2019-07-22 20:53:12	--	-  
+2019-07-22 20:53:12	--	- freenode runs an open proxy scanner.
+2019-07-22 20:53:12	--	-  
+2019-07-22 20:53:12	--	- If you are looking for assistance, you may be able to find a list of 
+2019-07-22 20:53:12	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining 
+2019-07-22 20:53:12	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2019-07-22 20:53:12	--	- any of us at any time. Please note that freenode predominantly provides 
+2019-07-22 20:53:12	--	- assistance via private message, and while we have a network channel the 
+2019-07-22 20:53:12	--	- primary venue for support requests is via private message to a member 
+2019-07-22 20:53:12	--	- of the volunteer staff team.
+2019-07-22 20:53:12	--	-  
+2019-07-22 20:53:12	--	- From time to time, volunteer staff may send server-wide notices relating to
+2019-07-22 20:53:12	--	- the project, or the communities that we host. The majority of such notices
+2019-07-22 20:53:12	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2019-07-22 20:53:12	--	- do not miss them. Important messages relating to the freenode project, including
+2019-07-22 20:53:12	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2019-07-22 20:53:12	--	- global notices.
+2019-07-22 20:53:12	--	-  
+2019-07-22 20:53:12	--	- Representing an on-topic project? Don't forget to register, more information
+2019-07-22 20:53:12	--	- can be found on the https://freenode.net website under "Group Registration".
+2019-07-22 20:53:12	--	-  
+2019-07-22 20:53:12	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2019-07-22 20:53:12	--	- network going for close to two decades.
+2019-07-22 20:53:12	--	-  
+2019-07-22 20:53:12	--	- Thank you to all of our attendees, sponsors, speakers, exhibitors, helpers,
+2019-07-22 20:53:12	--	- and everyone else who made this year's freenode #live conference amazing.
+2019-07-22 20:53:12	--	- https://freenode.net/news/live-2018
+2019-07-22 20:53:12	--	-  
+2019-07-22 20:53:12	--	- Thank you for using freenode!
+2019-07-22 20:53:12	--	End of /MOTD command.
+2019-07-22 20:53:12	--	User mode [+i] by michael4
+2019-07-22 20:53:13	--	freenode-connect (frigg@freenode/utility-bot/frigg): Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2019-07-22 20:53:13	--	CTCP requested by freenode-connect: VERSION
+2019-07-22 20:53:13	--	CTCP reply to freenode-connect: VERSION WeeChat 2.5 (Jun 11 2019 10:01:45)
+2019-07-22 20:53:18	--	You are now known as MikeFromIT
+2019-07-22 20:53:18	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2019-07-22 20:53:24	--	MSG(NickServ): IDENTIFY ******
+2019-07-22 20:53:24	--	NickServ (NickServ@services.): You are now identified for MikeFromIT.
+2019-07-23 18:14:49	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2019-07-23 18:14:49	--	irc: disconnecting from server...
+2019-07-23 18:14:49	--	irc: disconnected from server
+2019-07-23 18:14:49	--	irc: reconnecting to server in 10 seconds
+2019-07-23 18:14:59	--	irc: reconnecting to server...
+2019-07-23 18:14:59	--	irc: connecting to server chat.freenode.net/6667...
+2019-07-23 18:15:04	--	irc: connected to chat.freenode.net/6667 (185.30.166.37)
+2019-07-23 18:15:05	--	orwell.freenode.net: *** Looking up your hostname...
+2019-07-23 18:15:05	--	orwell.freenode.net: *** Checking Ident
+2019-07-23 18:15:05	--	orwell.freenode.net: *** Found your hostname
+2019-07-23 18:15:10	--	orwell.freenode.net: *** No Ident response
+2019-07-23 18:15:10	--	Welcome to the freenode Internet Relay Chat Network MikeFromIT
+2019-07-23 18:15:10	--	Your host is orwell.freenode.net[185.30.166.37/6667], running version ircd-seven-1.1.7
+2019-07-23 18:15:10	--	This server was created Tue Sep 25 2018 at 13:20:41 UTC
+2019-07-23 18:15:10	--	orwell.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2019-07-23 18:15:10	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2019-07-23 18:15:10	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+2019-07-23 18:15:10	--	SAFELIST ELIST=CTU ETRACE WHOX :are supported by this server
+2019-07-23 18:15:10	--	There are 95 users and 84089 invisible on 29 servers
+2019-07-23 18:15:10	--	35 :IRC Operators online
+2019-07-23 18:15:10	--	37 :unknown connection(s)
+2019-07-23 18:15:10	--	46231 :channels formed
+2019-07-23 18:15:10	--	I have 5559 clients and 1 servers
+2019-07-23 18:15:10	--	5559 6053 :Current local users 5559, max 6053
+2019-07-23 18:15:10	--	84184 91149 :Current global users 84184, max 91149
+2019-07-23 18:15:10	--	Highest connection count: 6054 (6053 clients) (679711 connections received)
+2019-07-23 18:15:10	--	- orwell.freenode.net Message of the Day - 
+2019-07-23 18:15:10	--	- Welcome to orwell.freenode.net in Amsterdam, NL.
+2019-07-23 18:15:10	--	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2019-07-23 18:15:10	--	- this server!
+2019-07-23 18:15:10	--	-  
+2019-07-23 18:15:10	--	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+2019-07-23 18:15:10	--	- moved him to England when he was one year old, and it
+2019-07-23 18:15:10	--	- was in England where he was educated and spent most of
+2019-07-23 18:15:10	--	- his life.  Orwell is perhaps best known for his novels
+2019-07-23 18:15:10	--	- Nineteen Eighty-Four and Animal Farm.
+2019-07-23 18:15:10	--	-  
+2019-07-23 18:15:10	--	-  
+2019-07-23 18:15:10	--	- Welcome to freenode - supporting the free and open source
+2019-07-23 18:15:10	--	- software communities since 1998.
+2019-07-23 18:15:10	--	-  
+2019-07-23 18:15:10	--	- By connecting to freenode you indicate that you have read and
+2019-07-23 18:15:10	--	- accept our policies and guidelines as set out on https://freenode.net
+2019-07-23 18:15:10	--	-  
+2019-07-23 18:15:10	--	- In the event that you observe behaviour that contravenes our policies,
+2019-07-23 18:15:10	--	- please notify a volunteer staff member via private message, or send us an
+2019-07-23 18:15:10	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2019-07-23 18:15:10	--	- situation within a reasonable period of time, and we may request further
+2019-07-23 18:15:10	--	- information or, as appropriate, involve other parties such as channel operators 
+2019-07-23 18:15:10	--	- Group Contacts representing an on-topic group.
+2019-07-23 18:15:10	--	-  
+2019-07-23 18:15:10	--	- freenode runs an open proxy scanner.
+2019-07-23 18:15:10	--	-  
+2019-07-23 18:15:10	--	- If you are looking for assistance, you may be able to find a list of 
+2019-07-23 18:15:10	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining 
+2019-07-23 18:15:10	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2019-07-23 18:15:10	--	- any of us at any time. Please note that freenode predominantly provides 
+2019-07-23 18:15:10	--	- assistance via private message, and while we have a network channel the 
+2019-07-23 18:15:10	--	- primary venue for support requests is via private message to a member 
+2019-07-23 18:15:10	--	- of the volunteer staff team.
+2019-07-23 18:15:10	--	-  
+2019-07-23 18:15:10	--	- From time to time, volunteer staff may send server-wide notices relating to
+2019-07-23 18:15:10	--	- the project, or the communities that we host. The majority of such notices
+2019-07-23 18:15:10	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2019-07-23 18:15:10	--	- do not miss them. Important messages relating to the freenode project, including
+2019-07-23 18:15:10	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2019-07-23 18:15:10	--	- global notices.
+2019-07-23 18:15:10	--	-  
+2019-07-23 18:15:10	--	- Representing an on-topic project? Don't forget to register, more information
+2019-07-23 18:15:10	--	- can be found on the https://freenode.net website under "Group Registration".
+2019-07-23 18:15:10	--	-  
+2019-07-23 18:15:10	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2019-07-23 18:15:10	--	- network going for close to two decades.
+2019-07-23 18:15:10	--	-  
+2019-07-23 18:15:10	--	- Thank you to all of our attendees, sponsors, speakers, exhibitors, helpers,
+2019-07-23 18:15:10	--	- and everyone else who made this year's freenode #live conference amazing.
+2019-07-23 18:15:10	--	- https://freenode.net/news/live-2018
+2019-07-23 18:15:10	--	-  
+2019-07-23 18:15:10	--	- Thank you for using freenode!
+2019-07-23 18:15:10	--	End of /MOTD command.
+2019-07-23 18:15:10	--	User mode [+i] by MikeFromIT
+2019-07-23 18:15:10	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2019-07-23 18:15:10	--	freenode-connect (frigg@freenode/utility-bot/frigg): Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2019-07-23 18:15:10	--	CTCP requested by freenode-connect: VERSION
+2019-07-23 18:15:10	--	CTCP reply to freenode-connect: VERSION WeeChat 2.5 (Jun 11 2019 10:01:45)
+2019-07-23 18:21:47	--	MSG(NickServ): IDENTIFY ******
+2019-07-23 18:21:48	--	NickServ (NickServ@services.): You are now identified for MikeFromIT.
+2019-07-24 17:28:44	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2019-07-24 17:28:44	--	irc: disconnecting from server...
+2019-07-24 17:28:44	--	irc: disconnected from server
+2019-07-24 17:28:44	--	irc: reconnecting to server in 10 seconds
+2019-07-24 17:28:54	--	irc: reconnecting to server...
+2019-07-24 17:28:54	--	irc: connecting to server chat.freenode.net/6667...
+2019-07-24 17:29:00	--	irc: connected to chat.freenode.net/6667 (204.225.96.251)
+2019-07-24 17:29:00	--	tolkien.freenode.net: *** Looking up your hostname...
+2019-07-24 17:29:00	--	tolkien.freenode.net: *** Checking Ident
+2019-07-24 17:29:00	--	tolkien.freenode.net: *** Found your hostname
+2019-07-24 17:29:07	--	tolkien.freenode.net: *** No Ident response
+2019-07-24 17:29:07	--	Welcome to the freenode Internet Relay Chat Network MikeFromIT
+2019-07-24 17:29:07	--	Your host is tolkien.freenode.net[204.225.96.251/6667], running version ircd-seven-1.1.7
+2019-07-24 17:29:07	--	This server was created Tue Sep 25 2018 at 13:20:43 UTC
+2019-07-24 17:29:07	--	tolkien.freenode.net ircd-seven-1.1.7 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2019-07-24 17:29:07	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2019-07-24 17:29:07	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+2019-07-24 17:29:07	--	WHOX ETRACE CPRIVMSG CNOTICE :are supported by this server
+2019-07-24 17:29:07	--	There are 95 users and 85496 invisible on 29 servers
+2019-07-24 17:29:07	--	37 :IRC Operators online
+2019-07-24 17:29:07	--	15 :unknown connection(s)
+2019-07-24 17:29:07	--	46394 :channels formed
+2019-07-24 17:29:07	--	I have 5544 clients and 1 servers
+2019-07-24 17:29:07	--	5544 6104 :Current local users 5544, max 6104
+2019-07-24 17:29:07	--	85591 94773 :Current global users 85591, max 94773
+2019-07-24 17:29:07	--	Highest connection count: 6105 (6104 clients) (2195204 connections received)
+2019-07-24 17:29:07	--	- tolkien.freenode.net Message of the Day - 
+2019-07-24 17:29:07	--	- Welcome to tolkien.freenode.net in Sanford, NC, US. Thanks to
+2019-07-24 17:29:07	--	- https://travelingmailbox.com/ for sponsoring this server
+2019-07-24 17:29:07	--	- Welcome to freenode - supporting the free and open source
+2019-07-24 17:29:07	--	- software communities since 1998.
+2019-07-24 17:29:07	--	-  
+2019-07-24 17:29:07	--	- By connecting to freenode you indicate that you have read and
+2019-07-24 17:29:07	--	- accept our policies and guidelines as set out on https://freenode.net
+2019-07-24 17:29:07	--	-  
+2019-07-24 17:29:07	--	- In the event that you observe behaviour that contravenes our policies,
+2019-07-24 17:29:07	--	- please notify a volunteer staff member via private message, or send us an
+2019-07-24 17:29:07	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2019-07-24 17:29:07	--	- situation within a reasonable period of time, and we may request further
+2019-07-24 17:29:07	--	- information or, as appropriate, involve other parties such as channel operators 
+2019-07-24 17:29:07	--	- Group Contacts representing an on-topic group.
+2019-07-24 17:29:07	--	-  
+2019-07-24 17:29:07	--	- freenode runs an open proxy scanner.
+2019-07-24 17:29:07	--	-  
+2019-07-24 17:29:07	--	- If you are looking for assistance, you may be able to find a list of 
+2019-07-24 17:29:07	--	- volunteer staff on '/stats p' (shows only on-call staff) or by joining 
+2019-07-24 17:29:07	--	- #freenode and using the '/who freenode/staff/*' command. You may message
+2019-07-24 17:29:07	--	- any of us at any time. Please note that freenode predominantly provides 
+2019-07-24 17:29:07	--	- assistance via private message, and while we have a network channel the 
+2019-07-24 17:29:07	--	- primary venue for support requests is via private message to a member 
+2019-07-24 17:29:07	--	- of the volunteer staff team.
+2019-07-24 17:29:07	--	-  
+2019-07-24 17:29:07	--	- From time to time, volunteer staff may send server-wide notices relating to
+2019-07-24 17:29:07	--	- the project, or the communities that we host. The majority of such notices
+2019-07-24 17:29:07	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2019-07-24 17:29:07	--	- do not miss them. Important messages relating to the freenode project, including
+2019-07-24 17:29:07	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2019-07-24 17:29:07	--	- global notices.
+2019-07-24 17:29:07	--	-  
+2019-07-24 17:29:07	--	- Representing an on-topic project? Don't forget to register, more information
+2019-07-24 17:29:07	--	- can be found on the https://freenode.net website under "Group Registration".
+2019-07-24 17:29:07	--	-  
+2019-07-24 17:29:07	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2019-07-24 17:29:07	--	- network going for close to two decades.
+2019-07-24 17:29:07	--	-  
+2019-07-24 17:29:07	--	- Thank you to all of our attendees, sponsors, speakers, exhibitors, helpers,
+2019-07-24 17:29:07	--	- and everyone else who made this year's freenode #live conference amazing.
+2019-07-24 17:29:07	--	- https://freenode.net/news/live-2018
+2019-07-24 17:29:07	--	-  
+2019-07-24 17:29:07	--	- Thank you for using freenode!
+2019-07-24 17:29:07	--	End of /MOTD command.
+2019-07-24 17:29:07	--	User mode [+i] by MikeFromIT
+2019-07-24 17:29:07	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2019-07-24 17:29:08	--	freenode-connect (frigg@freenode/utility-bot/frigg): Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+2019-07-24 17:29:08	--	CTCP requested by freenode-connect: VERSION
+2019-07-24 17:29:08	--	CTCP reply to freenode-connect: VERSION WeeChat 2.5 (Jun 11 2019 10:01:45)
