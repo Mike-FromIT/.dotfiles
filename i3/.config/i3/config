@@ -1,8 +1,6 @@
 #i3-gaps config file
-#Last updated
-#28 AUG 2018#
-#
-#
+#15 FEB 2021 - Changed some keybinds for window splitting
+#28 AUG 2018 - Original config
 #
 
 #Enviorement Variables
