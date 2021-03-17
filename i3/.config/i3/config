@@ -24,9 +24,10 @@ font pango:monospace, FontAwesome 8
 new_window 1pixel
 #======================================#
 
-#Custom Keybindings
+#Random Keybindings
 #======================================#
-bindsym $mod+x exec i3lock -kef -B=sigma --indicator --insidecolor=FFFFFF0F --insidevercolor=FFFFFF0F --ringvercolor=00C6C6FF --ringcolor=00BBBBFF --keyhlcolor=65FFFFFF --insidewrongcolor=FFFFFF0F --ringwrongcolor=FF4242FF
+bindsym $mod+x exec i3lock -e -u -i ~/Pictures/wallpapers/fish\ tank.png
+#bindsym $mod+x exec i3lock -kef -B=sigma --indicator --insidecolor=FFFFFF0F --insidevercolor=FFFFFF0F --ringvercolor=00C6C6FF --ringcolor=00BBBBFF --keyhlcolor=65FFFFFF --insidewrongcolor=FFFFFF0F --ringwrongcolor=FF4242FF
 bindsym $mod+w exec --no-startup-id firefox
 bindsym $mod+q exec --no-startup-id qutebrowser
 bindsym $mod+s exec --no-startup-id maim -s $HOME/snip.png
@@ -36,9 +37,18 @@ bindsym $mod+a [instance="math"] scratchpad show; [instance="math"] move positio
 bindsym XF86AudioMute exec amixer set Master toggle
 bindsym XF86AudioRaiseVolume exec amixer set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer set Master 5%-
-bindsym XF86AudioMicMute exec lock
-bindsym XF86Launch1 exec systemctl suspend
+bindsym XF86AudioMicMute exec i3lock
 #======================================#
+
+
+#Backlighting Keybinds
+#======================================#
+bindcode 232 exec brightnessctl set 5%-
+bindcode 233 exec brightnessctl set +5%
+
+#======================================#
+
+
 
 #Programs to start on login
 #======================================#
@@ -180,6 +190,7 @@ mode "display" {
         #Change display settings
         bindsym 1 exec $HOME/.screenlayout/normal.sh; mode "default"
         bindsym 2 exec $HOME/.screenlayout/docked.sh; mode "default"
+        bindsym 3 exec $HOME/.screenlayout/docked2.sh; mode "default"
         
         #Return to normal mode
         bindsym Return mode "default"
