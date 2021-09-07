@@ -48,7 +48,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 font-3 = Weather Icons:size=12;1
 
-modules-left = bspwm i3
+modules-left = i3
 modules-center = 
 modules-right = mpd backlight-acpi wlan eth battery date
 #modules-right = xbacklight volume wlan eth battery weather date 
@@ -163,7 +163,7 @@ label-song-ellipsis = true
 
 [module/xbacklight]
 type = internal/xbacklight
-card = intel_backlight
+card = amdgpu_b10
 format = <label> <bar>
 label = BL
 
@@ -182,7 +182,7 @@ bar-empty-foreground = ${colors.foreground-alt}
 inherit = module/xbacklight
 label = BL: %percentage%%
 type = internal/backlight
-card = intel_backlight
+card = amdgpu_b10
 enable-scroll = true
 format = <label>
 
@@ -204,7 +204,7 @@ format = <label>
 
 [module/wlan]
 type = internal/network
-interface = wlp3s0
+interface = wlan0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -226,7 +226,7 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = enp0s25
+interface = enp2s0f0
 interval = 3.0
 
 format-connected-underline = #47daff
