@@ -191,7 +191,11 @@ mode "display" {
         bindsym 1 exec $HOME/.screenlayout/normal.sh; mode "default"
         bindsym 2 exec $HOME/.screenlayout/docked.sh; mode "default"
         bindsym 3 exec $HOME/.screenlayout/docked2.sh; mode "default"
+        bindsym 4 exec $HOME/.screenlayout/docked3.sh; mode "default"
         
+
+
+
         #Return to normal mode
         bindsym Return mode "default"
         bindsym Escape mode "default"
@@ -202,6 +206,7 @@ mode "script" {
 
         bindsym 1 exec $HOME/scripts/connect_bluetooth_headphones.py
         bindsym 2 exec $HOME/scripts/connect_airpods.py
+        bindsym c exec xdotool click --repeat 100 -delay 100 1
 
         #Return to normal mode
         bindsym Escape mode "default"
