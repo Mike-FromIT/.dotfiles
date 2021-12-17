@@ -1,0 +1,585 @@
+Feb 22 01:47 : config: option 'device' on line 14 was not recognized
+Feb 22 01:47 : exception: Failed to enable output "pulse audio" (pulse); pa_context_connect() has failed: Connection refused
+Feb 21 21:02 : player: played "53666 (feat. Phem).mp3"
+Feb 21 21:03 : config: option 'device' on line 14 was not recognized
+Feb 21 21:43 : player: played "53666 (feat. Phem).mp3"
+Feb 21 21:44 : config: option 'device' on line 14 was not recognized
+Feb 21 22:18 : player: played "53666 (feat. Phem).mp3"
+Feb 22 07:48 : config: option 'device' on line 14 was not recognized
+Feb 22 08:35 : exception: Failed to open /home/michael/.mpd/playlists: No such file or directory
+Feb 22 16:19 : player: played "Halloween.mp3"
+Feb 22 16:20 : config: option 'device' on line 14 was not recognized
+Feb 22 19:44 : player: played "Halloween.mp3"
+Feb 22 19:45 : config: option 'device' on line 14 was not recognized
+Feb 22 21:39 : player: played "Halloween.mp3"
+Feb 23 11:24 : player: played " Conversation Pt. 1.mp3"
+Feb 23 11:25 : config: option 'device' on line 14 was not recognized
+Feb 24 15:51 : player: played " Conversation Pt. 1.mp3"
+Feb 24 15:52 : config: option 'device' on line 14 was not recognized
+Feb 24 15:52 : player: played " Conversation Pt. 1.mp3"
+Feb 24 15:57 : config: option 'device' on line 14 was not recognized
+Feb 26 16:38 : config: option 'device' on line 14 was not recognized
+Feb 27 00:06 : player: played " Conversation Pt. 1.mp3"
+Feb 27 14:20 : config: option 'device' on line 14 was not recognized
+Mar 07 09:16 : config: option 'device' on line 14 was not recognized
+Mar 07 17:37 : player: played " Conversation Pt. 1.mp3"
+Mar 07 17:38 : config: option 'device' on line 14 was not recognized
+Mar 08 15:41 : player: played " Conversation Pt. 1.mp3"
+Mar 08 15:42 : config: option 'device' on line 14 was not recognized
+Mar 10 17:00 : config: option 'device' on line 14 was not recognized
+Mar 11 08:48 : player: played " Conversation Pt. 1.mp3"
+Mar 11 11:16 : config: option 'device' on line 14 was not recognized
+Mar 11 11:27 : player: played " Conversation Pt. 1.mp3"
+Mar 11 18:18 : config: option 'device' on line 14 was not recognized
+Mar 11 19:05 : player: played " Conversation Pt. 1.mp3"
+Mar 11 19:07 : config: option 'device' on line 14 was not recognized
+Mar 12 15:49 : player: played " Conversation Pt. 1.mp3"
+Mar 12 16:49 : config: option 'device' on line 14 was not recognized
+Mar 13 10:02 : config: option 'device' on line 14 was not recognized
+Mar 13 10:40 : player: played " Conversation Pt. 1.mp3"
+Mar 13 10:41 : config: option 'device' on line 14 was not recognized
+Mar 13 13:16 : player: played " Conversation Pt. 1.mp3"
+Mar 13 14:36 : config: option 'device' on line 14 was not recognized
+Mar 16 07:12 : player: played " Conversation Pt. 1.mp3"
+Mar 16 08:49 : config: option 'device' on line 14 was not recognized
+Mar 16 08:57 : player: played " Conversation Pt. 1.mp3"
+Mar 16 13:58 : config: option 'device' on line 14 was not recognized
+Mar 16 16:02 : player: played " Conversation Pt. 1.mp3"
+Mar 16 17:00 : config: option 'device' on line 14 was not recognized
+Mar 16 20:14 : config: option 'device' on line 14 was not recognized
+Mar 16 22:13 : player: played " Conversation Pt. 1.mp3"
+Mar 17 06:55 : config: option 'device' on line 14 was not recognized
+Mar 17 06:58 : player: played " Conversation Pt. 1.mp3"
+Mar 17 07:52 : config: option 'device' on line 14 was not recognized
+Mar 17 07:55 : player: played " Conversation Pt. 1.mp3"
+Mar 17 13:35 : config: option 'device' on line 14 was not recognized
+Mar 17 15:52 : player: played " Conversation Pt. 1.mp3"
+Mar 17 17:15 : config: option 'device' on line 14 was not recognized
+Mar 17 17:24 : player: played " Conversation Pt. 1.mp3"
+Mar 17 17:28 : config: option 'device' on line 14 was not recognized
+Mar 20 21:22 : avahi: Service 'Music Player @ T14' successfully established.
+Mar 21 14:06 : player: played " Conversation Pt. 1.mp3"
+Mar 21 14:11 : config: option 'device' on line 14 was not recognized
+Mar 21 14:11 : avahi: Service 'Music Player @ T14' successfully established.
+Mar 21 16:20 : player: played " Conversation Pt. 1.mp3"
+Mar 21 16:23 : config: option 'device' on line 14 was not recognized
+Mar 21 16:23 : avahi: Service 'Music Player @ T14' successfully established.
+Mar 27 23:47 : player: played " Conversation Pt. 1.mp3"
+Mar 28 00:37 : config: option 'device' on line 14 was not recognized
+Mar 28 00:37 : avahi: Service 'Music Player @ T14' successfully established.
+Mar 29 22:13 : player: played " Conversation Pt. 1.mp3"
+Mar 30 10:07 : config: option 'device' on line 14 was not recognized
+Mar 30 10:07 : avahi: Service 'Music Player @ T14' successfully established.
+Mar 30 22:29 : player: played " Conversation Pt. 1.mp3"
+Mar 31 16:59 : config: option 'device' on line 14 was not recognized
+Mar 31 16:59 : avahi: Service 'Music Player @ T14' successfully established.
+Mar 31 20:18 : player: played " Conversation Pt. 1.mp3"
+Mar 31 20:19 : config: option 'device' on line 14 was not recognized
+Mar 31 20:19 : avahi: Service 'Music Player @ T14' successfully established.
+Apr 03 15:27 : player: played " Conversation Pt. 1.mp3"
+Apr 03 15:29 : config: option 'device' on line 14 was not recognized
+Apr 03 15:29 : avahi: Service 'Music Player @ T14' successfully established.
+Apr 06 19:29 : player: played " Conversation Pt. 1.mp3"
+Apr 06 19:30 : config: option 'device' on line 14 was not recognized
+Apr 06 19:30 : avahi: Service 'Music Player @ T14' successfully established.
+Apr 10 00:47 : player: played " Conversation Pt. 1.mp3"
+Apr 10 00:49 : config: option 'device' on line 14 was not recognized
+Apr 10 00:49 : avahi: Service 'Music Player @ T14' successfully established.
+Apr 17 23:02 : player: played " Conversation Pt. 1.mp3"
+Apr 18 09:20 : config: option 'device' on line 14 was not recognized
+Apr 18 09:20 : avahi: Service 'Music Player @ T14' successfully established.
+Apr 20 21:49 : player: played " Conversation Pt. 1.mp3"
+Apr 21 06:14 : config: option 'device' on line 14 was not recognized
+Apr 21 06:14 : avahi: Service 'Music Player @ T14' successfully established.
+Apr 21 06:15 : player: played " Conversation Pt. 1.mp3"
+Apr 21 14:49 : config: option 'device' on line 14 was not recognized
+Apr 21 14:49 : avahi: Service 'Music Player @ T14' successfully established.
+Apr 24 11:19 : exception: Failed to play on "pulse audio" (pulse): suspended
+Apr 24 21:39 : player: played " Conversation Pt. 1.mp3"
+Apr 24 22:08 : config: option 'device' on line 14 was not recognized
+Apr 24 22:08 : avahi: Service 'Music Player @ T14' successfully established.
+Apr 27 20:38 : player: played " Conversation Pt. 1.mp3"
+Apr 28 18:56 : config: option 'device' on line 14 was not recognized
+Apr 28 18:56 : avahi: Service 'Music Player @ T14' successfully established.
+Apr 29 20:23 : player: played " Conversation Pt. 1.mp3"
+Apr 30 17:59 : config: option 'device' on line 14 was not recognized
+Apr 30 17:59 : avahi: Service 'Music Player @ T14' successfully established.
+May 04 14:26 : player: played "Pursuit of Happiness [Steve Aoki Remix].mp3"
+May 04 14:28 : player: played "Candy (feat. Trippie Redd).mp3"
+May 04 14:33 : player: played "01 Lit Like Bic.mp3"
+May 04 14:38 : player: played " Ladders.mp3"
+May 04 14:42 : player: played " Wings.mp3"
+May 04 14:44 : player: played " Come Back to Earth.mp3"
+May 04 14:48 : player: played "Halloween.mp3"
+May 04 14:56 : player: played "I Think I'm OKAY (feat. YUNGBLUD, Travis Barker & Omer Fedi).mp3"
+May 04 14:59 : player: played "Waste Love (feat. Madison Love).mp3"
+May 04 15:02 : player: played "Lie.mp3"
+May 04 15:06 : player: played " Dunno.mp3"
+May 04 15:10 : player: played " Perfecto.mp3"
+May 04 15:14 : player: played "Let You Go.mp3"
+May 04 15:20 : player: played " Self Care.mp3"
+May 04 15:23 : player: played " Perfecto.mp3"
+May 04 15:27 : player: played "Lie.mp3"
+May 04 15:29 : exception: Failed to open /home/michael/.mpd/playlists: No such file or directory
+May 04 15:33 : player: played "Go For Broke (Ft. James Arthur).mp3"
+May 06 07:36 : player: played " Hurt Feelings.mp3"
+May 06 07:38 : config: option 'device' on line 14 was not recognized
+May 06 07:38 : avahi: Service 'Music Player @ T14' successfully established.
+May 09 20:48 : player: played " Hurt Feelings.mp3"
+May 10 05:42 : config: option 'device' on line 14 was not recognized
+May 10 05:42 : avahi: Service 'Music Player @ T14' successfully established.
+May 10 06:26 : player: played " Hurt Feelings.mp3"
+May 10 17:57 : config: option 'device' on line 14 was not recognized
+May 10 17:57 : avahi: Service 'Music Player @ T14' successfully established.
+May 20 21:03 : player: played " Hurt Feelings.mp3"
+May 24 20:17 : config: option 'device' on line 14 was not recognized
+May 24 20:17 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 03 20:04 : player: played " Hurt Feelings.mp3"
+Jun 03 20:54 : config: option 'device' on line 14 was not recognized
+Jun 03 20:54 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 06 19:32 : player: played " Hurt Feelings.mp3"
+Jun 06 19:33 : config: option 'device' on line 14 was not recognized
+Jun 06 19:33 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 06 19:46 : player: played " Hurt Feelings.mp3"
+Jun 06 19:47 : config: option 'device' on line 14 was not recognized
+Jun 06 19:47 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 08 21:11 : player: played " Hurt Feelings.mp3"
+Jun 09 09:59 : config: option 'device' on line 14 was not recognized
+Jun 09 09:59 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 10 15:48 : player: played " Hurt Feelings.mp3"
+Jun 10 19:21 : config: option 'device' on line 14 was not recognized
+Jun 10 19:21 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 10 22:03 : player: played " Hurt Feelings.mp3"
+Jun 11 17:26 : config: option 'device' on line 14 was not recognized
+Jun 11 17:26 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 13 14:04 : player: played " Hurt Feelings.mp3"
+Jun 13 14:15 : config: option 'device' on line 14 was not recognized
+Jun 13 14:15 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 13 21:42 : player: played " Hurt Feelings.mp3"
+Jun 14 16:31 : config: option 'device' on line 14 was not recognized
+Jun 14 16:31 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 14 21:55 : player: played " Hurt Feelings.mp3"
+Jun 15 18:03 : config: option 'device' on line 14 was not recognized
+Jun 15 18:03 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 16 06:38 : player: played " Hurt Feelings.mp3"
+Jun 16 17:48 : config: option 'device' on line 14 was not recognized
+Jun 16 17:48 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 16 21:36 : player: played " Hurt Feelings.mp3"
+Jun 17 09:02 : config: option 'device' on line 14 was not recognized
+Jun 17 09:02 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 17 15:55 : player: played " Hurt Feelings.mp3"
+Jun 17 17:50 : config: option 'device' on line 14 was not recognized
+Jun 17 17:50 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 19 20:44 : player: played " Hurt Feelings.mp3"
+Jun 19 20:46 : config: option 'device' on line 14 was not recognized
+Jun 19 20:46 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 21 21:52 : player: played " Hurt Feelings.mp3"
+Jun 22 16:38 : config: option 'device' on line 14 was not recognized
+Jun 22 16:38 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 22 21:57 : player: played " Hurt Feelings.mp3"
+Jun 23 16:56 : config: option 'device' on line 14 was not recognized
+Jun 23 16:56 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 23 21:40 : player: played " Hurt Feelings.mp3"
+Jun 25 18:01 : config: option 'device' on line 14 was not recognized
+Jun 25 18:01 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 28 17:34 : player: played " Hurt Feelings.mp3"
+Jun 28 18:25 : config: option 'device' on line 14 was not recognized
+Jun 28 18:25 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 29 21:29 : player: played " Hurt Feelings.mp3"
+Jun 29 21:30 : config: option 'device' on line 14 was not recognized
+Jun 29 21:30 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 29 21:33 : player: played " Hurt Feelings.mp3"
+Jun 30 18:01 : config: option 'device' on line 14 was not recognized
+Jun 30 18:01 : avahi: Service 'Music Player @ T14' successfully established.
+Jun 30 21:55 : player: played " Hurt Feelings.mp3"
+Jul 01 16:34 : config: option 'device' on line 14 was not recognized
+Jul 01 16:34 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 05 17:39 : player: played " Hurt Feelings.mp3"
+Jul 05 17:40 : config: option 'device' on line 14 was not recognized
+Jul 05 17:40 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 09 23:01 : player: played " Hurt Feelings.mp3"
+Jul 11 10:33 : config: option 'device' on line 14 was not recognized
+Jul 11 10:33 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 15 16:20 : player: played " Hurt Feelings.mp3"
+Jul 15 21:33 : config: option 'device' on line 14 was not recognized
+Jul 15 21:33 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 15 22:00 : player: played " Hurt Feelings.mp3"
+Jul 16 06:37 : config: option 'device' on line 14 was not recognized
+Jul 16 06:37 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 16 06:38 : player: played " Hurt Feelings.mp3"
+Jul 16 16:50 : config: option 'device' on line 14 was not recognized
+Jul 16 16:50 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 18 16:26 : player: played " Hurt Feelings.mp3"
+Jul 18 16:27 : config: option 'device' on line 14 was not recognized
+Jul 18 16:27 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 20 21:14 : player: played " Hurt Feelings.mp3"
+Jul 21 07:57 : config: option 'device' on line 14 was not recognized
+Jul 21 07:57 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 22 06:41 : player: played " Hurt Feelings.mp3"
+Jul 22 16:31 : config: option 'device' on line 14 was not recognized
+Jul 22 16:31 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 22 20:36 : player: played " Hurt Feelings.mp3"
+Jul 23 09:58 : config: option 'device' on line 14 was not recognized
+Jul 23 09:58 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 23 14:58 : player: played " Hurt Feelings.mp3"
+Jul 23 17:42 : config: option 'device' on line 14 was not recognized
+Jul 23 17:42 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 25 21:06 : player: played " Hurt Feelings.mp3"
+Jul 26 11:25 : config: option 'device' on line 14 was not recognized
+Jul 26 11:25 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 26 12:51 : player: played " Hurt Feelings.mp3"
+Jul 26 17:59 : config: option 'device' on line 14 was not recognized
+Jul 26 17:59 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 26 20:15 : player: played " Hurt Feelings.mp3"
+Jul 27 08:22 : config: option 'device' on line 14 was not recognized
+Jul 27 08:22 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 28 06:39 : player: played " Hurt Feelings.mp3"
+Jul 28 18:11 : config: option 'device' on line 14 was not recognized
+Jul 28 18:11 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 28 19:22 : player: played " Hurt Feelings.mp3"
+Jul 28 19:23 : config: option 'device' on line 14 was not recognized
+Jul 28 19:23 : avahi: Service 'Music Player @ T14' successfully established.
+Jul 31 23:17 : player: played " Hurt Feelings.mp3"
+Aug 01 09:57 : config: option 'device' on line 14 was not recognized
+Aug 01 09:57 : avahi: Service 'Music Player @ T14' successfully established.
+Aug 03 21:20 : player: played " Hurt Feelings.mp3"
+Aug 04 18:06 : config: option 'device' on line 14 was not recognized
+Aug 04 18:06 : avahi: Service 'Music Player @ T14' successfully established.
+Aug 05 22:11 : player: played " Hurt Feelings.mp3"
+Aug 06 21:55 : config: option 'device' on line 14 was not recognized
+Aug 06 21:55 : avahi: Service 'Music Player @ T14' successfully established.
+Aug 06 22:19 : player: played " Hurt Feelings.mp3"
+Aug 08 17:36 : config: option 'device' on line 14 was not recognized
+Aug 08 17:36 : avahi: Service 'Music Player @ T14' successfully established.
+Aug 09 18:15 : player: played " Hurt Feelings.mp3"
+Aug 09 18:16 : config: option 'device' on line 14 was not recognized
+Aug 09 18:16 : avahi: Service 'Music Player @ T14' successfully established.
+Aug 10 18:45 : player: played " Hurt Feelings.mp3"
+Aug 10 20:04 : config: option 'device' on line 14 was not recognized
+Aug 10 20:04 : avahi: Service 'Music Player @ T14' successfully established.
+Aug 16 17:10 : config: option 'device' on line 14 was not recognized
+Aug 16 17:10 : avahi: Service 'Music Player @ T14' successfully established.
+Aug 16 17:15 : player: played " Hurt Feelings.mp3"
+Aug 16 17:18 : config: option 'device' on line 14 was not recognized
+Aug 16 17:18 : avahi: Service 'Music Player @ T14' successfully established.
+Aug 16 21:01 : player: played " Hurt Feelings.mp3"
+Aug 17 18:12 : config: option 'device' on line 14 was not recognized
+Aug 17 18:12 : avahi: Service 'Music Player @ T14' successfully established.
+Aug 17 20:39 : player: played " Hurt Feelings.mp3"
+Aug 18 16:49 : config: option 'device' on line 14 was not recognized
+Aug 18 16:49 : avahi: Service 'Music Player @ T14' successfully established.
+Aug 18 21:22 : player: played " Hurt Feelings.mp3"
+Aug 19 18:34 : config: option 'device' on line 14 was not recognized
+Aug 19 18:34 : avahi: Service 'Music Player @ T14' successfully established.
+Aug 23 16:33 : player: played " Hurt Feelings.mp3"
+Aug 23 16:34 : config: option 'device' on line 14 was not recognized
+Aug 23 16:34 : avahi: Service 'Music Player @ T14' successfully established.
+Aug 24 16:16 : player: played " Hurt Feelings.mp3"
+Aug 24 16:17 : config: option 'device' on line 14 was not recognized
+Aug 24 16:17 : avahi: Service 'Music Player @ T14' successfully established.
+Aug 29 21:07 : player: played " Hurt Feelings.mp3"
+Aug 29 21:08 : config: option 'device' on line 14 was not recognized
+Aug 29 21:08 : avahi: Service 'Music Player @ T14' successfully established.
+Aug 29 21:55 : player: played " Hurt Feelings.mp3"
+Aug 30 17:18 : config: option 'device' on line 14 was not recognized
+Aug 30 17:18 : avahi: Service 'Music Player @ T14' successfully established.
+Sep 01 18:10 : player: played " Hurt Feelings.mp3"
+Sep 01 18:11 : config: option 'device' on line 14 was not recognized
+Sep 01 18:11 : avahi: Service 'Music Player @ T14' successfully established.
+Sep 01 18:14 : player: played " Hurt Feelings.mp3"
+Sep 01 18:14 : config: option 'device' on line 14 was not recognized
+Sep 01 18:14 : avahi: Service 'Music Player @ T14' successfully established.
+Sep 04 10:28 : player: played " Hurt Feelings.mp3"
+Sep 07 16:58 : config: option 'device' on line 14 was not recognized
+Sep 07 16:58 : avahi: Service 'Music Player @ T14' successfully established.
+Sep 12 12:40 : config: option 'device' on line 14 was not recognized
+Sep 12 12:40 : avahi: Service 'Music Player @ T14' successfully established.
+Sep 17 19:11 : player: played " Hurt Feelings.mp3"
+Sep 17 19:11 : config: option 'device' on line 14 was not recognized
+Sep 17 19:11 : avahi: Service 'Music Player @ T14' successfully established.
+Sep 18 09:27 : player: played " Hurt Feelings.mp3"
+Sep 18 09:28 : config: option 'device' on line 14 was not recognized
+Sep 18 09:28 : avahi: Service 'Music Player @ T14' successfully established.
+Sep 26 16:52 : config: option 'device' on line 14 was not recognized
+Sep 26 16:52 : avahi: Service 'Music Player @ T14' successfully established.
+Sep 26 17:03 : player: played " Hurt Feelings.mp3"
+Sep 26 17:04 : config: option 'device' on line 14 was not recognized
+Sep 26 17:04 : avahi: Service 'Music Player @ T14' successfully established.
+Sep 26 22:00 : player: played " Hurt Feelings.mp3"
+Sep 27 18:26 : config: option 'device' on line 14 was not recognized
+Sep 27 18:26 : avahi: Service 'Music Player @ T14' successfully established.
+Sep 29 19:54 : player: played " Hurt Feelings.mp3"
+Sep 29 19:55 : config: option 'device' on line 14 was not recognized
+Sep 29 19:55 : avahi: Service 'Music Player @ T14' successfully established.
+Oct 03 22:11 : player: played " Hurt Feelings.mp3"
+Oct 04 09:24 : config: option 'device' on line 14 was not recognized
+Oct 04 09:24 : avahi: Service 'Music Player @ T14' successfully established.
+Oct 07 12:23 : player: played " Hurt Feelings.mp3"
+Oct 07 20:59 : config: option 'device' on line 14 was not recognized
+Oct 07 20:59 : avahi: Service 'Music Player @ T14' successfully established.
+Oct 07 21:02 : player: played " Hurt Feelings.mp3"
+Oct 07 21:04 : config: option 'device' on line 14 was not recognized
+Oct 07 21:04 : avahi: Service 'Music Player @ T14' successfully established.
+Oct 07 21:13 : player: played " Hurt Feelings.mp3"
+Oct 07 21:16 : config: option 'device' on line 14 was not recognized
+Oct 07 21:16 : avahi: Service 'Music Player @ T14' successfully established.
+Oct 07 22:06 : player: played " Hurt Feelings.mp3"
+Oct 08 14:02 : config: option 'device' on line 14 was not recognized
+Oct 08 14:02 : avahi: Service 'Music Player @ T14' successfully established.
+Oct 10 20:11 : player: played " Hurt Feelings.mp3"
+Oct 10 20:26 : config: option 'device' on line 14 was not recognized
+Oct 10 20:26 : avahi: Service 'Music Player @ T14' successfully established.
+Oct 14 18:13 : player: played " Hurt Feelings.mp3"
+Oct 14 18:16 : config: option 'device' on line 14 was not recognized
+Oct 14 18:16 : avahi: Service 'Music Player @ T14' successfully established.
+Oct 16 08:25 : player: played " Hurt Feelings.mp3"
+Oct 16 08:26 : config: option 'device' on line 14 was not recognized
+Oct 16 08:26 : update: added / 2009.mp3
+Oct 16 08:26 : update: added / Come Back to Earth.mp3
+Oct 16 08:26 : update: added / Conversation Pt. 1.mp3
+Oct 16 08:26 : update: added / Dunno.mp3
+Oct 16 08:26 : update: added / Hurt Feelings.mp3
+Oct 16 08:26 : update: added / Jet Fuel.mp3
+Oct 16 08:26 : update: added / Ladders.mp3
+Oct 16 08:26 : update: added / Perfecto.mp3
+Oct 16 08:26 : update: added / Self Care.mp3
+Oct 16 08:26 : update: added / Small Worlds.mp3
+Oct 16 08:26 : update: added / So It Goes.mp3
+Oct 16 08:26 : update: added / What's the Use_.mp3
+Oct 16 08:26 : update: added / Wings.mp3
+Oct 16 08:26 : update: added /01 Lit Like Bic.mp3
+Oct 16 08:26 : update: added /02 Unlock the Swag (feat. Jace of Two-9).mp3
+Oct 16 08:26 : update: added /10 Feet Down.mp3
+Oct 16 08:26 : update: added /100 Bad Days.mp3
+Oct 16 08:26 : update: added /27.mp3
+Oct 16 08:26 : update: added /3 A.M..mp3
+Oct 16 08:26 : update: added /4U.mp3
+Oct 16 08:26 : update: added /53666 (feat. Phem).mp3
+Oct 16 08:26 : update: added /90210 (feat. G-Eazy).mp3
+Oct 16 08:26 : update: added /A Message From The Count.mp3
+Oct 16 08:26 : update: added /A Thousand Bad Times.mp3
+Oct 16 08:26 : update: added /Ain't Gonna Die Tonight (feat. Eric Nally).mp3
+Oct 16 08:26 : update: added /Ain't Love.mp3
+Oct 16 08:26 : update: added /Ain't Trippin.mp3
+Oct 16 08:26 : update: added /All I Have.mp3
+Oct 16 08:26 : update: added /Allergic.mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /Aquarium.mp4
+Oct 16 08:26 : update: added /At My Best (Ft. Hailee Steinfeld).mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /Avian.mp4
+Oct 16 08:26 : update: added /Bad Things (with Camila Cabello).mp3
+Oct 16 08:26 : update: added /Beats.mp3
+Oct 16 08:26 : update: added /Beautiful.mp3
+Oct 16 08:26 : update: added /Beckett.mp3
+Oct 16 08:26 : update: added /Beer in the Fridge.mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /Bird Call.mp4
+Oct 16 08:26 : update: added /Birthday Party.mp3
+Oct 16 08:26 : update: added /Break My Face.mp3
+Oct 16 08:26 : update: added /Breathe.mp3
+Oct 16 08:26 : update: added /Burning Memories (feat. Lil Skies, Fingazz & Phem).mp3
+Oct 16 08:26 : update: added /Can You Hold Me (Feat. Britt Nicole).mp3
+Oct 16 08:26 : update: added /Can't Walk.mp3
+Oct 16 08:26 : update: added /Candy (feat. Trippie Redd).mp3
+Oct 16 08:26 : update: added /Candy Paint.mp3
+Oct 16 08:26 : update: added /Change.mp3
+Oct 16 08:26 : update: added /Church (feat. Xperience).mp3
+Oct 16 08:26 : update: added /Circles.mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /Claymation (Bonus Track).mp4
+Oct 16 08:26 : update: added /Come Get Her.mp3
+Oct 16 08:26 : update: added /Congratulations.mp3
+Oct 16 08:26 : update: added /Corner Store (feat. Dave B & Travis Thompson).mp3
+Oct 16 08:26 : update: added /Cruise.mp3
+Oct 16 08:26 : update: added /Deadroses.mp3
+Oct 16 08:26 : update: added /Dear Winter.mp3
+Oct 16 08:26 : update: added /Death In My Pocket.mp3
+Oct 16 08:26 : update: added /Destiny.mp3
+Oct 16 08:26 : update: added /Die For Me.mp3
+Oct 16 08:26 : update: added /Dirty Laundry.mp3
+Oct 16 08:26 : update: added /Dollar Store.mp3
+Oct 16 08:26 : update: added /Don't Throw Out My Legos.mp3
+Oct 16 08:26 : update: added /Dreams.mp3
+Oct 16 08:26 : update: added /Enemies.mp3
+Oct 16 08:26 : update: added /Everywhere We Go [Explicit].mp3
+Oct 16 08:26 : update: added /Excavate (feat. Saint Claire).mp3
+Oct 16 08:26 : update: added /FLOOR 13.mp3
+Oct 16 08:26 : update: added /Face It.mp3
+Oct 16 08:26 : update: added /Fearless.mp3
+Oct 16 08:26 : update: added /Finale (Can't Wait To See What You Do Next).mp3
+Oct 16 08:26 : update: added /Firebreather (feat. Reignwolf).mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /Gees (feat. Schoolboy Q).mp4
+Oct 16 08:26 : update: added /Glass House (feat. Naomi Wild).mp3
+Oct 16 08:26 : update: added /Glorious.mp3
+Oct 16 08:26 : update: added /Go For Broke (Ft. James Arthur).mp3
+Oct 16 08:26 : update: added /Golden God.mp3
+Oct 16 08:26 : update: added /Good Old Days (feat. Kesha).mp3
+Oct 16 08:26 : update: added /Goodbyes.mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /Goosebumpz (Bonus Track).mp4
+Oct 16 08:26 : update: added /Green Lights.mp3
+Oct 16 08:26 : update: added /Halloween.mp3
+Oct 16 08:26 : update: added /Hate Myself.mp3
+Oct 16 08:26 : update: added /Heart [Explicit].mp3
+Oct 16 08:26 : update: added /Hello.mp3
+Oct 16 08:26 : update: added /Hollywood Whore (feat. RookXX).mp3
+Oct 16 08:26 : update: added /Hollywood's Bleeding.mp3
+Oct 16 08:26 : update: added /How To Play the Flute (feat. King Draino).mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /I Am Who Am (Killin' Time) [feat. Niki Randa].mp4
+Oct 16 08:26 : update: added /I Know.mp3
+Oct 16 08:26 : update: added /I Mean It REMIX (feat. Rick Ross & Remo).mp3
+Oct 16 08:26 : update: added /I Miss the Days.mp3
+Oct 16 08:26 : update: added /I Needed You.mp3
+Oct 16 08:26 : update: added /I Think I'm OKAY (feat. YUNGBLUD, Travis Barker & Omer Fedi).mp3
+Oct 16 08:26 : update: added /I Think I'm OKAY.mp3
+Oct 16 08:26 : update: added /I'm Gonna Be.mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /I'm Not Real (feat. Earl Sweatshirt & Vinny Radio).mp4
+Oct 16 08:26 : update: added /Idfc.mp3
+Oct 16 08:26 : update: added /If You Want Love.mp3
+Oct 16 08:26 : update: added /Intentions (feat. Dan Caplen).mp3
+Oct 16 08:26 : update: added /Internet.mp3
+Oct 16 08:26 : update: added /Intro.mp3
+Oct 16 08:26 : update: added /Isis.mp3
+Oct 16 08:26 : update: added /Karma.mp3
+Oct 16 08:26 : update: added /Kiss The Sky.mp3
+Oct 16 08:26 : update: added /Know.mp3
+Oct 16 08:26 : update: added /Lady Killers (feat. Hoodie Allen).mp3
+Oct 16 08:26 : update: added /Leave Me Alone.mp3
+Oct 16 08:26 : update: added /Let Me Go.mp3
+Oct 16 08:26 : update: added /Let You Down.mp3
+Oct 16 08:26 : update: added /Let You Go.mp3
+Oct 16 08:26 : update: added /Levitate (feat. Otieno Terry).mp3
+Oct 16 08:26 : update: added /Lie.mp3
+Oct 16 08:26 : update: added /Like This.mp3
+Oct 16 08:26 : update: added /Loaded (feat. Dj Carnage) (Bonus Track).mp3
+Oct 16 08:26 : update: added /Mad (feat. Devon Baldwin).mp3
+Oct 16 08:26 : update: added /Mansion (Feat. Fleurie).mp3
+Oct 16 08:26 : update: added /Marilyn (feat. Dominique LeJeune).mp3
+Oct 16 08:26 : update: added /Marmalade (feat. Lil Yachty).mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /Matches (feat. Ab-Soul).mp4
+Oct 16 08:26 : update: added /Mind Candy.mp3
+Oct 16 08:26 : update: added /Miracle (feat. Dan Caplen).mp3
+Oct 16 08:26 : update: added /Moonwalkers (Ft. DubXX).mp3
+Oct 16 08:26 : update: added /Motivated.mp3
+Oct 16 08:26 : update: added /Must Be Nice (feat. Johanna Fay).mp3
+Oct 16 08:26 : update: added /My Heart Is Lost.mp3
+Oct 16 08:26 : update: added /My Life.mp3
+Oct 16 08:26 : update: added /My Stress.mp3
+Oct 16 08:26 : update: added /My X.mp3
+Oct 16 08:26 : update: added /Myself.mp3
+Oct 16 08:26 : update: added /Nate.mp3
+Oct 16 08:26 : update: added /Next Up Forever.mp3
+Oct 16 08:26 : update: added /No Excuses.mp3
+Oct 16 08:26 : update: added /No Flex Zone.mp3
+Oct 16 08:26 : update: added /No Type.mp3
+Oct 16 08:26 : update: added /Notepad.mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /O.K. (feat. Tyler, The Creator) [Bonus Track].mp4
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /Objects in the Mirror.mp4
+Oct 16 08:26 : update: added /On The Road.mp3
+Oct 16 08:26 : update: added /One Hundred.mp3
+Oct 16 08:26 : update: added /Only.mp3
+Oct 16 08:26 : update: added /Options.mp3
+Oct 16 08:26 : update: added /Outcast.mp3
+Oct 16 08:26 : update: added /Outro.mp3
+Oct 16 08:26 : update: added /Over It (feat. Donna Missal).mp3
+Oct 16 08:26 : update: added /Paralyzed.mp3
+Oct 16 08:26 : update: added /Parents.mp3
+Oct 16 08:26 : update: added /Plastic Dreams (feat. Johanna Fay).mp3
+Oct 16 08:26 : update: added /Prescriptions.mp3
+Oct 16 08:26 : update: added /Pursuit of Happiness [Steve Aoki Remix].mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /REMember.mp4
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /Red Dot Music (feat. Action Bronson).mp4
+Oct 16 08:26 : update: added /Rehab.mp3
+Oct 16 08:26 : update: added /Remember This.mp3
+Oct 16 08:26 : update: added /Returns.mp3
+Oct 16 08:26 : update: added /Roulette.mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /S.D.S..mp4
+Oct 16 08:26 : update: added /Safe Sex Pay Checks.mp3
+Oct 16 08:26 : update: added /Saint-Tropez.mp3
+Oct 16 08:26 : update: added /Sex Drive (feat. Cara Delevingne).mp3
+Oct 16 08:26 : update: added /Shut Up Kenny.mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /Someone Like You.mp4
+Oct 16 08:26 : update: added /SonReal - Can I Get a Witness [Explicit].mp3
+Oct 16 08:26 : update: added /SonReal - No Warm Up [Explicit].mp3
+Oct 16 08:26 : update: added /Staring At The Sun.mp3
+Oct 16 08:26 : update: added /Stay High (feat. Mod Sun).mp3
+Oct 16 08:26 : update: added /Sunday Best.mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /Suplexes Inside of Complexes and Duplexes.mp4
+Oct 16 08:26 : update: added /Take What You Want.mp3
+Oct 16 08:26 : update: added /Ten Million.mp3
+Oct 16 08:26 : update: added /The Entertainment's Here.mp3
+Oct 16 08:26 : update: added /The Gunner.mp3
+Oct 16 08:26 : update: added /The Search.mp3
+Oct 16 08:26 : update: added /The Show Goes On.mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /The Star Room.mp4
+Oct 16 08:26 : update: added /Thinking.mp3
+Oct 16 08:26 : update: added /This Could Be Us.mp3
+Oct 16 08:26 : update: added /This Is How We Roll (feat. Luke Bryan).mp3
+Oct 16 08:26 : update: added /Throw Sum Mo (feat. Nicki Minaj & Young Thug).mp3
+Oct 16 08:26 : update: added /Time (Extended).mp3
+Oct 16 08:26 : update: added /Time.mp3
+Oct 16 08:26 : update: added /Trap Paris (Ft. Quavo & Ty Dolla Sign).mp3
+Oct 16 08:26 : update: added /Trauma.mp3
+Oct 16 08:26 : update: added /Turn The Music Up.mp3
+Oct 16 08:26 : update: added /Up Like Trump.mp3
+Oct 16 08:26 : update: added /Wait.mp3
+Oct 16 08:26 : update: added /Wake Up.mp3
+Oct 16 08:26 : update: added /Wake _ Bake.mp3
+Oct 16 08:26 : update: added /Waste Away (feat. Devon Baldwin).mp3
+Oct 16 08:26 : update: added /Waste Love (feat. Madison Love).mp3
+Oct 16 08:26 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 08:26 : update: added /Watching Movies.mp4
+Oct 16 08:26 : update: added /When I Grow Up.mp3
+Oct 16 11:25 : update: added /Why.mp3
+Oct 16 11:25 : update: added /Willy Wonka (feat. Offset).mp3
+Oct 16 11:25 : update: added /Wow, I'm Not Crazy.mp3
+Oct 16 11:25 : update: added /Wow..mp3
+Oct 16 11:25 : update: added /Yno (feat. Big Sean).mp3
+Oct 16 11:25 : update: added /You Broke Up with Me.mp3
+Oct 16 11:25 : update: added /You're Special.mp3
+Oct 16 11:25 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 16 11:25 : update: added /Youforia.mp4
+Oct 16 11:25 : update: added /Zara (feat. Abir).mp3
+Oct 16 11:25 : update: added /chateau.mp3
+Oct 16 11:25 : update: added /do re mi.mp3
+Oct 16 11:25 : update: added /double.mp3
+Oct 16 11:25 : update: added /el Diablo (feat. slimXX).mp3
+Oct 16 11:25 : update: added /hell is where i dreamt of u and woke up alone.mp3
+Oct 16 11:25 : update: added /hot girl bummer.mp3
+Oct 16 11:25 : update: added /i miss the old u.mp3
+Oct 16 11:25 : update: added /iSpy (feat. Lil Yachty).mp3
+Oct 16 11:25 : update: added /if i could i would feel nothing.mp3
+Oct 16 11:25 : update: added /juicy sweatsuits (feat. Juicy J).mp3
+Oct 16 11:25 : update: added /make daddy proud.mp3
+Oct 16 11:25 : update: added /moodz (feat. 24hrs).mp3
+Oct 16 11:25 : update: added /wish u the best.mp3
+Oct 21 17:06 : config: option 'device' on line 14 was not recognized
+Oct 21 17:10 : config: option 'device' on line 14 was not recognized
+Oct 21 17:19 : config: option 'device' on line 14 was not recognized
+Oct 29 17:18 : config: option 'device' on line 14 was not recognized
+Nov 03 16:31 : config: option 'device' on line 14 was not recognized
+Nov 03 16:32 : config: option 'device' on line 14 was not recognized
+Nov 04 10:43 : config: option 'device' on line 14 was not recognized
+Nov 04 10:51 : config: option 'device' on line 14 was not recognized
+Nov 09 17:40 : config: option 'device' on line 14 was not recognized
+Nov 11 12:05 : config: option 'device' on line 14 was not recognized
+Nov 15 14:36 : config: option 'device' on line 14 was not recognized
+Nov 17 18:29 : config: option 'device' on line 14 was not recognized
+Nov 22 19:34 : config: option 'device' on line 14 was not recognized
+Nov 23 18:05 : config: option 'device' on line 14 was not recognized
+Nov 23 18:40 : config: option 'device' on line 14 was not recognized
+Nov 24 17:43 : config: option 'device' on line 14 was not recognized
+Dec 06 17:51 : config: option 'device' on line 14 was not recognized
