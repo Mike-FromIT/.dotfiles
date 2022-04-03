@@ -2,8 +2,8 @@
 # autoload -Uz = Marks the name as being a function, -U marks function for autoloading and suppresses alias expansion, -z means run with zsh
 
 #General settings:
-bindkey -v #Turn on vi mode
-export KEYTIMEOUT=1 #Recommended for vi mode
+#bindkey -v #Turn on vi mode
+#export KEYTIMEOUT=1 #Recommended for vi mode
 autoload -Uz colors
 colors
 PS1="%B%F{white}%n%F{cyan}@%F{red}%m:%F{magenta}%~ %F{green}$%b "
@@ -17,7 +17,7 @@ SAVEHIST=1000
 
 alias cryptbak="sh /home/michael/scripts/encrypted-backup.sh"
 alias clearbak="sh /home/michael/scripts/google-drive-backup.sh"
-
+alias cryptrestore="sh /home/michael/scripts/encrypted-restore.sh"
 
 
 #Autocomplete settings:

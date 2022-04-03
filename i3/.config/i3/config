@@ -208,6 +208,7 @@ mode "script" {
         bindsym 1 exec $HOME/scripts/connect_bluetooth_headphones.py
         bindsym 2 exec $HOME/scripts/connect_airpods.py
         bindsym c exec xdotool click --repeat 100 -delay 100 1
+        bindsym z mode default; exec $HOME/scripts/move_windows.sh
 
         #Return to normal mode
         bindsym Escape mode "default"
