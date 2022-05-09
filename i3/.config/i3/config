@@ -207,13 +207,33 @@ mode "script" {
 
         bindsym 1 exec $HOME/scripts/connect_bluetooth_headphones.py
         bindsym 2 exec $HOME/scripts/connect_airpods.py
-        bindsym c exec xdotool click --repeat 100 -delay 100 1
+        bindsym c exec xdotool click --repeat 20 -delay 1250 1
         bindsym z mode default; exec $HOME/scripts/move_windows.sh
+        bindsym w exec xdotool click
 
+        #osrs script mode
+        bindsym $mod+r mode "osrs script mode"
+        
         #Return to normal mode
         bindsym Escape mode "default"
         bindsym Return mode "default"
 }
+mode "osrs script mode"{
+
+        bindsym $mod+q exec xdotool mousemove 4764 533
+        bindsym $mod+1 exec xdotool mousemove 5591 773 
+        bindsym $mod+2 exec xdotool mousemove 5617 808 
+        bindsym $mod+3 exec xdotool mousemove 4096 996 
+        bindsym $mod+o exec xdotool click
+
+
+        #Return to normal mode
+        bindsym Return mode "default"
+
+}
+
+
+
 
 #bar {
     #status_command i3blocks
