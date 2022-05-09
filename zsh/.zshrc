@@ -14,11 +14,9 @@ HISTFILE=~/.cache/zsh/historyfile
 HISTSIZE=1000
 SAVEHIST=1000
 
-
 alias cryptbak="sh /home/michael/scripts/encrypted-backup.sh"
 alias clearbak="sh /home/michael/scripts/google-drive-backup.sh"
 alias cryptrestore="sh /home/michael/scripts/encrypted-restore.sh"
-
 
 #Autocomplete settings:
 autoload -Uz compinit
@@ -37,11 +35,6 @@ zle -N down-line-or-beginning-search
 
 [[ -n "${key[Up]}" ]] && bindkey -- "${key[Up]}" up-line-or-beginning-search
 [[ -n "${key[Down]}" ]] && bindkey -- "${key[Down]}" down-line-or-beginning-search
-
-
-
-
-
 
 
 #Load zsh-syntax-highlighting plugin. Requires zsh-syntax-highlighting package and placed at end of .zshrc
