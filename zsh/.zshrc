@@ -14,9 +14,14 @@ HISTFILE=~/.cache/zsh/historyfile
 HISTSIZE=1000
 SAVEHIST=1000
 
+#rclone scripts for backup
 alias cryptbak="sh /home/michael/scripts/encrypted-backup.sh"
 alias clearbak="sh /home/michael/scripts/google-drive-backup.sh"
 alias cryptrestore="sh /home/michael/scripts/encrypted-restore.sh"
+
+#Jellyfin NAS mount
+alias jellymount="sudo mount -t cifs -o credentials=/home/michael/.nascreds //nas01.home/jellyfin remotefs"
+
 
 #Autocomplete settings:
 autoload -Uz compinit
