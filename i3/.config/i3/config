@@ -1,8 +1,4 @@
 #i3-gaps config file
-#16 DEC 2021 - Added xdotool click in script section
-#15 FEB 2021 - Changed some keybinds for window splitting
-#28 AUG 2018 - Original config
-#
 
 #Enviorement Variables
 #======================================#
@@ -39,6 +35,7 @@ bindsym XF86AudioMute exec amixer set Master toggle
 bindsym XF86AudioRaiseVolume exec amixer set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer set Master 5%-
 bindsym XF86AudioMicMute exec i3lock
+bindsym $mod+Shift+f exec $HOME/scripts/toggle-desk-fan.sh
 #======================================#
 
 
@@ -46,16 +43,12 @@ bindsym XF86AudioMicMute exec i3lock
 #======================================#
 bindcode 232 exec brightnessctl set 5%-
 bindcode 233 exec brightnessctl set +5%
-
 #======================================#
-
-
 
 #Programs to start on login
 #======================================#
 exec --no-startup-id picom
 exec --no-startup-id keepassxc
-exec --no-startup-id mpd
 exec --no-startup-id nm-applet
 #======================================#
 
@@ -207,9 +200,11 @@ mode "script" {
 
         bindsym 1 exec $HOME/scripts/connect_bluetooth_headphones.py
         bindsym 2 exec $HOME/scripts/connect_airpods.py
-        bindsym c exec xdotool click --repeat 20 -delay 1250 1
+        bindsym f exec $HOME/scripts/toggle-desk-fan.sh
+        bindsym l exec $HOME/scripts/toggle-living-room-fan.sh
         bindsym z mode default; exec $HOME/scripts/move_windows.sh
-        bindsym w exec xdotool click
+        bindsym r mode default; exec $HOME/scripts/obs-go-record.sh
+        
 
         #osrs script mode
         bindsym $mod+r mode "osrs script mode"
