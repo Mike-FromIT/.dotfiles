@@ -50,7 +50,7 @@ font-3 = Weather Icons:size=12;1
 
 modules-left = i3
 modules-center = 
-modules-right = mpd backlight-acpi wlan eth battery date
+modules-right = volume mpd wlan eth battery date
 #modules-right = xbacklight volume wlan eth battery weather date 
 
 #Uncomment to show tray
