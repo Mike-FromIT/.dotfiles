@@ -22,6 +22,9 @@ alias cryptrestore="sh /home/michael/scripts/encrypted-restore.sh"
 #Jellyfin NAS mount
 alias jellymount="sudo mount -t cifs -o credentials=/home/michael/.nascreds //nas01.home/jellyfin remotefs"
 
+#make nnn open editable files with vim
+alias nnn="nnn -e"
+
 #Autocomplete settings:
 autoload -Uz compinit
 compinit
