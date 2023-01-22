@@ -29,6 +29,7 @@ bindsym $mod+w exec --no-startup-id firefox
 bindsym $mod+q exec --no-startup-id qutebrowser
 bindsym $mod+s exec --no-startup-id maim -s $HOME/snip.png
 bindcode 107 exec --no-startup-id maim $HOME/fullscreen.png
+bindsym $mod+Control+s exec --no-startup-id maim -s | tesseract stdin stdout | xclip -in -selection clipboard
 bindsym $mod+u [instance="dropdown"] scratchpad show; [instance="dropdown"] move position center
 bindsym $mod+a [instance="math"] scratchpad show; [instance="math"] move position center
 bindsym XF86AudioMute exec amixer set Master toggle
@@ -195,6 +196,7 @@ mode "display" {
         bindsym Escape mode "default"
 }
 
+
 bindsym $mod+shift+s mode "script"
 mode "script" {
 
@@ -204,6 +206,7 @@ mode "script" {
         bindsym l exec $HOME/scripts/toggle-living-room-fan.sh
         bindsym z mode default; exec $HOME/scripts/move_windows.sh
         bindsym r mode default; exec $HOME/scripts/obs-go-record.sh
+        bindsym h mode default; exec $HOME/scripts/script-launcher.py 
         
 
         #osrs script mode
