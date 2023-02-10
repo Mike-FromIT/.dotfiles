@@ -32,6 +32,7 @@ bindcode 107 exec --no-startup-id maim $HOME/fullscreen.png
 bindsym $mod+Control+s exec --no-startup-id maim -s | tesseract stdin stdout | xclip -in -selection clipboard
 bindsym $mod+u [instance="dropdown"] scratchpad show; [instance="dropdown"] move position center
 bindsym $mod+a [instance="math"] scratchpad show; [instance="math"] move position center
+bindsym $mod+Shift+p [instance="python"] scratchpad show; [instance="python"] move position center
 bindsym XF86AudioMute exec amixer set Master toggle
 bindsym XF86AudioRaiseVolume exec amixer set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer set Master 5%-
@@ -149,6 +150,13 @@ for_window [instance="math"] move scratchpad
 for_window [instance="math"] border pixel 5
 exec --no-startup-id $term -n math -f mono:pixelsize=24 -e R -q
 
+#Floating Python Window
+for_window [instance="python"] floating enable
+for_window [instance="python"] resize set 800 300
+for_window [instance="python"] move scratchpad
+for_window [instance="python"] border pixel 5
+exec --no-startup-id $term -n python -f mono:pixelsize=24 -e python -q
+
 #Resize floating windows
 bindsym $mod+Shift+u resize shrink height 10 px or 10 ppt
 bindsym $mod+Shift+o resize grow height 10 px or 10 ppt
@@ -201,12 +209,12 @@ bindsym $mod+shift+s mode "script"
 mode "script" {
 
         bindsym 1 exec $HOME/scripts/connect_bluetooth_headphones.py
-        bindsym 2 exec $HOME/scripts/connect_airpods.py
+        bindsym 2 exec $HOME/scripts/connect_bose_qc2.py
         bindsym f exec $HOME/scripts/toggle-desk-fan.sh
         bindsym l exec $HOME/scripts/toggle-living-room-fan.sh
         bindsym z mode default; exec $HOME/scripts/move_windows.sh
         bindsym r mode default; exec $HOME/scripts/obs-go-record.sh
-        bindsym h mode default; exec $HOME/scripts/script-launcher.py 
+        bindsym h mode default; exec $HOME/scripts/ha-menu.py 
         
 
         #osrs script mode
