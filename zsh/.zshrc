@@ -43,5 +43,9 @@ zle -N down-line-or-beginning-search
 [[ -n "${key[Up]}" ]] && bindkey -- "${key[Up]}" up-line-or-beginning-search
 [[ -n "${key[Down]}" ]] && bindkey -- "${key[Down]}" down-line-or-beginning-search
 
+
+#For VS Code Python extension
+eval "$(direnv hook zsh)"
+
 #Load zsh-syntax-highlighting plugin. Requires zsh-syntax-highlighting package and placed at end of .zshrc
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
