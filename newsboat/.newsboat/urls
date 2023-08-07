@@ -1,13 +1,13 @@
 https://lukesmith.xyz/rss.xml
-
+https://jellyfin.org/index.xml
 
 
 #YouTube Channels
 #YouTube channel URL
 #https://www.youtube.com/feeds/videos.xml?channel_id=
 https://www.youtube.com/feeds/videos.xml?channel_id=UCEXFSf2qoF4ZNZ5sSBsYIkw "yt" "~JERICHO YouTube Videos"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCqFMzb-4AUf6WAIbl132QKA "yt" "Hockey" "~NHL YouTube"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCtN4OcxSgiJhDMPXo5A5Gqg "yt" "Hockey" "~St. Louis Blues YouTube"
+#https://www.youtube.com/feeds/videos.xml?channel_id=UCqFMzb-4AUf6WAIbl132QKA "yt" "Hockey" "~NHL YouTube"
+#https://www.youtube.com/feeds/videos.xml?channel_id=UCtN4OcxSgiJhDMPXo5A5Gqg "yt" "Hockey" "~St. Louis Blues YouTube"
 
 https://www.youtube.com/feeds/videos.xml?playlist_id=PL-i3EV1v5hLeT91DuXckUf6tsbMfLgZno "yt" "Podcasts" "~Two Bears One Cave"
 

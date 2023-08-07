@@ -9,6 +9,10 @@ colors
 PS1="%B%F{white}%n%F{cyan}@%F{red}%m:%F{magenta}%~ %F{green}$%b "
 export EDITOR=vim #Sets $EDITOR environment variable to vim
 
+#For some reason ansible likes to use cowsay, and I don't like that 
+export ANSIBLE_NOCOWS=1
+
+
 #History file settings:
 HISTFILE=~/.cache/zsh/historyfile
 HISTSIZE=1000
