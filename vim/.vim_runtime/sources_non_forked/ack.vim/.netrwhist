@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/michael/backup-encrypt/Documents/Recipes/Web'
+let g:netrw_dirhist_2='/home/michael/backup-encrypt/Documents/Recipes'
+let g:netrw_dirhist_1='/home/michael/backup-encrypt/Documents/Recipes/Web'
+let g:netrw_dirhist_0='/home/michael/backup-encrypt/Documents/Recipes'
+let g:netrw_dirhist_9='/home/michael/backup-encrypt/Documents/Recipes/Web'
+let g:netrw_dirhist_8='/home/michael/Documents/Recipes/Web'
+let g:netrw_dirhist_7='/home/michael/Documents/Recipes'
+let g:netrw_dirhist_6='/home/michael/Documents'
+let g:netrw_dirhist_5='/home/michael'
+let g:netrw_dirhist_4='/home/michael/Workbench'
