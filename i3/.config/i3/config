@@ -39,6 +39,7 @@ bindsym XF86AudioLowerVolume exec amixer set Master 5%-
 bindsym XF86AudioMicMute exec i3lock
 bindsym $mod+Shift+f exec $HOME/scripts/toggle-desk-fan.sh
 bindsym $mod+Shift+d exec $HOME/scripts/toggle-desk-heat.sh
+bindsym $mod+Shift+o exec $HOME/scripts/toggle-office-lights.sh
 #======================================#
 
 
@@ -50,7 +51,8 @@ bindcode 233 exec brightnessctl set +5%
 
 #Programs to start on login
 #======================================#
-exec --no-startup-id picom
+exec --no-startup-id picom -b --config $HOME/.config/picom/picom.conf
+#exec --no-startup-id picom 
 exec --no-startup-id keepassxc
 exec --no-startup-id nm-applet
 exec --no-startup-id blueman-applet
@@ -167,8 +169,8 @@ for_window [instance="python"] border pixel 5
 exec --no-startup-id $term -n python -f mono:pixelsize=24 -e python -q
 
 #Resize floating windows
-bindsym $mod+Shift+u resize shrink height 10 px or 10 ppt
-bindsym $mod+Shift+o resize grow height 10 px or 10 ppt
+#bindsym $mod+Shift+u resize shrink height 10 px or 10 ppt
+#bindsym $mod+Shift+o resize grow height 10 px or 10 ppt
 
 
 # resize window (you can also use the mouse for that)
@@ -224,6 +226,11 @@ mode "script" {
         bindsym z mode default; exec $HOME/scripts/move_windows.sh
         bindsym r mode default; exec $HOME/scripts/obs-go-record.sh
         bindsym h mode default; exec $HOME/scripts/ha-menu.py 
+        bindsym o  exec --no-startup-id feh --randomize --bg-fill $HOME/Pictures/wallpapers/*
+        bindsym p  exec --no-startup-id feh --randomize --bg-max $HOME/Pictures/walls/*
+        bindsym Control+p  exec --no-startup-id $HOME/scripts/cycle-backgrounds.sh
+        bindsym Shift+p exec --no-startup-id picom -b --config $HOME/.config/picom/picom.conf
+
         
 
         #osrs script mode
