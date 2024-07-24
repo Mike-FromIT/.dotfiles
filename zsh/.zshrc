@@ -2,8 +2,9 @@
 # autoload -Uz = Marks the name as being a function, -U marks function for autoloading and suppresses alias expansion, -z means run with zsh
 
 #General settings:
-#bindkey -v #Turn on vi mode
-#export KEYTIMEOUT=1 #Recommended for vi mode
+bindkey -v #Turn on vi mode
+export KEYTIMEOUT=1 #Recommended for vi mode
+bindkey ^R history-incremental-search-backward # ctrl + r for command history search
 autoload -Uz colors
 colors
 PS1="%B%F{white}%n%F{cyan}@%F{red}%m:%F{magenta}%~ %F{green}$%b "
@@ -12,6 +13,7 @@ export EDITOR=vim #Sets $EDITOR environment variable to vim
 #For some reason ansible likes to use cowsay, and I don't like that 
 export ANSIBLE_NOCOWS=1
 
+export PATH=$PATH:$HOME/scripts/
 
 #History file settings:
 HISTFILE=~/.cache/zsh/historyfile
@@ -23,8 +25,8 @@ alias cryptbak="sh /home/michael/scripts/encrypted-backup.sh"
 alias clearbak="sh /home/michael/scripts/google-drive-backup.sh"
 alias cryptrestore="sh /home/michael/scripts/encrypted-restore.sh"
 
-#Jellyfin NAS mount
-alias jellymount="sudo mount -t cifs -o credentials=/home/michael/.nascreds //nas01.home/jellyfin remotefs"
+alias sav="ssh ansible@localhost -o StrictHostKeyChecking=no -p 2222"
+alias srv="ssh root@localhost -o StrictHostKeyChecking=no -p 2222"
 
 #make nnn open editable files with vim
 alias nnn="nnn -e"
