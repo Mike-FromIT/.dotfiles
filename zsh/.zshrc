@@ -25,8 +25,17 @@ alias cryptbak="sh /home/michael/scripts/encrypted-backup.sh"
 alias clearbak="sh /home/michael/scripts/google-drive-backup.sh"
 alias cryptrestore="sh /home/michael/scripts/encrypted-restore.sh"
 
+# Vagrant ssh stuff
 alias sav="ssh ansible@localhost -o StrictHostKeyChecking=no -p 2222"
 alias srv="ssh root@localhost -o StrictHostKeyChecking=no -p 2222"
+alias sa="ssh -l ansible"
+
+# fzf into vim
+alias fv="fzf | xargs -o vim"
+
+#minikube alias
+alias kubectl="minikube kubectl --"
+alias k="kubectl"
 
 #make nnn open editable files with vim
 alias nnn="nnn -e"
